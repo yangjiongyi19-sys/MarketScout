@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="11.244" timestamp="2026-10-12T10:21:59.022502+08:00" hostname="yjy"><testcase classname="" name="tests.test_skill_evaluation_suite" time="0.000"><error message="collection failure">tests\test_skill_evaluation_suite.py:12: in &lt;module&gt;
+    SUITE = load_suite()
+            ^^^^^^^^^^^^
+scripts\eval\skill_suite.py:20: in load_suite
+    suite = json.loads(Path(path).read_text())
+                       ^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\14810\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\pathlib.py:1059: in read_text
+    return f.read()
+           ^^^^^^^^
+E   UnicodeDecodeError: 'gbk' codec can't decode byte 0xad in position 124: illegal multibyte sequence</error></testcase></testsuite></testsuites>

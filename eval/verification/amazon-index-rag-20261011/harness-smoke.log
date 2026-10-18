@@ -1,0 +1,2 @@
+'gbk' codec can't decode byte 0xaa in position 139: illegal multibyte sequence
+EXIT_CODE=2

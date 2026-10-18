@@ -1,0 +1,10 @@
+Harness 运行阶段证据（2026-10-11）
+
+1. 按工程要求执行 make eval-harness：当前 Windows PATH 没有 make 命令，因此未能直接启动 Makefile target。
+2. 直接运行等价 Harness 模块命令时，首次遇到 uv 用户级缓存目录访问拒绝；改用工作区缓存后，Python 默认 GBK 输出在 Harness 启动阶段解码失败，没有生成该次评测结果。
+3. 设置 PYTHONUTF8=1 后执行 smoke/current,candidate。安全合同阶段 838 项中 832 项通过、6 项失败；真实模型场景数 0，流程按安全合同失败停止。失败集中于 Windows 无法满足 POSIX 文件模式 0600 断言，以及当前用户无创建符号链接权限（WinError 1314）；失败明细保留在 contracts.log、contracts.xml 和 report.html。
+4. 对该目录执行 Harness verify，返回 failed，原因是运行未完整完成、场景缺失、安全合同未通过；未将其记为完整 smoke 通过。
+5. WSL 发行版枚举返回访问被拒绝；Docker CLI 可用但 Docker Desktop Linux Engine 未启动，无法转入 Linux 环境完成同一组契约。
+6. 修订 Offers TTL 判定并新增对应单测后，另建 amazon-creators-20261011-r3 目录重新执行。结果仍为安全合同失败，832 项通过、6 项是相同 Windows 权限/符号链接平台失败；current/candidate 模型场景均为 0 次，未开始真实模型请求。新报告保留，不覆盖首轮。
+
+说明：上述问题均发生于跨平台评测运行环境；未改测试以规避失败，也未跳过安全合同手工运行真实模型阶段。

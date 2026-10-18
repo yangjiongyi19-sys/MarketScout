@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "reasons": [
+    "评测档位不足；诊断不能替代完整评测",
+    "运行未完整完成或源码不稳定",
+    "安全契约未通过"
+  ],
+  "report": "eval\\verification\\mcp-product-search-20261012\\harness-contracts\\report.html"
+}
+exit_code=2

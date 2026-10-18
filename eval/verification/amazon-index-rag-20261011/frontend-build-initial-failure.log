@@ -1,0 +1,7 @@
+> globex-frontend@0.3.0 build
+> tsc -b && vite build
+
+src/components/ProductDetail.tsx(56,34): error TS2304: Cannot find name 'syncTimeLabel'.
+src/components/ProductDetail.tsx(56,75): error TS2304: Cannot find name 'syncTimeLabel'.
+
+EXIT_CODE=1

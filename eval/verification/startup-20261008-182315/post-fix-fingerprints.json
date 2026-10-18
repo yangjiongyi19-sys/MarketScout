@@ -1,0 +1,22 @@
+[
+  {
+    "Path": "D:\\cProjects\\globex-agent\\app\\infrastructure\\persistence\\json_file_stores.py",
+    "Hash": "CBE3F373BB9E34C5F2544A941CDF0EC033FADFD6B5EB2912F7C3795D622DCC6F"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\data\\catalog-v1.jsonl",
+    "Hash": "6F10C82AEA773E727AC97476C8A1155659C4047F8CFA31DFB83D6DC2187F7390"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\data\\catalog-v2.jsonl",
+    "Hash": "0CA735F3D3FDEE6667EC47AFBA85B96366C9322A2FA52F36EED218AD790048AE"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\data\\catalog-v3.jsonl",
+    "Hash": "1D192E624567AF3A034512AE40B805AE5FC2909102C0E4ABB7F94956A4B1DBEB"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\frontend\\package-lock.json",
+    "Hash": "E70E5F58D977593900C0CF56EE25E05772533C57A2A8B71005EDDF9C0754C86B"
+  }
+]

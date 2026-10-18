@@ -1,0 +1,9 @@
+# Skill Harness 自进化源码指纹
+日期（Asia/Shanghai）：2026-10-12
+Git 元数据：工程副本没有 .git，提交 SHA 未知。
+Harness source.sha256：0e0df73ec2e4f5a769717f2638608cc900cc741c9dc71d9dd6cef9b2b0069637
+
+变更相关文件 SHA-256：
+486789cd7bc58193348efad3d240c2a64ef81f1b5344de74c466cbea85047d5f  scripts/learning.py
+fe1b9b2eb172dca29c8eee433cecae315eeab124b7e6adefedae4539ee8306ef  tests/test_skill_evolution.py
+8dd66b085e84a56a11b7d951edeb40ea336a40a97ef76ceea0463b1a8ab79b7e  README.md

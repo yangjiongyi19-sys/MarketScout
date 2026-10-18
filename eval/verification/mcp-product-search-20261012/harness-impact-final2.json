@@ -1,0 +1,15 @@
+{
+  "harness_changed": true,
+  "files": [
+    "app/application/agents/main_agent.py",
+    "app/application/agents/search_agent.py",
+    "app/application/tools/product_search_tool.py",
+    "app/composition.py",
+    "app/infrastructure/settings.py"
+  ],
+  "required": [
+    "contracts",
+    "smoke"
+  ],
+  "release": "���������Ի�ģ�͵�������ǰ�� release --require-benefit"
+}

@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-10-08T20:24:43.385326+08:00",
+  "session_id": "b93c2c24-354f-4b3c-8ffd-21fb3a54bd93",
+  "scope": "two browser-submitted assistant-generated queries; diagnostic teaching demo, not harness acceptance",
+  "source_sha256": {
+    "app/application/agents/orchestrator.py": "7e578eed1eb78bb569c8118fd8816368a8faf8e7e8d8ead8606b3f827ebd21b9",
+    "app/application/agents/main_agent.py": "a86916bf5770c43797545755038aaf81aa8117e323d1eaf7063c6a8e8d5cf382",
+    "app/application/tools/product_search_tool.py": "d8d1567a103e292f127d7760b173ebe9747618d640c095040f6125861f7e8a89",
+    "app/application/usecases/catalog_search.py": "77430cc0385995c3f66cd12545649d32458dd72ed3f0d5f943495212b62eae79",
+    "app/infrastructure/eventbus.py": "2240103f7cac0784aad48a86ff27754b954b143cb06f6f0150859cdf95cbb8dd",
+    "app/infrastructure/ag_ui_journal.py": "d0262efc1167b43cdb991046e7eef77befdd51421a79c54158279e09d71ded22",
+    "app/presentation/ag_ui_runtime.py": "ebe5e95c8043c05c9dd2bfa3fdb9a026a079b0b6ef5b8d2dcb853624d64d2849"
+  },
+  "artifact_sha256": {
+    "01-events.jsonl": "1b2499eaf1c573010120869abcb17ca9f6ecffc09e874a62be49bed9b45f2f43",
+    "02-events.jsonl": "fac3e818f6f1d45cb617575cb33f57f33b8916b46313330499c056a3388ed4f3",
+    "02-followup.png": "aedb1816ef03606998b32810be1b759a4fc2a3b5b47c979423771982c3befe51",
+    "03-execution-record.png": "2de5bd78f3ec361727df9bf122c6852b1cdd437a4839236433308d6c805481f0",
+    "business-events.jsonl": "0b96378f5b84826e5721ca3dee29a70e1c1a1f4935f8e3786bbee7422c529330",
+    "overview.json": "19e3e0184fb7cd31bd91a805c8de43b813ed893a090c597b71f168205150f015",
+    "runs.json": "a9b4a6aed1773881227573354c26d02bc29d54d7ca1ea19fe21ec5148d534c20",
+    "session-state-excerpt.json": "f93bc66d24db3a20ad8d57a1008ccf2f0e1681699496e9bf730b6e0946d90975"
+  }
+}

@@ -1,0 +1,9 @@
+F.....................................................                   [100%]
+================================== FAILURES ===================================
+____ test_provider_selection_and_adapter_are_bound_to_prompt_tool_contract ____
+tests\test_mcp_product_search.py:36: in test_provider_selection_and_adapter_are_bound_to_prompt_tool_contract
+    assert "app/infrastructure/mcp_product_search.py" in mcp_contract["source_files"]
+E   AssertionError: assert 'app/infrastructure/mcp_product_search.py' in {'app\\application\\tools\\__init__.py': '8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed', 'app\\app...lication\\tools\\conversation_fact_lookup.py': 'f1f1724209f6c07c86948efd5c73dcdc95b4f02fc5979f2907cf1d32d0ce54bc', ...}
+=========================== short test summary info ===========================
+FAILED tests/test_mcp_product_search.py::test_provider_selection_and_adapter_are_bound_to_prompt_tool_contract
+1 failed, 53 passed in 9.15s

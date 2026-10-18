@@ -1,0 +1,61 @@
+{
+  "first_turn_reconstructed": {
+    "constraints": {
+      "budget": {
+        "value": "300",
+        "currency": "CNY",
+        "scope": "本次选购",
+        "source": "不超过300元",
+        "message_id": "a71a235e6207476bbe3841142768889e"
+      },
+      "weight": {
+        "source": "优先轻便；列出商品ID、重量、默认规格商品价和到手价",
+        "excerpts": [
+          "优先轻便",
+          "列出商品ID、重量、默认规格商品价和到手价"
+        ],
+        "message_id": "a71a235e6207476bbe3841142768889e",
+        "scope": "本次选购；以最新原文为准"
+      }
+    },
+    "selected": [],
+    "excluded": [],
+    "comparisons": [],
+    "pending": [
+      "需按当前工具/账本核验，摘要不构成授权"
+    ],
+    "goal": "预算按单件商品价不超过300元人民币，配送中国。请推荐两款周末旅行用的双肩背包，优先轻便，列出商品ID、重量、默认规格商品价和到手价。只查询和推荐。",
+    "latest_request": "预算按单件商品价不超过300元人民币，配送中国。请推荐两款周末旅行用的双肩背包，优先轻便，列出商品ID、重量、默认规格商品价和到手价。只查询和推荐。",
+    "source_message_id": "a71a235e6207476bbe3841142768889e",
+    "referenced": []
+  },
+  "second_turn_saved": {
+    "constraints": {
+      "budget": {
+        "value": "300",
+        "currency": "CNY",
+        "scope": "本次选购",
+        "source": "不超过300元",
+        "message_id": "a71a235e6207476bbe3841142768889e"
+      },
+      "weight": {
+        "source": "若重量字段与宣传亮点冲突",
+        "excerpts": [
+          "若重量字段与宣传亮点冲突"
+        ],
+        "message_id": "1253ab39d9fa434abb00cd8ccca8d076",
+        "scope": "本次选购；以最新原文为准"
+      }
+    },
+    "selected": [],
+    "excluded": [],
+    "comparisons": [],
+    "pending": [
+      "需按当前工具/账本核验，摘要不构成授权"
+    ],
+    "goal": "预算按单件商品价不超过300元人民币，配送中国。请推荐两款周末旅行用的双肩背包，优先轻便，列出商品ID、重量、默认规格商品价和到手价。只查询和推荐。",
+    "latest_request": "刚才页面商品卡的第一款和第二款，哪个更轻？请按商品卡顺序给出商品ID、默认SKU和weight_kg；若重量字段与宣传亮点冲突，请说明。无需下单。",
+    "source_message_id": "1253ab39d9fa434abb00cd8ccca8d076",
+    "referenced": []
+  }
+}

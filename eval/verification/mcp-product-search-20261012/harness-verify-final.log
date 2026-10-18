@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "reasons": [
+    "运行未完整完成或源码不稳定",
+    "场景缺失或失败",
+    "安全契约未通过"
+  ],
+  "report": "eval\\verification\\mcp-product-search-20261012\\harness-smoke-final\\report.html"
+}
+exit_code=2

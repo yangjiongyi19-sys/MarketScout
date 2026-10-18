@@ -1,0 +1,19 @@
+{
+  "validation_kind": "static_natural_language_presentation_check",
+  "passed": true,
+  "document": "docs/项目架构与实现原理教学.md",
+  "sha256": "3fd9d1763064d01ab7f94ebee2c8b8f0d3fb0e61933a78bb5e364fda255c34b3",
+  "characters": 20444,
+  "lines": 939,
+  "checks": {
+    "no_code_fences_or_inline_code": true,
+    "links_only_internal_heading_navigation": true,
+    "no_source_paths_or_command_examples": true,
+    "chapter_count_22": true,
+    "no_replacement_characters": true
+  },
+  "limits": [
+    "只检查明确呈现约束；技术正确性由人工核对支持",
+    "不验证真实链路、页面排版或学习效果"
+  ]
+}

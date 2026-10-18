@@ -1,0 +1,5 @@
+  File "<stdin>", line 12
+    print(f'checked={len(re.findall(r"\[[^\]]+\]\(([^)]+)\)", text))} missing={len(missing)}')
+                                                                                             ^
+SyntaxError: f-string expression part cannot include a backslash
+EXIT_CODE=1

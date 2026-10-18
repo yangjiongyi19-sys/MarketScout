@@ -1,0 +1,283 @@
+........................................................................ [  3%]
+........................................................................ [  7%]
+........................................................................ [ 11%]
+........................................................................ [ 15%]
+........................................................................ [ 19%]
+........................................................................ [ 22%]
+...............................................................F........ [ 26%]
+...................FFFF................................................. [ 30%]
+........................................................................ [ 34%]
+........................................................................ [ 38%]
+........................................................................ [ 42%]
+...........................................F............................ [ 45%]
+......................................................sss............... [ 49%]
+........................................................................ [ 53%]
+........................................................................ [ 57%]
+........................................................................ [ 61%]
+...........................s....................................ssssssss [ 65%]
+sssssssssssssssssssss................................................... [ 68%]
+.....................F........F......................................... [ 72%]
+................................................sssssssssss............. [ 76%]
+........................................................................ [ 80%]
+........................................................................ [ 84%]
+........................................................................ [ 87%]
+........................................................................ [ 91%]
+........................................................................ [ 95%]
+........................................................................ [ 99%]
+..........                                                               [100%]
+================================== FAILURES ===================================
+______ test_synthetic_trace_is_durable_private_and_report_link_is_local _______
+
+tmp_path = WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_synthetic_trace_is_durabl0')
+
+    def test_synthetic_trace_is_durable_private_and_report_link_is_local(tmp_path):
+        from scripts.eval.harness.runner import evidence_writer
+        from app.infrastructure.context_usage import evaluation_evidence_sink, record_evaluation_evidence
+        file = tmp_path/'events.jsonl'
+        writer = evidence_writer(file, {'case_id': 'a', 'strategy': 'current', 'repetition': 0})
+        record_evaluation_evidence('tool_result', {'result': '默认不写'})
+        assert file.read_text() == ''
+        token = evaluation_evidence_sink.set(writer)
+        try:
+            record_evaluation_evidence('tool_result', {'arguments': {'offset': 5}, 'state': 'error', 'result': '合成错误'})
+            record_evaluation_evidence('model_request', {'messages': []})
+        finally:
+            evaluation_evidence_sink.reset(token)
+        record_evaluation_evidence('tool_result', {'result': '退出后不写'})
+        events = [json.loads(line) for line in file.read_text().splitlines()]
+        assert [event['sequence'] for event in events] == [1, 2]
+        assert events[0]['payload']['state'] == 'error'
+>       assert file.stat().st_mode & 0o777 == 0o600
+E       AssertionError: assert (33206 & 511) == 384
+E        +  where 33206 = os.stat_result(st_mode=33206, st_ino=562949953783712, st_dev=1657042060, st_nlink=1, st_uid=0, st_gid=0, st_size=422, st_atime=1791722396, st_mtime=1791722396, st_ctime=1791722396).st_mode
+E        +    where os.stat_result(st_mode=33206, st_ino=562949953783712, st_dev=1657042060, st_nlink=1, st_uid=0, st_gid=0, st_size=422, st_atime=1791722396, st_mtime=1791722396, st_ctime=1791722396) = stat()
+E        +      where stat = WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_synthetic_trace_is_durabl0/events.jsonl').stat
+
+tests\test_harness_evaluation.py:57: AssertionError
+______ test_cross_version_comparison_keeps_distinct_private_trace_files _______
+
+tmp_path = WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_cross_version_comparison_1')
+
+    def test_cross_version_comparison_keeps_distinct_private_trace_files(tmp_path):
+        from scripts.eval.harness.__main__ import compare_runs
+        for name in ('a', 'b'):
+            path = tmp_path/name
+            (path/'traces').mkdir(parents=True)
+            (path/'manifest.json').write_text(json.dumps(manifest()))
+            samples = rows()
+            samples[0]['evidence_trace'] = 'traces/same-name.jsonl'
+            (path/'traces/same-name.jsonl').write_text(json.dumps({'source':name})+'\n')
+            (path/'results.json').write_text(json.dumps(samples))
+        out = tmp_path/'out'
+        compare_runs(tmp_path/'a', tmp_path/'b', out)
+        compared = json.loads((out/'results.json').read_text())
+        linked = [row for row in compared if row.get('evidence_trace')]
+        assert len(linked) == 2
+        for row, original in zip(linked, ('a', 'b')):
+            file = out/row['evidence_trace']
+            assert json.loads(file.read_text()) == {'source':original}
+>           assert file.stat().st_mode & 0o777 == 0o600
+E           AssertionError: assert (33206 & 511) == 384
+E            +  where 33206 = os.stat_result(st_mode=33206, st_ino=281474977073113, st_dev=1657042060, st_nlink=1, st_uid=0, st_gid=0, st_size=17, st_atime=1791722401, st_mtime=1791722401, st_ctime=1791722401).st_mode
+E            +    where os.stat_result(st_mode=33206, st_ino=281474977073113, st_dev=1657042060, st_nlink=1, st_uid=0, st_gid=0, st_size=17, st_atime=1791722401, st_mtime=1791722401, st_ctime=1791722401) = stat()
+E            +      where stat = WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_cross_version_comparison_1/out/traces/current-same-name.jsonl').stat
+
+tests\test_harness_evaluation.py:246: AssertionError
+_ test_cross_version_comparison_rejects_missing_or_external_traces[../outside.jsonl] _
+
+tmp_path = WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_cross_version_comparison_2')
+reference = '../outside.jsonl'
+
+    @pytest.mark.parametrize('reference', ['../outside.jsonl', 'traces/missing.jsonl', 'traces/escape.jsonl'])
+    def test_cross_version_comparison_rejects_missing_or_external_traces(tmp_path, reference):
+        from scripts.eval.harness.__main__ import compare_runs
+        outside = tmp_path/'outside.jsonl'
+        outside.write_text('不应复制的文件')
+        for name in ('a', 'b'):
+            path = tmp_path/name
+            (path/'traces').mkdir(parents=True)
+>           (path/'traces/escape.jsonl').symlink_to(outside)
+
+tests\test_harness_evaluation.py:258: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_cross_version_comparison_2/a/traces/escape.jsonl')
+target = WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_cross_version_comparison_2/outside.jsonl')
+target_is_directory = False
+
+    def symlink_to(self, target, target_is_directory=False):
+        """
+        Make this path a symlink pointing to the target path.
+        Note the order of arguments (link, target) is the reverse of os.symlink.
+        """
+        if not hasattr(os, "symlink"):
+            raise NotImplementedError("os.symlink() not available on this system")
+>       os.symlink(target, self, target_is_directory)
+E       OSError: [WinError 1314] 客户端没有所需的特权。: 'D:\\cProjects\\globex-agent\\work\\pytest-run-20261011-utf8\\test_cross_version_comparison_2\\outside.jsonl' -> 'D:\\cProjects\\globex-agent\\work\\pytest-run-20261011-utf8\\test_cross_version_comparison_2\\a\\traces\\escape.jsonl'
+
+C:\Users\14810\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\pathlib.py:1198: OSError
+_ test_cross_version_comparison_rejects_missing_or_external_traces[traces/missing.jsonl] _
+
+tmp_path = WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_cross_version_comparison_3')
+reference = 'traces/missing.jsonl'
+
+    @pytest.mark.parametrize('reference', ['../outside.jsonl', 'traces/missing.jsonl', 'traces/escape.jsonl'])
+    def test_cross_version_comparison_rejects_missing_or_external_traces(tmp_path, reference):
+        from scripts.eval.harness.__main__ import compare_runs
+        outside = tmp_path/'outside.jsonl'
+        outside.write_text('不应复制的文件')
+        for name in ('a', 'b'):
+            path = tmp_path/name
+            (path/'traces').mkdir(parents=True)
+>           (path/'traces/escape.jsonl').symlink_to(outside)
+
+tests\test_harness_evaluation.py:258: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_cross_version_comparison_3/a/traces/escape.jsonl')
+target = WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_cross_version_comparison_3/outside.jsonl')
+target_is_directory = False
+
+    def symlink_to(self, target, target_is_directory=False):
+        """
+        Make this path a symlink pointing to the target path.
+        Note the order of arguments (link, target) is the reverse of os.symlink.
+        """
+        if not hasattr(os, "symlink"):
+            raise NotImplementedError("os.symlink() not available on this system")
+>       os.symlink(target, self, target_is_directory)
+E       OSError: [WinError 1314] 客户端没有所需的特权。: 'D:\\cProjects\\globex-agent\\work\\pytest-run-20261011-utf8\\test_cross_version_comparison_3\\outside.jsonl' -> 'D:\\cProjects\\globex-agent\\work\\pytest-run-20261011-utf8\\test_cross_version_comparison_3\\a\\traces\\escape.jsonl'
+
+C:\Users\14810\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\pathlib.py:1198: OSError
+_ test_cross_version_comparison_rejects_missing_or_external_traces[traces/escape.jsonl] _
+
+tmp_path = WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_cross_version_comparison_4')
+reference = 'traces/escape.jsonl'
+
+    @pytest.mark.parametrize('reference', ['../outside.jsonl', 'traces/missing.jsonl', 'traces/escape.jsonl'])
+    def test_cross_version_comparison_rejects_missing_or_external_traces(tmp_path, reference):
+        from scripts.eval.harness.__main__ import compare_runs
+        outside = tmp_path/'outside.jsonl'
+        outside.write_text('不应复制的文件')
+        for name in ('a', 'b'):
+            path = tmp_path/name
+            (path/'traces').mkdir(parents=True)
+>           (path/'traces/escape.jsonl').symlink_to(outside)
+
+tests\test_harness_evaluation.py:258: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_cross_version_comparison_4/a/traces/escape.jsonl')
+target = WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_cross_version_comparison_4/outside.jsonl')
+target_is_directory = False
+
+    def symlink_to(self, target, target_is_directory=False):
+        """
+        Make this path a symlink pointing to the target path.
+        Note the order of arguments (link, target) is the reverse of os.symlink.
+        """
+        if not hasattr(os, "symlink"):
+            raise NotImplementedError("os.symlink() not available on this system")
+>       os.symlink(target, self, target_is_directory)
+E       OSError: [WinError 1314] 客户端没有所需的特权。: 'D:\\cProjects\\globex-agent\\work\\pytest-run-20261011-utf8\\test_cross_version_comparison_4\\outside.jsonl' -> 'D:\\cProjects\\globex-agent\\work\\pytest-run-20261011-utf8\\test_cross_version_comparison_4\\a\\traces\\escape.jsonl'
+
+C:\Users\14810\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\pathlib.py:1198: OSError
+________________ test_secret_encryption_ownership_and_restart _________________
+
+settings = namespace(data_dir=WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_secret_encryption_ownersh...llm_fallback_model='test-fallback', llm_fallback_context_size=32000, model_master_key='', model_allowed_local_hosts=())
+
+    @pytest.mark.asyncio
+    async def test_secret_encryption_ownership_and_restart(settings):
+        registry = ModelRegistry(settings, probe=good_probe)
+        profile = await save(registry)
+        assert profile["key_configured"]
+        assert "secret_ref" not in profile
+        assert "a-different-secret" not in registry.path.read_bytes().decode(errors="ignore")
+>       assert os.stat(settings.data_dir / ".secrets/model_registry.key").st_mode & 0o777 == 0o600
+E       AssertionError: assert (33206 & 511) == 384
+E        +  where 33206 = os.stat_result(st_mode=33206, st_ino=281474977073463, st_dev=1657042060, st_nlink=1, st_uid=0, st_gid=0, st_size=44, st_atime=1791722434, st_mtime=1791722433, st_ctime=1791722433).st_mode
+E        +    where os.stat_result(st_mode=33206, st_ino=281474977073463, st_dev=1657042060, st_nlink=1, st_uid=0, st_gid=0, st_size=44, st_atime=1791722434, st_mtime=1791722433, st_ctime=1791722433) = <built-in function stat>((WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_secret_encryption_ownersh0') / '.secrets/model_registry.key'))
+E        +      where <built-in function stat> = os.stat
+E        +      and   WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_secret_encryption_ownersh0') = namespace(data_dir=WindowsPath('D:/cProjects/globex-agent/work/pytest-run-20261011-utf8/test_secret_encryption_ownersh...llm_fallback_model='test-fallback', llm_fallback_context_size=32000, model_master_key='', model_allowed_local_hosts=()).data_dir
+
+tests\test_model_registry.py:85: AssertionError
+_____ TestTwoStageRecall.test_embedding_recall_ranks_camping_light_first ______
+
+self = <tests.test_retrieval.TestTwoStageRecall object at 0x000002704B120610>
+indexed = (<app.infrastructure.persistence.in_memory_repositories.InMemoryProductRepository object at 0x000002706C23DB50>, <test... 0x0000027065FD3CD0>, <app.infrastructure.vector.qdrant_product_index.QdrantProductIndex object at 0x0000027065FD2350>)
+
+    async def test_embedding_recall_ranks_camping_light_first(self, indexed):
+        repo, embedder, index = indexed
+        usecase = CatalogSearchUseCase(repo, embedder=embedder, vector_index=index)
+        result = await usecase.execute(ProductSearchSpec(normalized_query="露营灯 抗造"))
+        assert result["recall_strategy"] == "embedding_only"
+        assert result["rerank_applied"] is False
+>       assert result["hits"][0]["product_id"] == "P1008", "露营灯应排第一"
+E       AssertionError: 露营灯应排第一
+E       assert 'P1039' == 'P1008'
+E         
+E         - P1008
+E         + P1039
+
+tests\test_retrieval.py:191: AssertionError
+------------------------------ Captured log call ------------------------------
+WARNING  app.application.usecases.catalog_search:catalog_search.py:189 rerank 不可用，按向量分排序：Reranker 未配置
+________ TestTwoStageRecall.test_tool_event_carries_hits_for_frontend _________
+
+self = <tests.test_retrieval.TestTwoStageRecall object at 0x000002704B122CD0>
+indexed = (<app.infrastructure.persistence.in_memory_repositories.InMemoryProductRepository object at 0x000002706C2FFA10>, <test... 0x0000027069D5A2D0>, <app.infrastructure.vector.qdrant_product_index.QdrantProductIndex object at 0x000002706EF363D0>)
+
+    async def test_tool_event_carries_hits_for_frontend(self, indexed):
+        """tool.result 事件必须带 hits，否则前端商品卡渲染不出来（三期浏览器验证曾暴露此缺陷）。"""
+        from app.application.tools.product_search_tool import build_product_search_tool
+        from app.infrastructure.context import ShoppingContext, ShoppingContextSnapshot
+        from app.infrastructure.eventbus import TradeEventBus
+    
+        repo, embedder, index = indexed
+        bus = TradeEventBus()
+        queue = bus.subscribe("s-cards")
+        tool = build_product_search_tool(
+            CatalogSearchUseCase(repo, embedder=embedder, vector_index=index),
+            bus,
+            provider_mode="local_fixture",
+        )
+        token = ShoppingContext.set(
+            ShoppingContextSnapshot(
+                shopping_session_id="s-cards", buyer_id="b", locale="zh-CN", currency="CNY",
+            ),
+        )
+        try:
+            response = await tool(normalized_query="露营灯", ship_to="US", target_currency="USD")
+        finally:
+            ShoppingContext.reset(token)
+    
+        queue.get_nowait()  # tool.invoke
+        result_event = queue.get_nowait()
+        assert result_event.type == "tool.result"
+        hits = result_event.payload["hits"]
+>       assert hits and hits[0]["product_id"] == "P1008"
+E       AssertionError: assert ([{'product_id': 'P1039', 'title': 'SolarLamp 太阳能营地灯', 'brand': 'SolarLamp', 'category': '户外运动', ...}, {'product_id': '...gory': '户外运动', ...}, {'product_id': 'P2395', 'title': 'Atlas 户外保温杯 395', 'brand': 'Atlas-11', 'category': '户外运动', ...}] and 'P1039' == 'P1008'
+E         
+E         - P1008
+E         + P1039)
+
+tests\test_retrieval.py:300: AssertionError
+------------------------------ Captured log call ------------------------------
+WARNING  app.application.usecases.catalog_search:catalog_search.py:189 rerank 不可用，按向量分排序：Reranker 未配置
+============================== warnings summary ===============================
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  D:\cProjects\globex-agent\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_harness_evaluation.py::test_synthetic_trace_is_durable_private_and_report_link_is_local
+FAILED tests/test_harness_evaluation.py::test_cross_version_comparison_keeps_distinct_private_trace_files
+FAILED tests/test_harness_evaluation.py::test_cross_version_comparison_rejects_missing_or_external_traces[../outside.jsonl]
+FAILED tests/test_harness_evaluation.py::test_cross_version_comparison_rejects_missing_or_external_traces[traces/missing.jsonl]
+FAILED tests/test_harness_evaluation.py::test_cross_version_comparison_rejects_missing_or_external_traces[traces/escape.jsonl]
+FAILED tests/test_model_registry.py::test_secret_encryption_ownership_and_restart
+FAILED tests/test_retrieval.py::TestTwoStageRecall::test_embedding_recall_ranks_camping_light_first
+FAILED tests/test_retrieval.py::TestTwoStageRecall::test_tool_event_carries_hits_for_frontend
+8 failed, 1830 passed, 44 skipped, 1 warning in 328.59s (0:05:28)
+EXIT_CODE=1

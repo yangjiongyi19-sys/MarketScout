@@ -1,0 +1,9 @@
+usage: sync_product_catalog.py [-h] (--once | --schedule)
+
+从 Rainforest 同步 Amazon 搜索结果并更新 Qdrant RAG 索引
+
+options:
+  -h, --help  show this help message and exit
+  --once      立即同步一次（初次建库和手工刷新）
+  --schedule  每天 03:00 Asia/Shanghai 执行一次
+EXIT_CODE=0

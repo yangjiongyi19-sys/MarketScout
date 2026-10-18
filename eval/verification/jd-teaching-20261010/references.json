@@ -1,0 +1,176 @@
+{
+  "checked_date": "2026-10-10",
+  "purpose": "教学原理的一手来源核对；岗位文本来自用户截图，不从公开职位猜测",
+  "sources": [
+    {
+      "name": "Transformer",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "ReAct",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "RAG",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "MemGPT",
+      "url": "https://arxiv.org/abs/2310.08560",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "LongMemEval",
+      "url": "https://arxiv.org/abs/2410.10813",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "LoCoMo",
+      "url": "https://arxiv.org/abs/2402.17753",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "InstructGPT",
+      "url": "https://arxiv.org/abs/2203.02155",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "DPO",
+      "url": "https://arxiv.org/abs/2305.18290",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "GRPO/DeepSeekMath",
+      "url": "https://arxiv.org/abs/2402.03300",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "DAPO",
+      "url": "https://arxiv.org/html/2503.14476v2",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "GSPO",
+      "url": "https://arxiv.org/html/2507.18071v2",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "Qwen2.5-VL",
+      "url": "https://arxiv.org/abs/2502.13923",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "Reflexion",
+      "url": "https://arxiv.org/abs/2303.11366",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "RT-2",
+      "url": "https://arxiv.org/abs/2307.15818",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "PPO",
+      "url": "https://arxiv.org/abs/1707.06347",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "LoRA",
+      "url": "https://arxiv.org/abs/2106.09685",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "Mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "PyTorch autograd",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "PyTorch optimization",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "TRL SFT",
+      "url": "https://huggingface.co/docs/trl/sft_trainer",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "TRL DPO",
+      "url": "https://huggingface.co/docs/trl/dpo_trainer",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "TRL GRPO",
+      "url": "https://huggingface.co/docs/trl/grpo_trainer",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "KV cache",
+      "url": "https://huggingface.co/docs/transformers/cache_explanation",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "Python asyncio",
+      "url": "https://docs.python.org/3/library/asyncio-task.html",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "Git",
+      "url": "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "BM25",
+      "url": "https://nlp.stanford.edu/IR-book/html/htmledition/okapi-bm25-a-non-binary-model-1.html",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "RRF",
+      "url": "https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "MCP architecture",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/architecture",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "MCP server/tools",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "MCP server/resources",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/resources",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "MCP server/prompts",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/prompts",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "MCP basic/lifecycle",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    },
+    {
+      "name": "MCP basic/transports",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/transports",
+      "retrieval": "已通过网页工具获取相关内容；只作为对应技术论述依据，不声称全文精读"
+    }
+  ],
+  "limitations": [
+    "TRL PPO 文档与 PEFT LoRA 概念页未返回足够可读内容，正文改引原始论文",
+    "MCP 教学固定为 2025-11-25 规范，不宣称它是最新版本",
+    "在线文档内容可能更新，训练实践需锁定依赖；本次未安装或运行这些训练库"
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "hits": [
+    {
+      "product_id": "P1049",
+      "title": "BudgetPack 20L 简易背包",
+      "brand": "BudgetPack",
+      "category": "旅行装备",
+      "origin_country": "CN",
+      "price_major": 39.0,
+      "currency": "CNY",
+      "source_price_major": 39.0,
+      "source_currency": "CNY",
+      "highlights": [
+        "价位：入门平价款"
+      ],
+      "skus": [
+        {
+          "sku_id": "P1049-S1",
+          "spec": "黑色",
+          "price_major": 39.0,
+          "currency": "CNY",
+          "stock": 300
+        }
+      ],
+      "score": 0.6845,
+      "source_platform": "walmart",
+      "canonical_product_id": "CAN-LEGACY-027",
+      "material_tags": [
+        "合成聚合物"
+      ],
+      "weight_kg": 0.78,
+      "description": "20L 入门背包 轻便 平价 涤纶 日常 通勤",
+      "rating_summary": {
+        "average": 4.0,
+        "review_count": 327
+      },
+      "rating_is_live": false,
+      "ships_to": [
+        "CN"
+      ],
+      "dimensions_cm": {
+        "height": 7,
+        "length": 39,
+        "width": 20
+      },
+      "updated_at": "2026-08-01",
+      "default_sku_id": "P1049-S1",
+      "image_kind": "illustration",
+      "image_alt": "BudgetPack 20L 简易背包：AI 生成示意图，非商品实拍",
+      "landed_price": {
+        "ship_to": "CN",
+        "subtotal_major": 39.0,
+        "freight_major": 25.0,
+        "tariff_major": 0.0,
+        "tariff_rate": 0.09,
+        "de_minimis_applied": true,
+        "landed_total_major": 64.0,
+        "currency": "CNY"
+      }
+    },
+    {
+      "product_id": "P1003",
+      "title": "Wanderlite 折叠旅行双肩包 35L",
+      "brand": "Wanderlite",
+      "category": "旅行装备",
+      "origin_country": "KR",
+      "price_major": 129.0,
+      "currency": "CNY",
+      "source_price_major": 129.0,
+      "source_currency": "CNY",
+      "highlights": [
+        "重量：仅 380g 超轻",
+        "收纳：可折叠成手掌大小"
+      ],
+      "skus": [
+        {
+          "sku_id": "P1003-S1",
+          "spec": "石墨黑",
+          "price_major": 129.0,
+          "currency": "CNY",
+          "stock": 80
+        },
+        {
+          "sku_id": "P1003-S2",
+          "spec": "雾霾蓝",
+          "price_major": 129.0,
+          "currency": "CNY",
+          "stock": 60
+        }
+      ],
+      "score": 0.6196,
+      "source_platform": "etsy",
+      "canonical_product_id": "CAN-LEGACY-002",
+      "material_tags": [
+        "合成聚合物"
+      ],
+      "weight_kg": 0.33,
+      "description": "防泼水尼龙 超轻 可折叠收纳 大容量 35升 徒步 城市通勤 便宜实惠 高性价比",
+      "rating_summary": {
+        "average": 4.2,
+        "review_count": 52
+      },
+      "rating_is_live": false,
+      "ships_to": [
+        "CN",
+        "JP",
+        "SG"
+      ],
+      "dimensions_cm": {
+        "height": 6,
+        "length": 14,
+        "width": 10
+      },
+      "updated_at": "2026-08-01",
+      "default_sku_id": "P1003-S1",
+      "image_kind": "illustration",
+      "image_alt": "Wanderlite 折叠旅行双肩包 35L：AI 生成示意图，非商品实拍",
+      "landed_price": {
+        "ship_to": "CN",
+        "subtotal_major": 129.0,
+        "freight_major": 25.0,
+        "tariff_major": 0.0,
+        "tariff_rate": 0.09,
+        "de_minimis_applied": true,
+        "landed_total_major": 154.0,
+        "currency": "CNY"
+      }
+    },
+    {
+      "product_id": "P1017",
+      "title": "Wanderlite 轻量旅行腰包",
+      "brand": "Wanderlite",
+      "category": "旅行装备",
+      "origin_country": "KR",
+      "price_major": 79.0,
+      "currency": "CNY",
+      "source_price_major": 79.0,
+      "source_currency": "CNY",
+      "highlights": [
+        "重量：仅 120g"
+      ],
+      "skus": [
+        {
+          "sku_id": "P1017-S1",
+          "spec": "雾霞蓝",
+          "price_major": 79.0,
+          "currency": "CNY",
+          "stock": 100
+        }
+      ],
+      "score": 0.5996,
+      "source_platform": "amazon",
+      "canonical_product_id": "CAN-LEGACY-016",
+      "material_tags": [
+        "天然材料"
+      ],
+      "weight_kg": 1.59,
+      "description": "腰包 胸包 轻量 120g 防泼水 贴身 杂物袋 日常通勤 旅行",
+      "rating_summary": {
+        "average": 4.7,
+        "review_count": 206
+      },
+      "rating_is_live": false,
+      "ships_to": [
+        "CN",
+        "JP",
+        "SG"
+      ],
+      "dimensions_cm": {
+        "height": 8,
+        "length": 28,
+        "width": 9
+      },
+      "updated_at": "2026-08-01",
+      "default_sku_id": "P1017-S1",
+      "image_kind": "placeholder",
+      "image_alt": "Wanderlite 轻量旅行腰包：暂无商品图片",
+      "landed_price": {
+        "ship_to": "CN",
+        "subtotal_major": 79.0,
+        "freight_major": 25.0,
+        "tariff_major": 0.0,
+        "tariff_rate": 0.09,
+        "de_minimis_applied": true,
+        "landed_total_major": 104.0,
+        "currency": "CNY"
+      }
+    },
+    {
+      "product_id": "P2216",
+      "title": "Atlas 旅行收纳包 216",
+      "brand": "Atlas-00",
+      "category": "旅行装备",
+      "origin_country": "CN",
+      "price_major": 38.98,
+      "currency": "CNY",
+      "source_price_major": 5.49,
+      "source_currency": "USD",
+      "highlights": [
+        "材质：再生尼龙",
+        "测试属性：候选分组 43"
+      ],
+      "skus": [
+        {
+          "sku_id": "P2216-S1",
+          "spec": "标准版",
+          "price_major": 5.49,
+          "currency": "USD",
+          "stock": 80
+        }
+      ],
+      "score": 0.574,
+      "source_platform": "amazon",
+      "canonical_product_id": "CAN-043",
+      "material_tags": [
+        "合成聚合物"
+      ],
+      "weight_kg": 0.58,
+      "description": "旅行收纳 轻便 出行 再生尼龙 多场景使用 轻量 耐用 评测候选 216",
+      "rating_summary": {
+        "average": 3.8,
+        "review_count": 2828
+      },
+      "rating_is_live": false,
+      "ships_to": [
+        "CN"
+      ],
+      "dimensions_cm": {
+        "height": 11,
+        "length": 40,
+        "width": 19
+      },
+      "updated_at": "2026-08-21",
+      "default_sku_id": "P2216-S1",
+      "image_kind": "placeholder",
+      "image_alt": "Atlas 旅行收纳包 216：暂无商品图片",
+      "landed_price": {
+        "ship_to": "CN",
+        "subtotal_major": 38.98,
+        "freight_major": 25.0,
+        "tariff_major": 0.0,
+        "tariff_rate": 0.09,
+        "de_minimis_applied": true,
+        "landed_total_major": 63.98,
+        "currency": "CNY"
+      }
+    },
+    {
+      "product_id": "P2176",
+      "title": "Atlas 旅行收纳包 176",
+      "brand": "Atlas-08",
+      "category": "旅行装备",
+      "origin_country": "CN",
+      "price_major": 168.98,
+      "currency": "CNY",
+      "source_price_major": 23.8,
+      "source_currency": "USD",
+      "highlights": [
+        "材质：再生尼龙",
+        "测试属性：候选分组 35"
+      ],
+      "skus": [
+        {
+          "sku_id": "P2176-S1",
+          "spec": "标准版",
+          "price_major": 23.8,
+          "currency": "USD",
+          "stock": 160
+        },
+        {
+          "sku_id": "P2176-S2",
+          "spec": "升级版",
+          "price_major": 51.9,
+          "currency": "USD",
+          "stock": 171
+        }
+      ],
+      "score": 0.5715,
+      "source_platform": "amazon",
+      "canonical_product_id": "CAN-035",
+      "material_tags": [
+        "合成聚合物"
+      ],
+      "weight_kg": 0.18,
+      "description": "旅行收纳 轻便 出行 再生尼龙 多场景使用 轻量 耐用 评测候选 176",
+      "rating_summary": {
+        "average": 4.6,
+        "review_count": 2308
+      },
+      "rating_is_live": false,
+      "ships_to": [
+        "CN",
+        "US"
+      ],
+      "dimensions_cm": {
+        "height": 10,
+        "length": 31,
+        "width": 13
+      },
+      "updated_at": "2026-08-09",
+      "default_sku_id": "P2176-S1",
+      "image_kind": "placeholder",
+      "image_alt": "Atlas 旅行收纳包 176：暂无商品图片",
+      "landed_price": {
+        "ship_to": "CN",
+        "subtotal_major": 168.98,
+        "freight_major": 25.0,
+        "tariff_major": 0.0,
+        "tariff_rate": 0.09,
+        "de_minimis_applied": true,
+        "landed_total_major": 193.98,
+        "currency": "CNY"
+      }
+    }
+  ],
+  "total_candidates": 18,
+  "recall_strategy": "embedding_only",
+  "rerank_applied": false,
+  "filtered_out": [
+    {
+      "product_id": "P2112",
+      "title": "Atlas 旅行收纳包 112",
+      "category": "旅行装备",
+      "price_major": 699.04,
+      "currency": "CNY",
+      "reason": "ship_to_unavailable"
+    },
+    {
+      "product_id": "P2016",
+      "title": "Atlas 旅行收纳包 016",
+      "category": "旅行装备",
+      "price_major": 699.0,
+      "currency": "CNY",
+      "reason": "out_of_stock"
+    },
+    {
+      "product_id": "P2192",
+      "title": "Atlas 旅行收纳包 192",
+      "category": "旅行装备",
+      "price_major": 39.0,
+      "currency": "CNY",
+      "reason": "ship_to_unavailable"
+    }
+  ],
+  "query_conditions": {
+    "normalized_query": "双肩背包 周末旅行",
+    "category": "旅行装备",
+    "ship_to": "CN",
+    "top_k": 5,
+    "price_max_major": 300.0,
+    "target_currency": "CNY",
+    "excluded_material_tags": [],
+    "required_material_tags": [],
+    "product_id": null,
+    "sku_id": null
+  },
+  "observed_at": "2026-10-08T12:22:07.520953+00:00",
+  "result_ref": "ctx_e90f310bd44744e29b684b3455abf9eb"
+}

@@ -1,0 +1,45 @@
+INFO:     Started server process [23516]
+INFO:     Waiting for application startup.
+2026-10-10 19:41:11,644 INFO app.composition request=- task=- session=- trace=- prompt=- 队列未启用，意图在当前进程内直接执行
+2026-10-10 19:41:11,670 INFO app.composition request=- task=- session=- trace=- prompt=- 持久化形态：sqlite
+2026-10-10 19:41:12,481 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量就绪：共 3700，复用 3700，新推理 0
+2026-10-10 19:41:12,558 | WARNING | _approx_token_chunker:__init__:109 - Passing ``chunk_size``, ``overlap`` to ApproxTokenChunker directly is deprecated, use ApproxTokenChunker.Parameters instead.
+2026-10-10 19:41:12,581 INFO app.infrastructure.rag.category_knowledge request=- task=- session=- trace=- prompt=- 品类知识库就绪：写入或更新 0 篇，累计 45 篇
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-10-10 19:41:56,968 INFO app.infrastructure.tracing request=b6324cadf9c34697bc74e517f9cffcf3 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:44:05,493 INFO httpx request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 19:44:10,833 INFO httpx request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 19:44:11,700 INFO httpx request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 19:44:12,828 INFO httpx request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-10 19:44:12,965 WARNING app.application.usecases.catalog_search request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd rerank 不可用，按向量分排序：Reranker 未配置
+2026-10-10 19:44:14,401 INFO httpx request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 19:44:14,813 INFO httpx request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-10 19:44:14,906 WARNING app.application.usecases.catalog_search request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd rerank 不可用，按向量分排序：Reranker 未配置
+2026-10-10 19:44:15,659 INFO httpx request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 19:44:43,689 INFO httpx request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 19:44:47,143 INFO httpx request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-10 19:44:47,260 INFO httpx request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-10 19:44:47,348 WARNING app.application.usecases.catalog_search request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd rerank 不可用，按向量分排序：Reranker 未配置
+2026-10-10 19:44:47,400 WARNING app.application.usecases.catalog_search request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd rerank 不可用，按向量分排序：Reranker 未配置
+2026-10-10 19:44:49,275 INFO httpx request=0de47632ed78444c9aa5a09549a85ec3 task=- session=sha256:f369d5bacf78d31fa8bd36b0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 19:45:08,888 INFO app.infrastructure.tracing request=0de47632ed78444c9aa5a09549a85ec3 task=- session=- trace=- prompt=- HTTP 请求结束 method=POST status=200
+2026-10-10 19:47:06,611 INFO app.infrastructure.tracing request=e09731ebecc74cf78e3a190d8f4d166f task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,506 INFO app.infrastructure.tracing request=94621321ca7a486cb9ca0ac9bd2100d9 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,551 INFO app.infrastructure.tracing request=883a3c5a209c42fc8319291d63f20fca task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,560 INFO app.infrastructure.tracing request=3d1f42288d544c0b878e2b14e98712cf task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,574 INFO app.infrastructure.tracing request=f700022904f1407c8d45e2e9c2e56c22 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,590 INFO app.infrastructure.tracing request=c7059cf2e90244e3968444da5741055c task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,674 INFO app.infrastructure.tracing request=8edbca7a47a943b88cfffb3aba9c34d3 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,684 INFO app.infrastructure.tracing request=82e5c1b18c6740ad8796782143f21307 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,695 INFO app.infrastructure.tracing request=d74f3204f0de4032821bb0adcabb591e task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,702 INFO app.infrastructure.tracing request=056970fb7f81404896f275478158c164 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,738 INFO app.infrastructure.tracing request=fc0c4b4a1fd34b34b388af222dd05a26 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,773 INFO app.infrastructure.tracing request=b677bd9aae2644cabc16e22cc84bff3c task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,821 INFO app.infrastructure.tracing request=4aafa797045e4f09a3ca20e1ab6313ea task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,877 INFO app.infrastructure.tracing request=a28e0463b18b434ab2897e2804c812c7 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,898 INFO app.infrastructure.tracing request=684431bf781a4d9e914ca140c55ce2dc task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,936 INFO app.infrastructure.tracing request=f626f645369640cbadbd94ffa49f2518 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:42,987 INFO app.infrastructure.tracing request=c49ce2b3084f4fb09962a56744b5c2c6 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:43,114 INFO app.infrastructure.tracing request=e8cb5e702b214288acbef05ce416fb62 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-10 19:50:43,309 INFO app.infrastructure.tracing request=faa8470f8df44342998ab335896987ce task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200

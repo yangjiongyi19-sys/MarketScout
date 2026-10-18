@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-10 Asia/Shanghai",
+  "git_commit": "unknown (workspace has no .git directory)",
+  "http_status": 200,
+  "thread_id": "c20ef2a8-659d-4452-9938-4d1f39b0c552",
+  "run_id": "df328cd8-5dc7-4200-9b30-1146673653fd",
+  "model": "qwen3.7-flash",
+  "prompt_version": "p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd",
+  "application_source_sha256": "a84385f58d3856a9e67150d445dccfb5a82677a374d85a4507ba3aca1be08c90",
+  "dispatch_count": 2,
+  "dispatch_types": [
+    "search_agent",
+    "search_agent"
+  ],
+  "source_sha256": {
+    "app/presentation/ag_ui.py": "cfd33742a373d87ca54f742ef2bb3e4b34f7c48a6ae1bba53f84a2aaf7f94d61",
+    "app/application/agents/main_agent.py": "a86916bf5770c43797545755038aaf81aa8117e323d1eaf7063c6a8e8d5cf382",
+    "app/application/tools/task_dispatch_tool.py": "4dd367ca849740911a70c66a118d82bca8989621046c232effbf718c38a73a9c",
+    "app/application/agents/trade_agent.py": "1c03506446852c067b7e51c05a580db3fcb1e4a52f3f346ff4ef9abd2fbb7a2b",
+    "app/application/agents/ag_ui_adapter.py": "4d8437cee097c9cb250130e8e05da61c8e4ff5ca5697681f70ed59486e627dc2",
+    "app/application/agents/orchestrator.py": "7e578eed1eb78bb569c8118fd8816368a8faf8e7e8d8ead8606b3f827ebd21b9",
+    "app/infrastructure/identity.py": "5b3d390c1876b259c9e17017bf4c851eba9bae2cd21a51ec5f8a78fc0f00f4f2",
+    "app/presentation/ag_ui_runtime.py": "ebe5e95c8043c05c9dd2bfa3fdb9a026a079b0b6ef5b8d2dcb853624d64d2849",
+    "app/application/agents/search_agent.py": "6b04a8f4d784d7a11472bce199db3efe3afdcc01815b02b6a5bea4b8e2a7d029",
+    "app/application/prompts/globex.yml": "6d79cbb8346d6d79e90dbb4bfe79a9ba7d1046c632eaf642f51ea977f838a3a5",
+    "eval/verification/subagent-trace-20261010-01/capture_trace.py": "a8e6464bfd265fb10350771ecca4223418946e238b45face5fe0bc12f1de0977"
+  },
+  "evidence_sha256": {
+    "attempt-02-duplicate-backend.txt": "51db4c5151daed7a6121301e5a54cb28068ea16071b8b7908abca2079b410197",
+    "frontend-check-attempt-01.txt": "9332c29bfd7480919bad01f4cf199580cd82f13367d19df007b26fa9153050ed",
+    "observed-run.md": "f6cece41237cca24b3f3427ead6fa1a41f5abfb0e1ceb8b28057939c07e0f30f",
+    "dispatch-events.jsonl": "c3be6683ab2707872cf1aa79a9320abf44ecce21f3ede1b9d342e5e48e5221fa",
+    "runtime-health.json": "9f81ddf34fe1b289323fed2e9a37d2a08f0b25bd6b7477a09dce0886ec5f52b0",
+    "attempt-01-failure.txt": "757643bb7dc31a663182526d02e4482b4490baaeb1b88b18cfe501ca0e73d5f5",
+    "frontend-check-attempt-02.txt": "824b9cbc1ce4600ce753f12147384a0224ee508a9728be662ded701ec1f6f125",
+    "frontend-http-check.json": "60ee753e6bd48f01013a565e74b80d3cf940e2d070091499082ae548b816fed8",
+    "memory-check.json": "4bd064d8714ea94546fc27f1dc1c41ed68a437c582ebc18b6d10bc99d5ea653b",
+    "request.json": "ed8985f1938260907472122ee82f364516a42b1fae693a2614c8fb0e30c32b86",
+    "dispatch-messages.json": "808dc75a6f86acbc9b86061aa48de8e44eab777f8bf4472681f24d3dbf91fdd7",
+    "frontend-page-check.json": "b6569c9af1b50d8e673081872aae2371c956d466a30c23132f351da1c42b45da"
+  },
+  "unhashed_live_logs": [
+    "backend.stdout.log",
+    "backend.stderr.log",
+    "frontend.stdout.log",
+    "frontend.stderr.log"
+  ],
+  "unhashed_live_logs_reason": "日志文件仍被运行中的前后端进程占用；为保持服务运行未停止进程，Get-FileHash 无法读取。原日志文件保留不改。",
+  "documentation_sha256": {
+    "docs/改动记录/README.md": "9873bacbe50ecafbdf48cb5246d72d06a9fdae9bddcc439e486737ca0ffa3e98",
+    "docs/改动记录/2026-10-10/MainAgent子Agent消息实链观察.md": "68dc944319ac874aaf69c85b85ca8a0cf59254d646ed5fd942003d7f9f10a46c",
+    "docs/改动记录/2026-10-10/README.md": "07ba02b6f4405db2c882aa5e4a63129016a66e75a4a495a64e78a1a43d89bf48"
+  }
+}

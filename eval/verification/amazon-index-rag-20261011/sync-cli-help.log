@@ -1,0 +1,9 @@
+usage: sync_product_catalog.py [-h] (--once | --schedule)
+
+�� Rainforest ͬ�� Amazon ������������� Qdrant RAG ����
+
+options:
+  -h, --help  show this help message and exit
+  --once      ����ͬ��һ�Σ����ν�����ֹ�ˢ�£�
+  --schedule  ÿ�� 03:00 Asia/Shanghai ִ��һ��
+EXIT_CODE=0

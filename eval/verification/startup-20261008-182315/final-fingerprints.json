@@ -1,0 +1,37 @@
+[
+  {
+    "Path": "D:\\cProjects\\globex-agent\\app\\infrastructure\\persistence\\json_file_stores.py",
+    "Algorithm": "SHA256",
+    "Hash": "CBE3F373BB9E34C5F2544A941CDF0EC033FADFD6B5EB2912F7C3795D622DCC6F"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\app\\infrastructure\\model_registry.py",
+    "Algorithm": "SHA256",
+    "Hash": "237AA3CF753E037AD73B7BD980235B39FDC4EA7C8B3CE3F0AB1434A34614075F"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\app\\composition.py",
+    "Algorithm": "SHA256",
+    "Hash": "DF7DC5AAB15DDE1F76A90F7E627CF53C930EC39B8A3592F1817179A6AD875866"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\frontend\\package-lock.json",
+    "Algorithm": "SHA256",
+    "Hash": "E70E5F58D977593900C0CF56EE25E05772533C57A2A8B71005EDDF9C0754C86B"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\data\\catalog-v1.jsonl",
+    "Algorithm": "SHA256",
+    "Hash": "6F10C82AEA773E727AC97476C8A1155659C4047F8CFA31DFB83D6DC2187F7390"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\data\\catalog-v2.jsonl",
+    "Algorithm": "SHA256",
+    "Hash": "0CA735F3D3FDEE6667EC47AFBA85B96366C9322A2FA52F36EED218AD790048AE"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\data\\catalog-v3.jsonl",
+    "Algorithm": "SHA256",
+    "Hash": "1D192E624567AF3A034512AE40B805AE5FC2909102C0E4ABB7F94956A4B1DBEB"
+  }
+]

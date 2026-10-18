@@ -1,0 +1,1 @@
+在此目录保存定向回归日志后，尝试将 Harness 输出目标也设置为同一路径。Harness 拒绝已有目录并提示须使用新目录，未覆盖定向回归证据。完整重跑使用独立目录 eval/verification/amazon-creators-20261011-r3。

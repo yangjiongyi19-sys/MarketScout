@@ -1,0 +1,11 @@
+{
+  "stage": "final",
+  "outcome": "failed_before_document_checks",
+  "reason": "静态脚本把基线文件定位到 revision 子目录，但它位于父级证据目录",
+  "fix": "将相对基线路径改为 EVIDENCE.parent / scope-baseline/source-manifest.json",
+  "follow_up": [
+    "content-review/report.json",
+    "content-review/raw-validation.log"
+  ],
+  "classification": "静态核对辅助脚本的证据路径错误，不是业务代码或项目功能失败"
+}

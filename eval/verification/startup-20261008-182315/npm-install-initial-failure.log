@@ -1,0 +1,501 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.11.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\cProjects\globex-agent\frontend\.npmrc
+5 silly config load:file:C:\Users\14810\.npmrc
+6 silly config load:file:D:\cProjects\globex-agent\frontend\etc\npmrc
+7 verbose title npm ci
+8 verbose argv "--prefix" "frontend" "ci" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\14810\AppData\Local\npm-cache\_logs\2026-10-08T09_50_13_320Z-
+10 verbose logfile C:\Users\14810\AppData\Local\npm-cache\_logs\2026-10-08T09_50_13_320Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 http cache zod@https://registry.anpm.alibaba-inc.com/zod/-/zod-3.25.76.tgz 0ms (cache hit)
+17 http cache zwitch@https://registry.anpm.alibaba-inc.com/zwitch/-/zwitch-2.0.4.tgz 0ms (cache hit)
+18 http cache xmlchars@https://registry.anpm.alibaba-inc.com/xmlchars/-/xmlchars-2.2.0.tgz 0ms (cache hit)
+19 http cache why-is-node-running@https://registry.anpm.alibaba-inc.com/why-is-node-running/-/why-is-node-running-2.3.0.tgz 0ms (cache hit)
+20 http cache yallist@https://registry.anpm.alibaba-inc.com/yallist/-/yallist-3.1.1.tgz 0ms (cache hit)
+21 http cache whatwg-url@https://registry.anpm.alibaba-inc.com/whatwg-url/-/whatwg-url-14.2.0.tgz 0ms (cache hit)
+22 http cache xml-name-validator@https://registry.anpm.alibaba-inc.com/xml-name-validator/-/xml-name-validator-5.0.0.tgz 0ms (cache hit)
+23 http cache whatwg-mimetype@https://registry.anpm.alibaba-inc.com/whatwg-mimetype/-/whatwg-mimetype-4.0.0.tgz 0ms (cache hit)
+24 http cache whatwg-encoding@https://registry.anpm.alibaba-inc.com/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz 0ms (cache hit)
+25 http cache vitest@https://registry.anpm.alibaba-inc.com/vitest/-/vitest-3.2.4.tgz 0ms (cache hit)
+26 http cache ws@https://registry.anpm.alibaba-inc.com/ws/-/ws-8.21.3.tgz 0ms (cache hit)
+27 http cache webidl-conversions@https://registry.anpm.alibaba-inc.com/webidl-conversions/-/webidl-conversions-7.0.0.tgz 0ms (cache hit)
+28 http cache w3c-xmlserializer@https://registry.anpm.alibaba-inc.com/w3c-xmlserializer/-/w3c-xmlserializer-5.0.0.tgz 0ms (cache hit)
+29 http cache vite-node@https://registry.anpm.alibaba-inc.com/vite-node/-/vite-node-3.2.4.tgz 0ms (cache hit)
+30 http cache vite@https://registry.anpm.alibaba-inc.com/vite/-/vite-5.4.21.tgz 0ms (cache hit)
+31 http cache untruncate-json@https://registry.anpm.alibaba-inc.com/untruncate-json/-/untruncate-json-0.0.1.tgz 0ms (cache hit)
+32 http cache vfile@https://registry.anpm.alibaba-inc.com/vfile/-/vfile-6.0.3.tgz 0ms (cache hit)
+33 http cache vfile-message@https://registry.anpm.alibaba-inc.com/vfile-message/-/vfile-message-4.0.3.tgz 0ms (cache hit)
+34 http cache uuid@https://registry.anpm.alibaba-inc.com/uuid/-/uuid-11.1.1.tgz 0ms (cache hit)
+35 http cache unist-util-visit@https://registry.anpm.alibaba-inc.com/unist-util-visit/-/unist-util-visit-5.1.0.tgz 0ms (cache hit)
+36 http cache unist-util-visit-parents@https://registry.anpm.alibaba-inc.com/unist-util-visit-parents/-/unist-util-visit-parents-6.0.2.tgz 0ms (cache hit)
+37 http cache update-browserslist-db@https://registry.anpm.alibaba-inc.com/update-browserslist-db/-/update-browserslist-db-1.3.1.tgz 0ms (cache hit)
+38 http cache unist-util-stringify-position@https://registry.anpm.alibaba-inc.com/unist-util-stringify-position/-/unist-util-stringify-position-4.0.0.tgz 0ms (cache hit)
+39 http cache unist-util-position@https://registry.anpm.alibaba-inc.com/unist-util-position/-/unist-util-position-5.0.0.tgz 0ms (cache hit)
+40 http cache unified@https://registry.anpm.alibaba-inc.com/unified/-/unified-11.0.5.tgz 0ms (cache hit)
+41 http cache typescript@https://registry.anpm.alibaba-inc.com/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+42 http cache undici-types@https://registry.anpm.alibaba-inc.com/undici-types/-/undici-types-6.21.0.tgz 0ms (cache hit)
+43 http cache unist-util-is@https://registry.anpm.alibaba-inc.com/unist-util-is/-/unist-util-is-6.0.1.tgz 0ms (cache hit)
+44 http cache trough@https://registry.anpm.alibaba-inc.com/trough/-/trough-2.2.0.tgz 0ms (cache hit)
+45 http cache trim-lines@https://registry.anpm.alibaba-inc.com/trim-lines/-/trim-lines-3.0.1.tgz 0ms (cache hit)
+46 http cache tr46@https://registry.anpm.alibaba-inc.com/tr46/-/tr46-5.1.1.tgz 0ms (cache hit)
+47 http cache tldts@https://registry.anpm.alibaba-inc.com/tldts/-/tldts-6.1.86.tgz 0ms (cache hit)
+48 http cache tslib@https://registry.anpm.alibaba-inc.com/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+49 http cache tough-cookie@https://registry.anpm.alibaba-inc.com/tough-cookie/-/tough-cookie-5.1.2.tgz 0ms (cache hit)
+50 http cache tldts-core@https://registry.anpm.alibaba-inc.com/tldts-core/-/tldts-core-6.1.86.tgz 0ms (cache hit)
+51 http cache tinyspy@https://registry.anpm.alibaba-inc.com/tinyspy/-/tinyspy-4.0.6.tgz 0ms (cache hit)
+52 http cache tinypool@https://registry.anpm.alibaba-inc.com/tinypool/-/tinypool-1.1.1.tgz 0ms (cache hit)
+53 http cache tinyrainbow@https://registry.anpm.alibaba-inc.com/tinyrainbow/-/tinyrainbow-2.0.0.tgz 0ms (cache hit)
+54 http cache tinyglobby@https://registry.anpm.alibaba-inc.com/tinyglobby/-/tinyglobby-0.2.17.tgz 0ms (cache hit)
+55 http cache style-to-object@https://registry.anpm.alibaba-inc.com/style-to-object/-/style-to-object-1.0.14.tgz 0ms (cache hit)
+56 http cache tinyexec@https://registry.anpm.alibaba-inc.com/tinyexec/-/tinyexec-0.3.2.tgz 0ms (cache hit)
+57 http cache tinybench@https://registry.anpm.alibaba-inc.com/tinybench/-/tinybench-2.9.0.tgz 0ms (cache hit)
+58 http cache symbol-tree@https://registry.anpm.alibaba-inc.com/symbol-tree/-/symbol-tree-3.2.4.tgz 0ms (cache hit)
+59 http cache style-to-js@https://registry.anpm.alibaba-inc.com/style-to-js/-/style-to-js-1.1.21.tgz 0ms (cache hit)
+60 http cache stackback@https://registry.anpm.alibaba-inc.com/stackback/-/stackback-0.0.2.tgz 0ms (cache hit)
+61 http cache strip-literal@https://registry.anpm.alibaba-inc.com/strip-literal/-/strip-literal-3.1.0.tgz 0ms (cache hit)
+62 http cache std-env@https://registry.anpm.alibaba-inc.com/std-env/-/std-env-3.10.0.tgz 0ms (cache hit)
+63 http cache space-separated-tokens@https://registry.anpm.alibaba-inc.com/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz 0ms (cache hit)
+64 http cache stringify-entities@https://registry.anpm.alibaba-inc.com/stringify-entities/-/stringify-entities-4.0.4.tgz 0ms (cache hit)
+65 http cache semver@https://registry.anpm.alibaba-inc.com/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+66 http cache scheduler@https://registry.anpm.alibaba-inc.com/scheduler/-/scheduler-0.23.2.tgz 0ms (cache hit)
+67 http cache source-map-js@https://registry.anpm.alibaba-inc.com/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+68 http cache saxes@https://registry.anpm.alibaba-inc.com/saxes/-/saxes-6.0.0.tgz 0ms (cache hit)
+69 http cache siginfo@https://registry.anpm.alibaba-inc.com/siginfo/-/siginfo-2.0.0.tgz 0ms (cache hit)
+70 http cache safer-buffer@https://registry.anpm.alibaba-inc.com/safer-buffer/-/safer-buffer-2.1.2.tgz 0ms (cache hit)
+71 http cache rxjs@https://registry.anpm.alibaba-inc.com/rxjs/-/rxjs-7.8.1.tgz 0ms (cache hit)
+72 http cache rollup@https://registry.anpm.alibaba-inc.com/rollup/-/rollup-4.62.4.tgz 0ms (cache hit)
+73 http cache rrweb-cssom@https://registry.anpm.alibaba-inc.com/rrweb-cssom/-/rrweb-cssom-0.8.0.tgz 0ms (cache hit)
+74 http cache react-refresh@https://registry.anpm.alibaba-inc.com/react-refresh/-/react-refresh-0.17.0.tgz 0ms (cache hit)
+75 http cache remark-parse@https://registry.anpm.alibaba-inc.com/remark-parse/-/remark-parse-11.0.0.tgz 0ms (cache hit)
+76 http cache react-markdown@https://registry.anpm.alibaba-inc.com/react-markdown/-/react-markdown-10.1.0.tgz 0ms (cache hit)
+77 http cache remark-rehype@https://registry.anpm.alibaba-inc.com/remark-rehype/-/remark-rehype-11.1.2.tgz 0ms (cache hit)
+78 http cache remark-gfm@https://registry.anpm.alibaba-inc.com/remark-gfm/-/remark-gfm-4.0.1.tgz 0ms (cache hit)
+79 http cache remark-stringify@https://registry.anpm.alibaba-inc.com/remark-stringify/-/remark-stringify-11.0.0.tgz 0ms (cache hit)
+80 http cache react@https://registry.anpm.alibaba-inc.com/react/-/react-18.3.1.tgz 0ms (cache hit)
+81 http cache react-dom@https://registry.anpm.alibaba-inc.com/react-dom/-/react-dom-18.3.1.tgz 0ms (cache hit)
+82 http cache punycode@https://registry.anpm.alibaba-inc.com/punycode/-/punycode-2.3.1.tgz 0ms (cache hit)
+83 http cache postcss@https://registry.anpm.alibaba-inc.com/postcss/-/postcss-8.5.26.tgz 0ms (cache hit)
+84 http cache picomatch@https://registry.anpm.alibaba-inc.com/picomatch/-/picomatch-4.0.7.tgz 0ms (cache hit)
+85 http cache picocolors@https://registry.anpm.alibaba-inc.com/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+86 http cache pathval@https://registry.anpm.alibaba-inc.com/pathval/-/pathval-2.0.1.tgz 0ms (cache hit)
+87 http cache property-information@https://registry.anpm.alibaba-inc.com/property-information/-/property-information-7.2.0.tgz 0ms (cache hit)
+88 http cache parse-entities@https://registry.anpm.alibaba-inc.com/parse-entities/-/parse-entities-4.0.2.tgz 0ms (cache hit)
+89 http cache node-releases@https://registry.anpm.alibaba-inc.com/node-releases/-/node-releases-2.0.53.tgz 0ms (cache hit)
+90 http cache pathe@https://registry.anpm.alibaba-inc.com/pathe/-/pathe-2.0.3.tgz 0ms (cache hit)
+91 http cache parse5@https://registry.anpm.alibaba-inc.com/parse5/-/parse5-7.3.0.tgz 0ms (cache hit)
+92 http cache nanoid@https://registry.anpm.alibaba-inc.com/nanoid/-/nanoid-3.3.18.tgz 0ms (cache hit)
+93 http cache ms@https://registry.anpm.alibaba-inc.com/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+94 http cache micromark-util-types@https://registry.anpm.alibaba-inc.com/micromark-util-types/-/micromark-util-types-2.0.2.tgz 0ms (cache hit)
+95 http cache micromark-util-sanitize-uri@https://registry.anpm.alibaba-inc.com/micromark-util-sanitize-uri/-/micromark-util-sanitize-uri-2.0.1.tgz 0ms (cache hit)
+96 http cache micromark-util-symbol@https://registry.anpm.alibaba-inc.com/micromark-util-symbol/-/micromark-util-symbol-2.0.1.tgz 0ms (cache hit)
+97 http cache micromark-util-resolve-all@https://registry.anpm.alibaba-inc.com/micromark-util-resolve-all/-/micromark-util-resolve-all-2.0.1.tgz 0ms (cache hit)
+98 http cache nwsapi@https://registry.anpm.alibaba-inc.com/nwsapi/-/nwsapi-2.2.27.tgz 0ms (cache hit)
+99 http cache micromark-util-subtokenize@https://registry.anpm.alibaba-inc.com/micromark-util-subtokenize/-/micromark-util-subtokenize-2.1.0.tgz 0ms (cache hit)
+100 http cache micromark-util-normalize-identifier@https://registry.anpm.alibaba-inc.com/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-2.0.1.tgz 0ms (cache hit)
+101 http cache micromark-util-html-tag-name@https://registry.anpm.alibaba-inc.com/micromark-util-html-tag-name/-/micromark-util-html-tag-name-2.0.1.tgz 0ms (cache hit)
+102 http cache micromark-util-decode-numeric-character-reference@https://registry.anpm.alibaba-inc.com/micromark-util-decode-numeric-character-reference/-/micromark-util-decode-numeric-character-reference-2.0.2.tgz 0ms (cache hit)
+103 http cache micromark-util-encode@https://registry.anpm.alibaba-inc.com/micromark-util-encode/-/micromark-util-encode-2.0.1.tgz 0ms (cache hit)
+104 http cache micromark-util-decode-string@https://registry.anpm.alibaba-inc.com/micromark-util-decode-string/-/micromark-util-decode-string-2.0.1.tgz 0ms (cache hit)
+105 http cache micromark-util-combine-extensions@https://registry.anpm.alibaba-inc.com/micromark-util-combine-extensions/-/micromark-util-combine-extensions-2.0.1.tgz 0ms (cache hit)
+106 http cache micromark-factory-whitespace@https://registry.anpm.alibaba-inc.com/micromark-factory-whitespace/-/micromark-factory-whitespace-2.0.1.tgz 0ms (cache hit)
+107 http cache micromark-util-classify-character@https://registry.anpm.alibaba-inc.com/micromark-util-classify-character/-/micromark-util-classify-character-2.0.1.tgz 0ms (cache hit)
+108 http cache micromark-util-chunked@https://registry.anpm.alibaba-inc.com/micromark-util-chunked/-/micromark-util-chunked-2.0.1.tgz 0ms (cache hit)
+109 http cache micromark-util-character@https://registry.anpm.alibaba-inc.com/micromark-util-character/-/micromark-util-character-2.1.1.tgz 0ms (cache hit)
+110 http cache micromark-factory-title@https://registry.anpm.alibaba-inc.com/micromark-factory-title/-/micromark-factory-title-2.0.1.tgz 0ms (cache hit)
+111 http cache micromark-factory-space@https://registry.anpm.alibaba-inc.com/micromark-factory-space/-/micromark-factory-space-2.0.1.tgz 0ms (cache hit)
+112 http cache micromark-factory-label@https://registry.anpm.alibaba-inc.com/micromark-factory-label/-/micromark-factory-label-2.0.1.tgz 0ms (cache hit)
+113 http cache micromark-factory-destination@https://registry.anpm.alibaba-inc.com/micromark-factory-destination/-/micromark-factory-destination-2.0.1.tgz 0ms (cache hit)
+114 http cache micromark-extension-gfm-task-list-item@https://registry.anpm.alibaba-inc.com/micromark-extension-gfm-task-list-item/-/micromark-extension-gfm-task-list-item-2.1.0.tgz 0ms (cache hit)
+115 http cache micromark-extension-gfm-strikethrough@https://registry.anpm.alibaba-inc.com/micromark-extension-gfm-strikethrough/-/micromark-extension-gfm-strikethrough-2.1.0.tgz 0ms (cache hit)
+116 http cache micromark-extension-gfm-tagfilter@https://registry.anpm.alibaba-inc.com/micromark-extension-gfm-tagfilter/-/micromark-extension-gfm-tagfilter-2.0.0.tgz 0ms (cache hit)
+117 http cache micromark-extension-gfm-table@https://registry.anpm.alibaba-inc.com/micromark-extension-gfm-table/-/micromark-extension-gfm-table-2.1.1.tgz 0ms (cache hit)
+118 http cache micromark-extension-gfm@https://registry.anpm.alibaba-inc.com/micromark-extension-gfm/-/micromark-extension-gfm-3.0.0.tgz 0ms (cache hit)
+119 http cache micromark-extension-gfm-autolink-literal@https://registry.anpm.alibaba-inc.com/micromark-extension-gfm-autolink-literal/-/micromark-extension-gfm-autolink-literal-2.1.0.tgz 0ms (cache hit)
+120 http cache micromark-extension-gfm-footnote@https://registry.anpm.alibaba-inc.com/micromark-extension-gfm-footnote/-/micromark-extension-gfm-footnote-2.1.0.tgz 0ms (cache hit)
+121 http cache micromark-core-commonmark@https://registry.anpm.alibaba-inc.com/micromark-core-commonmark/-/micromark-core-commonmark-2.0.3.tgz 0ms (cache hit)
+122 http cache micromark@https://registry.anpm.alibaba-inc.com/micromark/-/micromark-4.0.2.tgz 0ms (cache hit)
+123 http cache mdast-util-to-hast@https://registry.anpm.alibaba-inc.com/mdast-util-to-hast/-/mdast-util-to-hast-13.2.1.tgz 0ms (cache hit)
+124 http cache mdast-util-to-string@https://registry.anpm.alibaba-inc.com/mdast-util-to-string/-/mdast-util-to-string-4.0.0.tgz 0ms (cache hit)
+125 http cache mdast-util-to-markdown@https://registry.anpm.alibaba-inc.com/mdast-util-to-markdown/-/mdast-util-to-markdown-2.1.2.tgz 0ms (cache hit)
+126 http cache mdast-util-mdxjs-esm@https://registry.anpm.alibaba-inc.com/mdast-util-mdxjs-esm/-/mdast-util-mdxjs-esm-2.0.1.tgz 0ms (cache hit)
+127 http cache mdast-util-mdx-jsx@https://registry.anpm.alibaba-inc.com/mdast-util-mdx-jsx/-/mdast-util-mdx-jsx-3.2.0.tgz 0ms (cache hit)
+128 http cache mdast-util-mdx-expression@https://registry.anpm.alibaba-inc.com/mdast-util-mdx-expression/-/mdast-util-mdx-expression-2.0.1.tgz 0ms (cache hit)
+129 http cache mdast-util-phrasing@https://registry.anpm.alibaba-inc.com/mdast-util-phrasing/-/mdast-util-phrasing-4.1.0.tgz 0ms (cache hit)
+130 http cache mdast-util-gfm-task-list-item@https://registry.anpm.alibaba-inc.com/mdast-util-gfm-task-list-item/-/mdast-util-gfm-task-list-item-2.0.0.tgz 0ms (cache hit)
+131 http cache mdast-util-gfm-table@https://registry.anpm.alibaba-inc.com/mdast-util-gfm-table/-/mdast-util-gfm-table-2.0.0.tgz 0ms (cache hit)
+132 http cache mdast-util-gfm-strikethrough@https://registry.anpm.alibaba-inc.com/mdast-util-gfm-strikethrough/-/mdast-util-gfm-strikethrough-2.0.0.tgz 0ms (cache hit)
+133 http cache mdast-util-gfm@https://registry.anpm.alibaba-inc.com/mdast-util-gfm/-/mdast-util-gfm-3.1.0.tgz 0ms (cache hit)
+134 http cache mdast-util-gfm-autolink-literal@https://registry.anpm.alibaba-inc.com/mdast-util-gfm-autolink-literal/-/mdast-util-gfm-autolink-literal-2.0.1.tgz 0ms (cache hit)
+135 http cache mdast-util-from-markdown@https://registry.anpm.alibaba-inc.com/mdast-util-from-markdown/-/mdast-util-from-markdown-2.0.3.tgz 0ms (cache hit)
+136 http cache mdast-util-gfm-footnote@https://registry.anpm.alibaba-inc.com/mdast-util-gfm-footnote/-/mdast-util-gfm-footnote-2.1.0.tgz 0ms (cache hit)
+137 http cache mdast-util-find-and-replace@https://registry.anpm.alibaba-inc.com/mdast-util-find-and-replace/-/mdast-util-find-and-replace-3.0.2.tgz 0ms (cache hit)
+138 http cache markdown-table@https://registry.anpm.alibaba-inc.com/markdown-table/-/markdown-table-3.0.4.tgz 0ms (cache hit)
+139 http cache loupe@https://registry.anpm.alibaba-inc.com/loupe/-/loupe-3.2.1.tgz 0ms (cache hit)
+140 http cache lru-cache@https://registry.anpm.alibaba-inc.com/lru-cache/-/lru-cache-5.1.1.tgz 0ms (cache hit)
+141 http cache json5@https://registry.anpm.alibaba-inc.com/json5/-/json5-2.2.3.tgz 0ms (cache hit)
+142 http cache longest-streak@https://registry.anpm.alibaba-inc.com/longest-streak/-/longest-streak-3.1.0.tgz 0ms (cache hit)
+143 http cache jsesc@https://registry.anpm.alibaba-inc.com/jsesc/-/jsesc-3.1.0.tgz 0ms (cache hit)
+144 http cache magic-string@https://registry.anpm.alibaba-inc.com/magic-string/-/magic-string-0.30.21.tgz 0ms (cache hit)
+145 http cache loose-envify@https://registry.anpm.alibaba-inc.com/loose-envify/-/loose-envify-1.4.0.tgz 0ms (cache hit)
+146 http cache is-potential-custom-element-name@https://registry.anpm.alibaba-inc.com/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz 0ms (cache hit)
+147 http cache jsdom@https://registry.anpm.alibaba-inc.com/jsdom/-/jsdom-26.1.0.tgz 0ms (cache hit)
+148 http cache is-decimal@https://registry.anpm.alibaba-inc.com/is-decimal/-/is-decimal-2.0.1.tgz 0ms (cache hit)
+149 http cache is-hexadecimal@https://registry.anpm.alibaba-inc.com/is-hexadecimal/-/is-hexadecimal-2.0.1.tgz 0ms (cache hit)
+150 http cache is-plain-obj@https://registry.anpm.alibaba-inc.com/is-plain-obj/-/is-plain-obj-4.1.0.tgz 0ms (cache hit)
+151 http cache js-tokens@https://registry.anpm.alibaba-inc.com/js-tokens/-/js-tokens-4.0.0.tgz 0ms (cache hit)
+152 http cache is-alphanumerical@https://registry.anpm.alibaba-inc.com/is-alphanumerical/-/is-alphanumerical-2.0.1.tgz 0ms (cache hit)
+153 http cache inline-style-parser@https://registry.anpm.alibaba-inc.com/inline-style-parser/-/inline-style-parser-0.2.7.tgz 0ms (cache hit)
+154 http cache iconv-lite@https://registry.anpm.alibaba-inc.com/iconv-lite/-/iconv-lite-0.6.3.tgz 0ms (cache hit)
+155 http cache is-alphabetical@https://registry.anpm.alibaba-inc.com/is-alphabetical/-/is-alphabetical-2.0.1.tgz 0ms (cache hit)
+156 http cache html-url-attributes@https://registry.anpm.alibaba-inc.com/html-url-attributes/-/html-url-attributes-3.0.1.tgz 0ms (cache hit)
+157 http cache html-encoding-sniffer@https://registry.anpm.alibaba-inc.com/html-encoding-sniffer/-/html-encoding-sniffer-4.0.0.tgz 0ms (cache hit)
+158 http cache http-proxy-agent@https://registry.anpm.alibaba-inc.com/http-proxy-agent/-/http-proxy-agent-7.0.2.tgz 0ms (cache hit)
+159 http cache https-proxy-agent@https://registry.anpm.alibaba-inc.com/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz 0ms (cache hit)
+160 http cache hast-util-whitespace@https://registry.anpm.alibaba-inc.com/hast-util-whitespace/-/hast-util-whitespace-3.0.0.tgz 0ms (cache hit)
+161 http cache gensync@https://registry.anpm.alibaba-inc.com/gensync/-/gensync-1.0.0-beta.2.tgz 0ms (cache hit)
+162 http cache fdir@https://registry.anpm.alibaba-inc.com/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+163 http cache hast-util-to-jsx-runtime@https://registry.anpm.alibaba-inc.com/hast-util-to-jsx-runtime/-/hast-util-to-jsx-runtime-2.3.6.tgz 0ms (cache hit)
+164 http cache fast-json-patch@https://registry.anpm.alibaba-inc.com/fast-json-patch/-/fast-json-patch-3.1.1.tgz 0ms (cache hit)
+165 http cache extend@https://registry.anpm.alibaba-inc.com/extend/-/extend-3.0.2.tgz 0ms (cache hit)
+166 http cache estree-walker@https://registry.anpm.alibaba-inc.com/estree-walker/-/estree-walker-3.0.3.tgz 0ms (cache hit)
+167 http cache escape-string-regexp@https://registry.anpm.alibaba-inc.com/escape-string-regexp/-/escape-string-regexp-5.0.0.tgz 0ms (cache hit)
+168 http cache expect-type@https://registry.anpm.alibaba-inc.com/expect-type/-/expect-type-1.4.0.tgz 0ms (cache hit)
+169 http cache escalade@https://registry.anpm.alibaba-inc.com/escalade/-/escalade-3.2.0.tgz 0ms (cache hit)
+170 http cache entities@https://registry.anpm.alibaba-inc.com/entities/-/entities-6.0.1.tgz 0ms (cache hit)
+171 http cache esbuild@https://registry.anpm.alibaba-inc.com/esbuild/-/esbuild-0.21.5.tgz 0ms (cache hit)
+172 http cache electron-to-chromium@https://registry.anpm.alibaba-inc.com/electron-to-chromium/-/electron-to-chromium-1.5.405.tgz 0ms (cache hit)
+173 http cache estree-util-is-identifier-name@https://registry.anpm.alibaba-inc.com/estree-util-is-identifier-name/-/estree-util-is-identifier-name-3.0.0.tgz 0ms (cache hit)
+174 http cache devlop@https://registry.anpm.alibaba-inc.com/devlop/-/devlop-1.1.0.tgz 0ms (cache hit)
+175 http cache es-module-lexer@https://registry.anpm.alibaba-inc.com/es-module-lexer/-/es-module-lexer-1.7.0.tgz 0ms (cache hit)
+176 http cache decimal.js@https://registry.anpm.alibaba-inc.com/decimal.js/-/decimal.js-10.6.0.tgz 0ms (cache hit)
+177 http cache dequal@https://registry.anpm.alibaba-inc.com/dequal/-/dequal-2.0.3.tgz 0ms (cache hit)
+178 http cache debug@https://registry.anpm.alibaba-inc.com/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+179 http cache decode-named-character-reference@https://registry.anpm.alibaba-inc.com/decode-named-character-reference/-/decode-named-character-reference-1.3.0.tgz 0ms (cache hit)
+180 http cache deep-eql@https://registry.anpm.alibaba-inc.com/deep-eql/-/deep-eql-5.0.2.tgz 0ms (cache hit)
+181 http cache data-urls@https://registry.anpm.alibaba-inc.com/data-urls/-/data-urls-5.0.0.tgz 0ms (cache hit)
+182 http cache cssstyle@https://registry.anpm.alibaba-inc.com/cssstyle/-/cssstyle-4.6.0.tgz 0ms (cache hit)
+183 http cache csstype@https://registry.anpm.alibaba-inc.com/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+184 http cache convert-source-map@https://registry.anpm.alibaba-inc.com/convert-source-map/-/convert-source-map-2.0.0.tgz 0ms (cache hit)
+185 http cache compare-versions@https://registry.anpm.alibaba-inc.com/compare-versions/-/compare-versions-6.1.1.tgz 0ms (cache hit)
+186 http cache check-error@https://registry.anpm.alibaba-inc.com/check-error/-/check-error-2.1.3.tgz 0ms (cache hit)
+187 http cache character-reference-invalid@https://registry.anpm.alibaba-inc.com/character-reference-invalid/-/character-reference-invalid-2.0.1.tgz 0ms (cache hit)
+188 http cache comma-separated-tokens@https://registry.anpm.alibaba-inc.com/comma-separated-tokens/-/comma-separated-tokens-2.0.3.tgz 0ms (cache hit)
+189 http cache character-entities-legacy@https://registry.anpm.alibaba-inc.com/character-entities-legacy/-/character-entities-legacy-3.0.0.tgz 0ms (cache hit)
+190 http cache character-entities@https://registry.anpm.alibaba-inc.com/character-entities/-/character-entities-2.0.2.tgz 0ms (cache hit)
+191 http cache character-entities-html4@https://registry.anpm.alibaba-inc.com/character-entities-html4/-/character-entities-html4-2.1.0.tgz 0ms (cache hit)
+192 http cache cac@https://registry.anpm.alibaba-inc.com/cac/-/cac-6.7.14.tgz 0ms (cache hit)
+193 http cache chai@https://registry.anpm.alibaba-inc.com/chai/-/chai-5.3.3.tgz 0ms (cache hit)
+194 http cache caniuse-lite@https://registry.anpm.alibaba-inc.com/caniuse-lite/-/caniuse-lite-1.0.30001809.tgz 0ms (cache hit)
+195 http cache ccount@https://registry.anpm.alibaba-inc.com/ccount/-/ccount-2.0.1.tgz 0ms (cache hit)
+196 http cache @vitest/utils@https://registry.anpm.alibaba-inc.com/@vitest/utils/-/utils-3.2.4.tgz 0ms (cache hit)
+197 http cache baseline-browser-mapping@https://registry.anpm.alibaba-inc.com/baseline-browser-mapping/-/baseline-browser-mapping-2.11.13.tgz 0ms (cache hit)
+198 http cache bail@https://registry.anpm.alibaba-inc.com/bail/-/bail-2.0.2.tgz 0ms (cache hit)
+199 http cache @vitest/spy@https://registry.anpm.alibaba-inc.com/@vitest/spy/-/spy-3.2.4.tgz 0ms (cache hit)
+200 http cache @vitest/runner@https://registry.anpm.alibaba-inc.com/@vitest/runner/-/runner-3.2.4.tgz 0ms (cache hit)
+201 http cache assertion-error@https://registry.anpm.alibaba-inc.com/assertion-error/-/assertion-error-2.0.1.tgz 0ms (cache hit)
+202 http cache browserslist@https://registry.anpm.alibaba-inc.com/browserslist/-/browserslist-4.28.8.tgz 0ms (cache hit)
+203 http cache @vitest/snapshot@https://registry.anpm.alibaba-inc.com/@vitest/snapshot/-/snapshot-3.2.4.tgz 0ms (cache hit)
+204 http cache @vitejs/plugin-react@https://registry.anpm.alibaba-inc.com/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz 0ms (cache hit)
+205 http cache @vitest/mocker@https://registry.anpm.alibaba-inc.com/@vitest/mocker/-/mocker-3.2.4.tgz 0ms (cache hit)
+206 http cache @vitest/pretty-format@https://registry.anpm.alibaba-inc.com/@vitest/pretty-format/-/pretty-format-3.2.7.tgz 0ms (cache hit)
+207 http cache @vitest/expect@https://registry.anpm.alibaba-inc.com/@vitest/expect/-/expect-3.2.4.tgz 0ms (cache hit)
+208 http cache @ungap/structured-clone@https://registry.anpm.alibaba-inc.com/@ungap/structured-clone/-/structured-clone-1.4.0.tgz 0ms (cache hit)
+209 http cache agent-base@https://registry.anpm.alibaba-inc.com/agent-base/-/agent-base-7.1.4.tgz 0ms (cache hit)
+210 http cache @types/uuid@https://registry.anpm.alibaba-inc.com/@types/uuid/-/uuid-10.0.0.tgz 0ms (cache hit)
+211 http cache @types/react-dom@https://registry.anpm.alibaba-inc.com/@types/react-dom/-/react-dom-18.3.7.tgz 0ms (cache hit)
+212 http cache @types/node@https://registry.anpm.alibaba-inc.com/@types/node/-/node-22.20.1.tgz 0ms (cache hit)
+213 http cache @types/ms@https://registry.anpm.alibaba-inc.com/@types/ms/-/ms-2.1.0.tgz 0ms (cache hit)
+214 http cache @types/unist@https://registry.anpm.alibaba-inc.com/@types/unist/-/unist-3.0.3.tgz 0ms (cache hit)
+215 http cache @types/prop-types@https://registry.anpm.alibaba-inc.com/@types/prop-types/-/prop-types-15.7.15.tgz 0ms (cache hit)
+216 http cache @types/react@https://registry.anpm.alibaba-inc.com/@types/react/-/react-18.3.31.tgz 0ms (cache hit)
+217 http cache @types/mdast@https://registry.anpm.alibaba-inc.com/@types/mdast/-/mdast-4.0.4.tgz 0ms (cache hit)
+218 http cache @types/hast@https://registry.anpm.alibaba-inc.com/@types/hast/-/hast-3.0.5.tgz 0ms (cache hit)
+219 http cache @types/estree-jsx@https://registry.anpm.alibaba-inc.com/@types/estree-jsx/-/estree-jsx-1.0.5.tgz 0ms (cache hit)
+220 http cache @types/estree@https://registry.anpm.alibaba-inc.com/@types/estree/-/estree-1.0.9.tgz 0ms (cache hit)
+221 http cache @types/deep-eql@https://registry.anpm.alibaba-inc.com/@types/deep-eql/-/deep-eql-4.0.2.tgz 0ms (cache hit)
+222 http cache @types/debug@https://registry.anpm.alibaba-inc.com/@types/debug/-/debug-4.1.13.tgz 0ms (cache hit)
+223 http cache @types/chai@https://registry.anpm.alibaba-inc.com/@types/chai/-/chai-5.2.3.tgz 0ms (cache hit)
+224 http cache @rollup/rollup-win32-x64-msvc@https://registry.anpm.alibaba-inc.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.62.4.tgz 0ms (cache hit)
+225 http cache @rollup/rollup-win32-x64-gnu@https://registry.anpm.alibaba-inc.com/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.62.4.tgz 0ms (cache hit)
+226 http cache @types/babel__template@https://registry.anpm.alibaba-inc.com/@types/babel__template/-/babel__template-7.4.4.tgz 0ms (cache hit)
+227 http cache @types/babel__generator@https://registry.anpm.alibaba-inc.com/@types/babel__generator/-/babel__generator-7.27.0.tgz 0ms (cache hit)
+228 http cache @types/babel__traverse@https://registry.anpm.alibaba-inc.com/@types/babel__traverse/-/babel__traverse-7.28.0.tgz 0ms (cache hit)
+229 http cache @protobuf-ts/protoc@https://registry.anpm.alibaba-inc.com/@protobuf-ts/protoc/-/protoc-2.11.1.tgz 0ms (cache hit)
+230 http cache @rolldown/pluginutils@https://registry.anpm.alibaba-inc.com/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.27.tgz 0ms (cache hit)
+231 http cache @types/babel__core@https://registry.anpm.alibaba-inc.com/@types/babel__core/-/babel__core-7.20.5.tgz 0ms (cache hit)
+232 http cache @csstools/css-parser-algorithms@https://registry.anpm.alibaba-inc.com/@csstools/css-parser-algorithms/-/css-parser-algorithms-3.0.5.tgz 0ms (cache hit)
+233 http cache @esbuild/win32-x64@https://registry.anpm.alibaba-inc.com/@esbuild/win32-x64/-/win32-x64-0.21.5.tgz 0ms (cache hit)
+234 http cache @jridgewell/trace-mapping@https://registry.anpm.alibaba-inc.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 0ms (cache hit)
+235 http cache @csstools/css-tokenizer@https://registry.anpm.alibaba-inc.com/@csstools/css-tokenizer/-/css-tokenizer-3.0.4.tgz 0ms (cache hit)
+236 http cache @jridgewell/resolve-uri@https://registry.anpm.alibaba-inc.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 0ms (cache hit)
+237 http cache @jridgewell/remapping@https://registry.anpm.alibaba-inc.com/@jridgewell/remapping/-/remapping-2.3.5.tgz 0ms (cache hit)
+238 http cache @bufbuild/protobuf@https://registry.anpm.alibaba-inc.com/@bufbuild/protobuf/-/protobuf-2.14.1.tgz 0ms (cache hit)
+239 http cache @jridgewell/sourcemap-codec@https://registry.anpm.alibaba-inc.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 0ms (cache hit)
+240 http cache @csstools/color-helpers@https://registry.anpm.alibaba-inc.com/@csstools/color-helpers/-/color-helpers-5.1.0.tgz 0ms (cache hit)
+241 http cache @babel/types@https://registry.anpm.alibaba-inc.com/@babel/types/-/types-7.29.8.tgz 0ms (cache hit)
+242 http cache @jridgewell/gen-mapping@https://registry.anpm.alibaba-inc.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 0ms (cache hit)
+243 http cache @csstools/css-color-parser@https://registry.anpm.alibaba-inc.com/@csstools/css-color-parser/-/css-color-parser-3.1.0.tgz 0ms (cache hit)
+244 http cache @babel/traverse@https://registry.anpm.alibaba-inc.com/@babel/traverse/-/traverse-7.29.8.tgz 0ms (cache hit)
+245 http cache @csstools/css-calc@https://registry.anpm.alibaba-inc.com/@csstools/css-calc/-/css-calc-2.1.4.tgz 0ms (cache hit)
+246 http cache @babel/plugin-transform-react-jsx-source@https://registry.anpm.alibaba-inc.com/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.29.7.tgz 0ms (cache hit)
+247 http cache @babel/template@https://registry.anpm.alibaba-inc.com/@babel/template/-/template-7.29.7.tgz 0ms (cache hit)
+248 http cache @babel/parser@https://registry.anpm.alibaba-inc.com/@babel/parser/-/parser-7.29.8.tgz 0ms (cache hit)
+249 http cache @babel/plugin-transform-react-jsx-self@https://registry.anpm.alibaba-inc.com/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.29.7.tgz 0ms (cache hit)
+250 http cache @babel/helpers@https://registry.anpm.alibaba-inc.com/@babel/helpers/-/helpers-7.29.7.tgz 0ms (cache hit)
+251 http cache @babel/helper-validator-identifier@https://registry.anpm.alibaba-inc.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz 0ms (cache hit)
+252 http cache @babel/helper-plugin-utils@https://registry.anpm.alibaba-inc.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz 0ms (cache hit)
+253 http cache @babel/helper-validator-option@https://registry.anpm.alibaba-inc.com/@babel/helper-validator-option/-/helper-validator-option-7.29.7.tgz 0ms (cache hit)
+254 http cache @babel/helper-module-transforms@https://registry.anpm.alibaba-inc.com/@babel/helper-module-transforms/-/helper-module-transforms-7.29.7.tgz 0ms (cache hit)
+255 http cache @babel/helper-module-imports@https://registry.anpm.alibaba-inc.com/@babel/helper-module-imports/-/helper-module-imports-7.29.7.tgz 0ms (cache hit)
+256 http cache @babel/helper-compilation-targets@https://registry.anpm.alibaba-inc.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.29.7.tgz 0ms (cache hit)
+257 http cache @babel/helper-string-parser@https://registry.anpm.alibaba-inc.com/@babel/helper-string-parser/-/helper-string-parser-7.29.7.tgz 0ms (cache hit)
+258 http cache @babel/generator@https://registry.anpm.alibaba-inc.com/@babel/generator/-/generator-7.29.8.tgz 0ms (cache hit)
+259 http cache @babel/helper-globals@https://registry.anpm.alibaba-inc.com/@babel/helper-globals/-/helper-globals-7.29.7.tgz 0ms (cache hit)
+260 http cache @asamuzakjp/css-color@https://registry.anpm.alibaba-inc.com/@asamuzakjp/css-color/-/css-color-3.2.0.tgz 0ms (cache hit)
+261 http cache js-tokens@https://registry.anpm.alibaba-inc.com/js-tokens/-/js-tokens-9.0.1.tgz 0ms (cache hit)
+262 http cache @babel/code-frame@https://registry.anpm.alibaba-inc.com/@babel/code-frame/-/code-frame-7.29.7.tgz 0ms (cache hit)
+263 http cache @babel/compat-data@https://registry.anpm.alibaba-inc.com/@babel/compat-data/-/compat-data-7.29.7.tgz 0ms (cache hit)
+264 http cache @babel/core@https://registry.anpm.alibaba-inc.com/@babel/core/-/core-7.29.7.tgz 0ms (cache hit)
+265 http cache @ag-ui/encoder@https://registry.anpm.alibaba-inc.com/@ag-ui/encoder/-/encoder-0.0.59.tgz 0ms (cache hit)
+266 http cache @types/unist@https://registry.anpm.alibaba-inc.com/@types/unist/-/unist-2.0.11.tgz 0ms (cache hit)
+267 http cache @vitest/pretty-format@https://registry.anpm.alibaba-inc.com/@vitest/pretty-format/-/pretty-format-3.2.4.tgz 0ms (cache hit)
+268 http cache @ag-ui/core@https://registry.anpm.alibaba-inc.com/@ag-ui/core/-/core-0.0.59.tgz 0ms (cache hit)
+269 http cache @ag-ui/proto@https://registry.anpm.alibaba-inc.com/@ag-ui/proto/-/proto-0.0.59.tgz 0ms (cache hit)
+270 http cache @vitest/pretty-format@https://registry.anpm.alibaba-inc.com/@vitest/pretty-format/-/pretty-format-3.2.4.tgz 0ms (cache hit)
+271 http cache @ag-ui/client@https://registry.anpm.alibaba-inc.com/@ag-ui/client/-/client-0.0.59.tgz 0ms (cache hit)
+272 http cache lru-cache@https://registry.anpm.alibaba-inc.com/lru-cache/-/lru-cache-10.4.3.tgz 0ms (cache hit)
+273 silly tarball no local data for why-is-node-running@https://registry.anpm.alibaba-inc.com/why-is-node-running/-/why-is-node-running-2.3.0.tgz. Extracting by manifest.
+274 silly tarball no local data for xmlchars@https://registry.anpm.alibaba-inc.com/xmlchars/-/xmlchars-2.2.0.tgz. Extracting by manifest.
+275 silly tarball no local data for yallist@https://registry.anpm.alibaba-inc.com/yallist/-/yallist-3.1.1.tgz. Extracting by manifest.
+276 silly tarball no local data for whatwg-url@https://registry.anpm.alibaba-inc.com/whatwg-url/-/whatwg-url-14.2.0.tgz. Extracting by manifest.
+277 silly tarball no local data for xml-name-validator@https://registry.anpm.alibaba-inc.com/xml-name-validator/-/xml-name-validator-5.0.0.tgz. Extracting by manifest.
+278 silly tarball no local data for whatwg-mimetype@https://registry.anpm.alibaba-inc.com/whatwg-mimetype/-/whatwg-mimetype-4.0.0.tgz. Extracting by manifest.
+279 silly tarball no local data for vitest@https://registry.anpm.alibaba-inc.com/vitest/-/vitest-3.2.4.tgz. Extracting by manifest.
+280 silly tarball no local data for whatwg-encoding@https://registry.anpm.alibaba-inc.com/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz. Extracting by manifest.
+281 silly tarball no local data for webidl-conversions@https://registry.anpm.alibaba-inc.com/webidl-conversions/-/webidl-conversions-7.0.0.tgz. Extracting by manifest.
+282 silly tarball no local data for w3c-xmlserializer@https://registry.anpm.alibaba-inc.com/w3c-xmlserializer/-/w3c-xmlserializer-5.0.0.tgz. Extracting by manifest.
+283 silly tarball no local data for untruncate-json@https://registry.anpm.alibaba-inc.com/untruncate-json/-/untruncate-json-0.0.1.tgz. Extracting by manifest.
+284 silly tarball no local data for vite@https://registry.anpm.alibaba-inc.com/vite/-/vite-5.4.21.tgz. Extracting by manifest.
+285 silly tarball no local data for vite-node@https://registry.anpm.alibaba-inc.com/vite-node/-/vite-node-3.2.4.tgz. Extracting by manifest.
+286 silly tarball no local data for uuid@https://registry.anpm.alibaba-inc.com/uuid/-/uuid-11.1.1.tgz. Extracting by manifest.
+287 silly tarball no local data for update-browserslist-db@https://registry.anpm.alibaba-inc.com/update-browserslist-db/-/update-browserslist-db-1.3.1.tgz. Extracting by manifest.
+288 silly tarball no local data for unified@https://registry.anpm.alibaba-inc.com/unified/-/unified-11.0.5.tgz. Extracting by manifest.
+289 silly tarball no local data for typescript@https://registry.anpm.alibaba-inc.com/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+290 silly tarball no local data for tr46@https://registry.anpm.alibaba-inc.com/tr46/-/tr46-5.1.1.tgz. Extracting by manifest.
+291 silly tarball no local data for tldts@https://registry.anpm.alibaba-inc.com/tldts/-/tldts-6.1.86.tgz. Extracting by manifest.
+292 silly tarball no local data for trough@https://registry.anpm.alibaba-inc.com/trough/-/trough-2.2.0.tgz. Extracting by manifest.
+293 silly tarball no local data for tldts-core@https://registry.anpm.alibaba-inc.com/tldts-core/-/tldts-core-6.1.86.tgz. Extracting by manifest.
+294 silly tarball no local data for tough-cookie@https://registry.anpm.alibaba-inc.com/tough-cookie/-/tough-cookie-5.1.2.tgz. Extracting by manifest.
+295 silly tarball no local data for tinyspy@https://registry.anpm.alibaba-inc.com/tinyspy/-/tinyspy-4.0.6.tgz. Extracting by manifest.
+296 silly tarball no local data for tinypool@https://registry.anpm.alibaba-inc.com/tinypool/-/tinypool-1.1.1.tgz. Extracting by manifest.
+297 silly tarball no local data for tinyrainbow@https://registry.anpm.alibaba-inc.com/tinyrainbow/-/tinyrainbow-2.0.0.tgz. Extracting by manifest.
+298 silly tarball no local data for tinyglobby@https://registry.anpm.alibaba-inc.com/tinyglobby/-/tinyglobby-0.2.17.tgz. Extracting by manifest.
+299 silly tarball no local data for style-to-object@https://registry.anpm.alibaba-inc.com/style-to-object/-/style-to-object-1.0.14.tgz. Extracting by manifest.
+300 silly tarball no local data for tinyexec@https://registry.anpm.alibaba-inc.com/tinyexec/-/tinyexec-0.3.2.tgz. Extracting by manifest.
+301 silly tarball no local data for tinybench@https://registry.anpm.alibaba-inc.com/tinybench/-/tinybench-2.9.0.tgz. Extracting by manifest.
+302 silly tarball no local data for style-to-js@https://registry.anpm.alibaba-inc.com/style-to-js/-/style-to-js-1.1.21.tgz. Extracting by manifest.
+303 silly tarball no local data for symbol-tree@https://registry.anpm.alibaba-inc.com/symbol-tree/-/symbol-tree-3.2.4.tgz. Extracting by manifest.
+304 silly tarball no local data for stackback@https://registry.anpm.alibaba-inc.com/stackback/-/stackback-0.0.2.tgz. Extracting by manifest.
+305 silly tarball no local data for strip-literal@https://registry.anpm.alibaba-inc.com/strip-literal/-/strip-literal-3.1.0.tgz. Extracting by manifest.
+306 silly tarball no local data for std-env@https://registry.anpm.alibaba-inc.com/std-env/-/std-env-3.10.0.tgz. Extracting by manifest.
+307 silly tarball no local data for semver@https://registry.anpm.alibaba-inc.com/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+308 silly tarball no local data for source-map-js@https://registry.anpm.alibaba-inc.com/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+309 silly tarball no local data for saxes@https://registry.anpm.alibaba-inc.com/saxes/-/saxes-6.0.0.tgz. Extracting by manifest.
+310 silly tarball no local data for siginfo@https://registry.anpm.alibaba-inc.com/siginfo/-/siginfo-2.0.0.tgz. Extracting by manifest.
+311 silly tarball no local data for rrweb-cssom@https://registry.anpm.alibaba-inc.com/rrweb-cssom/-/rrweb-cssom-0.8.0.tgz. Extracting by manifest.
+312 silly tarball no local data for rollup@https://registry.anpm.alibaba-inc.com/rollup/-/rollup-4.62.4.tgz. Extracting by manifest.
+313 silly tarball no local data for rxjs@https://registry.anpm.alibaba-inc.com/rxjs/-/rxjs-7.8.1.tgz. Extracting by manifest.
+314 silly tarball no local data for react-refresh@https://registry.anpm.alibaba-inc.com/react-refresh/-/react-refresh-0.17.0.tgz. Extracting by manifest.
+315 silly tarball no local data for remark-parse@https://registry.anpm.alibaba-inc.com/remark-parse/-/remark-parse-11.0.0.tgz. Extracting by manifest.
+316 silly tarball no local data for react-markdown@https://registry.anpm.alibaba-inc.com/react-markdown/-/react-markdown-10.1.0.tgz. Extracting by manifest.
+317 silly tarball no local data for remark-gfm@https://registry.anpm.alibaba-inc.com/remark-gfm/-/remark-gfm-4.0.1.tgz. Extracting by manifest.
+318 silly tarball no local data for remark-rehype@https://registry.anpm.alibaba-inc.com/remark-rehype/-/remark-rehype-11.1.2.tgz. Extracting by manifest.
+319 silly tarball no local data for remark-stringify@https://registry.anpm.alibaba-inc.com/remark-stringify/-/remark-stringify-11.0.0.tgz. Extracting by manifest.
+320 silly tarball no local data for punycode@https://registry.anpm.alibaba-inc.com/punycode/-/punycode-2.3.1.tgz. Extracting by manifest.
+321 silly tarball no local data for postcss@https://registry.anpm.alibaba-inc.com/postcss/-/postcss-8.5.26.tgz. Extracting by manifest.
+322 silly tarball no local data for picomatch@https://registry.anpm.alibaba-inc.com/picomatch/-/picomatch-4.0.7.tgz. Extracting by manifest.
+323 silly tarball no local data for pathval@https://registry.anpm.alibaba-inc.com/pathval/-/pathval-2.0.1.tgz. Extracting by manifest.
+324 silly tarball no local data for parse-entities@https://registry.anpm.alibaba-inc.com/parse-entities/-/parse-entities-4.0.2.tgz. Extracting by manifest.
+325 silly tarball no local data for node-releases@https://registry.anpm.alibaba-inc.com/node-releases/-/node-releases-2.0.53.tgz. Extracting by manifest.
+326 silly tarball no local data for parse5@https://registry.anpm.alibaba-inc.com/parse5/-/parse5-7.3.0.tgz. Extracting by manifest.
+327 silly tarball no local data for nanoid@https://registry.anpm.alibaba-inc.com/nanoid/-/nanoid-3.3.18.tgz. Extracting by manifest.
+328 silly tarball no local data for pathe@https://registry.anpm.alibaba-inc.com/pathe/-/pathe-2.0.3.tgz. Extracting by manifest.
+329 silly tarball no local data for nwsapi@https://registry.anpm.alibaba-inc.com/nwsapi/-/nwsapi-2.2.27.tgz. Extracting by manifest.
+330 silly tarball no local data for mdast-util-mdxjs-esm@https://registry.anpm.alibaba-inc.com/mdast-util-mdxjs-esm/-/mdast-util-mdxjs-esm-2.0.1.tgz. Extracting by manifest.
+331 silly tarball no local data for mdast-util-mdx-jsx@https://registry.anpm.alibaba-inc.com/mdast-util-mdx-jsx/-/mdast-util-mdx-jsx-3.2.0.tgz. Extracting by manifest.
+332 silly tarball no local data for mdast-util-mdx-expression@https://registry.anpm.alibaba-inc.com/mdast-util-mdx-expression/-/mdast-util-mdx-expression-2.0.1.tgz. Extracting by manifest.
+333 silly tarball no local data for loupe@https://registry.anpm.alibaba-inc.com/loupe/-/loupe-3.2.1.tgz. Extracting by manifest.
+334 silly tarball no local data for lru-cache@https://registry.anpm.alibaba-inc.com/lru-cache/-/lru-cache-5.1.1.tgz. Extracting by manifest.
+335 silly tarball no local data for json5@https://registry.anpm.alibaba-inc.com/json5/-/json5-2.2.3.tgz. Extracting by manifest.
+336 silly tarball no local data for magic-string@https://registry.anpm.alibaba-inc.com/magic-string/-/magic-string-0.30.21.tgz. Extracting by manifest.
+337 silly tarball no local data for jsesc@https://registry.anpm.alibaba-inc.com/jsesc/-/jsesc-3.1.0.tgz. Extracting by manifest.
+338 silly tarball no local data for is-potential-custom-element-name@https://registry.anpm.alibaba-inc.com/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz. Extracting by manifest.
+339 silly tarball no local data for is-decimal@https://registry.anpm.alibaba-inc.com/is-decimal/-/is-decimal-2.0.1.tgz. Extracting by manifest.
+340 silly tarball no local data for is-hexadecimal@https://registry.anpm.alibaba-inc.com/is-hexadecimal/-/is-hexadecimal-2.0.1.tgz. Extracting by manifest.
+341 silly tarball no local data for jsdom@https://registry.anpm.alibaba-inc.com/jsdom/-/jsdom-26.1.0.tgz. Extracting by manifest.
+342 silly tarball no local data for is-plain-obj@https://registry.anpm.alibaba-inc.com/is-plain-obj/-/is-plain-obj-4.1.0.tgz. Extracting by manifest.
+343 silly tarball no local data for is-alphanumerical@https://registry.anpm.alibaba-inc.com/is-alphanumerical/-/is-alphanumerical-2.0.1.tgz. Extracting by manifest.
+344 silly tarball no local data for is-alphabetical@https://registry.anpm.alibaba-inc.com/is-alphabetical/-/is-alphabetical-2.0.1.tgz. Extracting by manifest.
+345 silly tarball no local data for inline-style-parser@https://registry.anpm.alibaba-inc.com/inline-style-parser/-/inline-style-parser-0.2.7.tgz. Extracting by manifest.
+346 silly tarball no local data for html-encoding-sniffer@https://registry.anpm.alibaba-inc.com/html-encoding-sniffer/-/html-encoding-sniffer-4.0.0.tgz. Extracting by manifest.
+347 silly tarball no local data for html-url-attributes@https://registry.anpm.alibaba-inc.com/html-url-attributes/-/html-url-attributes-3.0.1.tgz. Extracting by manifest.
+348 silly tarball no local data for gensync@https://registry.anpm.alibaba-inc.com/gensync/-/gensync-1.0.0-beta.2.tgz. Extracting by manifest.
+349 silly tarball no local data for fast-json-patch@https://registry.anpm.alibaba-inc.com/fast-json-patch/-/fast-json-patch-3.1.1.tgz. Extracting by manifest.
+350 silly tarball no local data for hast-util-to-jsx-runtime@https://registry.anpm.alibaba-inc.com/hast-util-to-jsx-runtime/-/hast-util-to-jsx-runtime-2.3.6.tgz. Extracting by manifest.
+351 silly tarball no local data for fdir@https://registry.anpm.alibaba-inc.com/fdir/-/fdir-6.5.0.tgz. Extracting by manifest.
+352 silly tarball no local data for estree-walker@https://registry.anpm.alibaba-inc.com/estree-walker/-/estree-walker-3.0.3.tgz. Extracting by manifest.
+353 silly tarball no local data for expect-type@https://registry.anpm.alibaba-inc.com/expect-type/-/expect-type-1.4.0.tgz. Extracting by manifest.
+354 silly tarball no local data for escalade@https://registry.anpm.alibaba-inc.com/escalade/-/escalade-3.2.0.tgz. Extracting by manifest.
+355 silly tarball no local data for entities@https://registry.anpm.alibaba-inc.com/entities/-/entities-6.0.1.tgz. Extracting by manifest.
+356 silly tarball no local data for electron-to-chromium@https://registry.anpm.alibaba-inc.com/electron-to-chromium/-/electron-to-chromium-1.5.405.tgz. Extracting by manifest.
+357 silly tarball no local data for esbuild@https://registry.anpm.alibaba-inc.com/esbuild/-/esbuild-0.21.5.tgz. Extracting by manifest.
+358 silly tarball no local data for estree-util-is-identifier-name@https://registry.anpm.alibaba-inc.com/estree-util-is-identifier-name/-/estree-util-is-identifier-name-3.0.0.tgz. Extracting by manifest.
+359 silly tarball no local data for es-module-lexer@https://registry.anpm.alibaba-inc.com/es-module-lexer/-/es-module-lexer-1.7.0.tgz. Extracting by manifest.
+360 silly tarball no local data for decimal.js@https://registry.anpm.alibaba-inc.com/decimal.js/-/decimal.js-10.6.0.tgz. Extracting by manifest.
+361 silly tarball no local data for data-urls@https://registry.anpm.alibaba-inc.com/data-urls/-/data-urls-5.0.0.tgz. Extracting by manifest.
+362 silly tarball no local data for deep-eql@https://registry.anpm.alibaba-inc.com/deep-eql/-/deep-eql-5.0.2.tgz. Extracting by manifest.
+363 silly tarball no local data for cssstyle@https://registry.anpm.alibaba-inc.com/cssstyle/-/cssstyle-4.6.0.tgz. Extracting by manifest.
+364 silly tarball no local data for convert-source-map@https://registry.anpm.alibaba-inc.com/convert-source-map/-/convert-source-map-2.0.0.tgz. Extracting by manifest.
+365 silly tarball no local data for compare-versions@https://registry.anpm.alibaba-inc.com/compare-versions/-/compare-versions-6.1.1.tgz. Extracting by manifest.
+366 silly tarball no local data for check-error@https://registry.anpm.alibaba-inc.com/check-error/-/check-error-2.1.3.tgz. Extracting by manifest.
+367 silly tarball no local data for character-reference-invalid@https://registry.anpm.alibaba-inc.com/character-reference-invalid/-/character-reference-invalid-2.0.1.tgz. Extracting by manifest.
+368 silly tarball no local data for cac@https://registry.anpm.alibaba-inc.com/cac/-/cac-6.7.14.tgz. Extracting by manifest.
+369 silly tarball no local data for chai@https://registry.anpm.alibaba-inc.com/chai/-/chai-5.3.3.tgz. Extracting by manifest.
+370 silly tarball no local data for @vitest/utils@https://registry.anpm.alibaba-inc.com/@vitest/utils/-/utils-3.2.4.tgz. Extracting by manifest.
+371 silly tarball no local data for caniuse-lite@https://registry.anpm.alibaba-inc.com/caniuse-lite/-/caniuse-lite-1.0.30001809.tgz. Extracting by manifest.
+372 silly tarball no local data for bail@https://registry.anpm.alibaba-inc.com/bail/-/bail-2.0.2.tgz. Extracting by manifest.
+373 silly tarball no local data for @vitest/spy@https://registry.anpm.alibaba-inc.com/@vitest/spy/-/spy-3.2.4.tgz. Extracting by manifest.
+374 silly tarball no local data for baseline-browser-mapping@https://registry.anpm.alibaba-inc.com/baseline-browser-mapping/-/baseline-browser-mapping-2.11.13.tgz. Extracting by manifest.
+375 silly tarball no local data for @vitest/runner@https://registry.anpm.alibaba-inc.com/@vitest/runner/-/runner-3.2.4.tgz. Extracting by manifest.
+376 silly tarball no local data for browserslist@https://registry.anpm.alibaba-inc.com/browserslist/-/browserslist-4.28.8.tgz. Extracting by manifest.
+377 silly tarball no local data for assertion-error@https://registry.anpm.alibaba-inc.com/assertion-error/-/assertion-error-2.0.1.tgz. Extracting by manifest.
+378 silly tarball no local data for @vitest/mocker@https://registry.anpm.alibaba-inc.com/@vitest/mocker/-/mocker-3.2.4.tgz. Extracting by manifest.
+379 silly tarball no local data for @vitest/pretty-format@https://registry.anpm.alibaba-inc.com/@vitest/pretty-format/-/pretty-format-3.2.7.tgz. Extracting by manifest.
+380 silly tarball no local data for @vitejs/plugin-react@https://registry.anpm.alibaba-inc.com/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz. Extracting by manifest.
+381 silly tarball no local data for @vitest/snapshot@https://registry.anpm.alibaba-inc.com/@vitest/snapshot/-/snapshot-3.2.4.tgz. Extracting by manifest.
+382 silly tarball no local data for @vitest/expect@https://registry.anpm.alibaba-inc.com/@vitest/expect/-/expect-3.2.4.tgz. Extracting by manifest.
+383 silly tarball no local data for @ungap/structured-clone@https://registry.anpm.alibaba-inc.com/@ungap/structured-clone/-/structured-clone-1.4.0.tgz. Extracting by manifest.
+384 silly tarball no local data for @types/react-dom@https://registry.anpm.alibaba-inc.com/@types/react-dom/-/react-dom-18.3.7.tgz. Extracting by manifest.
+385 silly tarball no local data for @types/uuid@https://registry.anpm.alibaba-inc.com/@types/uuid/-/uuid-10.0.0.tgz. Extracting by manifest.
+386 silly tarball no local data for @types/node@https://registry.anpm.alibaba-inc.com/@types/node/-/node-22.20.1.tgz. Extracting by manifest.
+387 silly tarball no local data for @types/react@https://registry.anpm.alibaba-inc.com/@types/react/-/react-18.3.31.tgz. Extracting by manifest.
+388 silly tarball no local data for @types/prop-types@https://registry.anpm.alibaba-inc.com/@types/prop-types/-/prop-types-15.7.15.tgz. Extracting by manifest.
+389 silly tarball no local data for @types/estree-jsx@https://registry.anpm.alibaba-inc.com/@types/estree-jsx/-/estree-jsx-1.0.5.tgz. Extracting by manifest.
+390 silly tarball no local data for @types/estree@https://registry.anpm.alibaba-inc.com/@types/estree/-/estree-1.0.9.tgz. Extracting by manifest.
+391 silly tarball no local data for @types/deep-eql@https://registry.anpm.alibaba-inc.com/@types/deep-eql/-/deep-eql-4.0.2.tgz. Extracting by manifest.
+392 silly tarball no local data for @types/chai@https://registry.anpm.alibaba-inc.com/@types/chai/-/chai-5.2.3.tgz. Extracting by manifest.
+393 silly tarball no local data for @rollup/rollup-win32-x64-gnu@https://registry.anpm.alibaba-inc.com/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.62.4.tgz. Extracting by manifest.
+394 silly tarball no local data for @rollup/rollup-win32-x64-msvc@https://registry.anpm.alibaba-inc.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.62.4.tgz. Extracting by manifest.
+395 silly tarball no local data for @types/babel__template@https://registry.anpm.alibaba-inc.com/@types/babel__template/-/babel__template-7.4.4.tgz. Extracting by manifest.
+396 silly tarball no local data for @types/babel__generator@https://registry.anpm.alibaba-inc.com/@types/babel__generator/-/babel__generator-7.27.0.tgz. Extracting by manifest.
+397 silly tarball no local data for @protobuf-ts/protoc@https://registry.anpm.alibaba-inc.com/@protobuf-ts/protoc/-/protoc-2.11.1.tgz. Extracting by manifest.
+398 silly tarball no local data for @rolldown/pluginutils@https://registry.anpm.alibaba-inc.com/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.27.tgz. Extracting by manifest.
+399 silly tarball no local data for @types/babel__traverse@https://registry.anpm.alibaba-inc.com/@types/babel__traverse/-/babel__traverse-7.28.0.tgz. Extracting by manifest.
+400 silly tarball no local data for @csstools/css-parser-algorithms@https://registry.anpm.alibaba-inc.com/@csstools/css-parser-algorithms/-/css-parser-algorithms-3.0.5.tgz. Extracting by manifest.
+401 silly tarball no local data for @jridgewell/trace-mapping@https://registry.anpm.alibaba-inc.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz. Extracting by manifest.
+402 silly tarball no local data for @types/babel__core@https://registry.anpm.alibaba-inc.com/@types/babel__core/-/babel__core-7.20.5.tgz. Extracting by manifest.
+403 silly tarball no local data for @jridgewell/remapping@https://registry.anpm.alibaba-inc.com/@jridgewell/remapping/-/remapping-2.3.5.tgz. Extracting by manifest.
+404 silly tarball no local data for @csstools/css-tokenizer@https://registry.anpm.alibaba-inc.com/@csstools/css-tokenizer/-/css-tokenizer-3.0.4.tgz. Extracting by manifest.
+405 silly tarball no local data for @jridgewell/resolve-uri@https://registry.anpm.alibaba-inc.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz. Extracting by manifest.
+406 silly tarball no local data for @esbuild/win32-x64@https://registry.anpm.alibaba-inc.com/@esbuild/win32-x64/-/win32-x64-0.21.5.tgz. Extracting by manifest.
+407 silly tarball no local data for @jridgewell/sourcemap-codec@https://registry.anpm.alibaba-inc.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz. Extracting by manifest.
+408 silly tarball no local data for @csstools/color-helpers@https://registry.anpm.alibaba-inc.com/@csstools/color-helpers/-/color-helpers-5.1.0.tgz. Extracting by manifest.
+409 silly tarball no local data for @bufbuild/protobuf@https://registry.anpm.alibaba-inc.com/@bufbuild/protobuf/-/protobuf-2.14.1.tgz. Extracting by manifest.
+410 silly tarball no local data for @jridgewell/gen-mapping@https://registry.anpm.alibaba-inc.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz. Extracting by manifest.
+411 silly tarball no local data for @babel/traverse@https://registry.anpm.alibaba-inc.com/@babel/traverse/-/traverse-7.29.8.tgz. Extracting by manifest.
+412 silly tarball no local data for @babel/types@https://registry.anpm.alibaba-inc.com/@babel/types/-/types-7.29.8.tgz. Extracting by manifest.
+413 silly tarball no local data for @babel/plugin-transform-react-jsx-source@https://registry.anpm.alibaba-inc.com/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.29.7.tgz. Extracting by manifest.
+414 silly tarball no local data for @csstools/css-color-parser@https://registry.anpm.alibaba-inc.com/@csstools/css-color-parser/-/css-color-parser-3.1.0.tgz. Extracting by manifest.
+415 silly tarball no local data for @csstools/css-calc@https://registry.anpm.alibaba-inc.com/@csstools/css-calc/-/css-calc-2.1.4.tgz. Extracting by manifest.
+416 silly tarball no local data for @babel/parser@https://registry.anpm.alibaba-inc.com/@babel/parser/-/parser-7.29.8.tgz. Extracting by manifest.
+417 silly tarball no local data for @babel/helpers@https://registry.anpm.alibaba-inc.com/@babel/helpers/-/helpers-7.29.7.tgz. Extracting by manifest.
+418 silly tarball no local data for @babel/template@https://registry.anpm.alibaba-inc.com/@babel/template/-/template-7.29.7.tgz. Extracting by manifest.
+419 silly tarball no local data for @babel/plugin-transform-react-jsx-self@https://registry.anpm.alibaba-inc.com/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.29.7.tgz. Extracting by manifest.
+420 silly tarball no local data for @babel/helper-module-transforms@https://registry.anpm.alibaba-inc.com/@babel/helper-module-transforms/-/helper-module-transforms-7.29.7.tgz. Extracting by manifest.
+421 silly tarball no local data for @babel/helper-plugin-utils@https://registry.anpm.alibaba-inc.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz. Extracting by manifest.
+422 silly tarball no local data for @babel/helper-validator-option@https://registry.anpm.alibaba-inc.com/@babel/helper-validator-option/-/helper-validator-option-7.29.7.tgz. Extracting by manifest.
+423 silly tarball no local data for @babel/helper-compilation-targets@https://registry.anpm.alibaba-inc.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.29.7.tgz. Extracting by manifest.
+424 silly tarball no local data for @babel/generator@https://registry.anpm.alibaba-inc.com/@babel/generator/-/generator-7.29.8.tgz. Extracting by manifest.
+425 silly tarball no local data for @babel/helper-module-imports@https://registry.anpm.alibaba-inc.com/@babel/helper-module-imports/-/helper-module-imports-7.29.7.tgz. Extracting by manifest.
+426 silly tarball no local data for @babel/helper-globals@https://registry.anpm.alibaba-inc.com/@babel/helper-globals/-/helper-globals-7.29.7.tgz. Extracting by manifest.
+427 silly tarball no local data for @asamuzakjp/css-color@https://registry.anpm.alibaba-inc.com/@asamuzakjp/css-color/-/css-color-3.2.0.tgz. Extracting by manifest.
+428 silly tarball no local data for js-tokens@https://registry.anpm.alibaba-inc.com/js-tokens/-/js-tokens-9.0.1.tgz. Extracting by manifest.
+429 silly tarball no local data for @babel/helper-string-parser@https://registry.anpm.alibaba-inc.com/@babel/helper-string-parser/-/helper-string-parser-7.29.7.tgz. Extracting by manifest.
+430 silly tarball no local data for @ag-ui/encoder@https://registry.anpm.alibaba-inc.com/@ag-ui/encoder/-/encoder-0.0.59.tgz. Extracting by manifest.
+431 silly tarball no local data for @babel/core@https://registry.anpm.alibaba-inc.com/@babel/core/-/core-7.29.7.tgz. Extracting by manifest.
+432 silly tarball no local data for @babel/compat-data@https://registry.anpm.alibaba-inc.com/@babel/compat-data/-/compat-data-7.29.7.tgz. Extracting by manifest.
+433 silly tarball no local data for @types/unist@https://registry.anpm.alibaba-inc.com/@types/unist/-/unist-2.0.11.tgz. Extracting by manifest.
+434 silly tarball no local data for @vitest/pretty-format@https://registry.anpm.alibaba-inc.com/@vitest/pretty-format/-/pretty-format-3.2.4.tgz. Extracting by manifest.
+435 silly tarball no local data for @ag-ui/core@https://registry.anpm.alibaba-inc.com/@ag-ui/core/-/core-0.0.59.tgz. Extracting by manifest.
+436 silly tarball no local data for @vitest/pretty-format@https://registry.anpm.alibaba-inc.com/@vitest/pretty-format/-/pretty-format-3.2.4.tgz. Extracting by manifest.
+437 silly tarball no local data for @ag-ui/proto@https://registry.anpm.alibaba-inc.com/@ag-ui/proto/-/proto-0.0.59.tgz. Extracting by manifest.
+438 silly tarball no local data for @ag-ui/client@https://registry.anpm.alibaba-inc.com/@ag-ui/client/-/client-0.0.59.tgz. Extracting by manifest.
+439 silly tarball no local data for lru-cache@https://registry.anpm.alibaba-inc.com/lru-cache/-/lru-cache-10.4.3.tgz. Extracting by manifest.
+440 http fetch GET 200 https://registry.npmmirror.com/npm 297ms
+441 http fetch GET https://registry.anpm.alibaba-inc.com/why-is-node-running/-/why-is-node-running-2.3.0.tgz attempt 1 failed with ECONNRESET
+442 http fetch GET https://registry.anpm.alibaba-inc.com/xml-name-validator/-/xml-name-validator-5.0.0.tgz attempt 1 failed with ECONNRESET
+443 http fetch GET https://registry.anpm.alibaba-inc.com/whatwg-mimetype/-/whatwg-mimetype-4.0.0.tgz attempt 1 failed with ECONNRESET
+444 http fetch GET https://registry.anpm.alibaba-inc.com/whatwg-url/-/whatwg-url-14.2.0.tgz attempt 1 failed with ECONNRESET
+445 http fetch GET https://registry.anpm.alibaba-inc.com/xmlchars/-/xmlchars-2.2.0.tgz attempt 1 failed with ECONNRESET
+446 http fetch GET https://registry.anpm.alibaba-inc.com/yallist/-/yallist-3.1.1.tgz attempt 1 failed with ECONNRESET
+447 http fetch GET https://registry.anpm.alibaba-inc.com/vitest/-/vitest-3.2.4.tgz attempt 1 failed with ECONNRESET
+448 http fetch GET https://registry.anpm.alibaba-inc.com/w3c-xmlserializer/-/w3c-xmlserializer-5.0.0.tgz attempt 1 failed with ECONNRESET
+449 http fetch GET https://registry.anpm.alibaba-inc.com/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz attempt 1 failed with ECONNRESET
+450 http fetch GET https://registry.anpm.alibaba-inc.com/webidl-conversions/-/webidl-conversions-7.0.0.tgz attempt 1 failed with ECONNRESET
+451 http fetch GET https://registry.anpm.alibaba-inc.com/untruncate-json/-/untruncate-json-0.0.1.tgz attempt 1 failed with ECONNRESET
+452 http fetch GET https://registry.anpm.alibaba-inc.com/vite/-/vite-5.4.21.tgz attempt 1 failed with ECONNRESET
+453 http fetch GET https://registry.anpm.alibaba-inc.com/vite-node/-/vite-node-3.2.4.tgz attempt 1 failed with ECONNRESET
+454 http fetch GET https://registry.anpm.alibaba-inc.com/update-browserslist-db/-/update-browserslist-db-1.3.1.tgz attempt 1 failed with ECONNRESET
+455 http fetch GET https://registry.anpm.alibaba-inc.com/uuid/-/uuid-11.1.1.tgz attempt 1 failed with ECONNRESET
+456 http fetch GET https://registry.anpm.alibaba-inc.com/why-is-node-running/-/why-is-node-running-2.3.0.tgz attempt 2 failed with ECONNRESET
+457 http fetch GET https://registry.anpm.alibaba-inc.com/xml-name-validator/-/xml-name-validator-5.0.0.tgz attempt 2 failed with ECONNRESET
+458 http fetch GET https://registry.anpm.alibaba-inc.com/whatwg-mimetype/-/whatwg-mimetype-4.0.0.tgz attempt 2 failed with ECONNRESET
+459 http fetch GET https://registry.anpm.alibaba-inc.com/whatwg-url/-/whatwg-url-14.2.0.tgz attempt 2 failed with ECONNRESET
+460 http fetch GET https://registry.anpm.alibaba-inc.com/xmlchars/-/xmlchars-2.2.0.tgz attempt 2 failed with ECONNRESET
+461 http fetch GET https://registry.anpm.alibaba-inc.com/yallist/-/yallist-3.1.1.tgz attempt 2 failed with ECONNRESET
+462 http fetch GET https://registry.anpm.alibaba-inc.com/vitest/-/vitest-3.2.4.tgz attempt 2 failed with ECONNRESET
+463 http fetch GET https://registry.anpm.alibaba-inc.com/w3c-xmlserializer/-/w3c-xmlserializer-5.0.0.tgz attempt 2 failed with ECONNRESET
+464 http fetch GET https://registry.anpm.alibaba-inc.com/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz attempt 2 failed with ECONNRESET
+465 http fetch GET https://registry.anpm.alibaba-inc.com/webidl-conversions/-/webidl-conversions-7.0.0.tgz attempt 2 failed with ECONNRESET
+466 http fetch GET https://registry.anpm.alibaba-inc.com/untruncate-json/-/untruncate-json-0.0.1.tgz attempt 2 failed with ECONNRESET
+467 http fetch GET https://registry.anpm.alibaba-inc.com/vite/-/vite-5.4.21.tgz attempt 2 failed with ECONNRESET
+468 http fetch GET https://registry.anpm.alibaba-inc.com/vite-node/-/vite-node-3.2.4.tgz attempt 2 failed with ECONNRESET
+469 http fetch GET https://registry.anpm.alibaba-inc.com/update-browserslist-db/-/update-browserslist-db-1.3.1.tgz attempt 2 failed with ECONNRESET
+470 http fetch GET https://registry.anpm.alibaba-inc.com/uuid/-/uuid-11.1.1.tgz attempt 2 failed with ECONNRESET
+471 http fetch GET https://registry.anpm.alibaba-inc.com/why-is-node-running/-/why-is-node-running-2.3.0.tgz attempt 3 failed with ECONNRESET
+472 http fetch GET https://registry.anpm.alibaba-inc.com/xml-name-validator/-/xml-name-validator-5.0.0.tgz attempt 3 failed with ECONNRESET
+473 http fetch GET https://registry.anpm.alibaba-inc.com/whatwg-mimetype/-/whatwg-mimetype-4.0.0.tgz attempt 3 failed with ECONNRESET
+474 http fetch GET https://registry.anpm.alibaba-inc.com/whatwg-url/-/whatwg-url-14.2.0.tgz attempt 3 failed with ECONNRESET
+475 http fetch GET https://registry.anpm.alibaba-inc.com/xmlchars/-/xmlchars-2.2.0.tgz attempt 3 failed with ECONNRESET
+476 http fetch GET https://registry.anpm.alibaba-inc.com/yallist/-/yallist-3.1.1.tgz attempt 3 failed with ECONNRESET
+477 http fetch GET https://registry.anpm.alibaba-inc.com/vitest/-/vitest-3.2.4.tgz attempt 3 failed with ECONNRESET
+478 http fetch GET https://registry.anpm.alibaba-inc.com/w3c-xmlserializer/-/w3c-xmlserializer-5.0.0.tgz attempt 3 failed with ECONNRESET
+479 http fetch GET https://registry.anpm.alibaba-inc.com/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz attempt 3 failed with ECONNRESET
+480 http fetch GET https://registry.anpm.alibaba-inc.com/webidl-conversions/-/webidl-conversions-7.0.0.tgz attempt 3 failed with ECONNRESET
+481 http fetch GET https://registry.anpm.alibaba-inc.com/untruncate-json/-/untruncate-json-0.0.1.tgz attempt 3 failed with ECONNRESET
+482 http fetch GET https://registry.anpm.alibaba-inc.com/vite/-/vite-5.4.21.tgz attempt 3 failed with ECONNRESET
+483 http fetch GET https://registry.anpm.alibaba-inc.com/vite-node/-/vite-node-3.2.4.tgz attempt 3 failed with ECONNRESET
+484 http fetch GET https://registry.anpm.alibaba-inc.com/update-browserslist-db/-/update-browserslist-db-1.3.1.tgz attempt 3 failed with ECONNRESET
+485 http fetch GET https://registry.anpm.alibaba-inc.com/uuid/-/uuid-11.1.1.tgz attempt 3 failed with ECONNRESET
+486 verbose cwd D:\cProjects\globex-agent
+487 verbose os Windows_NT 10.0.26200
+488 verbose node v24.11.1
+489 verbose npm  v11.6.2
+490 notice
+490 notice New minor version of npm available! 11.6.2 -> 11.21.0
+490 notice Changelog: https://github.com/npm/cli/releases/tag/v11.21.0
+490 notice To update run: npm install -g npm@11.21.0
+490 notice  { force: true, Symbol(proc-log.meta): true }
+491 error Exit handler never called!
+492 error This is an error with npm itself. Please report this error at:
+493 error   <https://github.com/npm/cli/issues>
+494 verbose exit 1
+495 verbose code 1
+496 error A complete log of this run can be found in: C:\Users\14810\AppData\Local\npm-cache\_logs\2026-10-08T09_50_13_320Z-debug-0.log

@@ -1,0 +1,27 @@
+
+=================================== ERRORS ====================================
+____________ ERROR collecting tests/test_skill_evaluation_suite.py ____________
+tests\test_skill_evaluation_suite.py:12: in <module>
+    SUITE = load_suite()
+            ^^^^^^^^^^^^
+scripts\eval\skill_suite.py:20: in load_suite
+    suite = json.loads(Path(path).read_text())
+                       ^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\14810\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\pathlib.py:1059: in read_text
+    return f.read()
+           ^^^^^^^^
+E   UnicodeDecodeError: 'gbk' codec can't decode byte 0xad in position 124: illegal multibyte sequence
+============================== warnings summary ===============================
+.venv\Lib\site-packages\_pytest\cacheprovider.py:469
+  D:\cProjects\globex-agent\.venv\Lib\site-packages\_pytest\cacheprovider.py:469: PytestCacheWarning: could not create cache path D:\cProjects\globex-agent\.pytest_cache\v\cache\nodeids: [WinError 5] 拒绝访问。: 'D:\\cProjects\\globex-agent\\.pytest_cache\\v\\cache'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+.venv\Lib\site-packages\_pytest\cacheprovider.py:423
+  D:\cProjects\globex-agent\.venv\Lib\site-packages\_pytest\cacheprovider.py:423: PytestCacheWarning: could not create cache path D:\cProjects\globex-agent\.pytest_cache\v\cache\lastfailed: [WinError 5] 拒绝访问。: 'D:\\cProjects\\globex-agent\\.pytest_cache\\v\\cache'
+    config.cache.set("cache/lastfailed", self.lastfailed)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR tests/test_skill_evaluation_suite.py - UnicodeDecodeError: 'gbk' codec ...
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+2 warnings, 1 error in 11.24s

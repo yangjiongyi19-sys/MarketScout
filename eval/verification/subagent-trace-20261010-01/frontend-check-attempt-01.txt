@@ -1,0 +1,1 @@
+尝试通过 Invoke-WebRequest 从执行进程访问 127.0.0.1:5173，8 秒超时；未取得 HTTP 响应。之前的 frontend-startup.txt 是错误生成的状态码摘要，已删除，不作为证据。Get-NetTCPConnection 后续确认 127.0.0.1:5173 有监听进程，但应用层访问仍需复核。

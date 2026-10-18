@@ -1,0 +1,13 @@
+命令：python -X utf8 eval/verification/jd-teaching-20261010/project-intersection-revision/verify_project_guide.py --stage final
+退出码：1
+宿主提示：Failed to find real location of C:\Users\14810\miniconda3\python.exe
+
+Traceback (most recent call last):
+  File "D:\cProjects\globex-agent\eval\verification\jd-teaching-20261010\project-intersection-revision\verify_project_guide.py", line 121, in <module>
+    raise SystemExit(main())
+  File "D:\cProjects\globex-agent\eval\verification\jd-teaching-20261010\project-intersection-revision\verify_project_guide.py", line 47, in main
+    baseline = json.loads((EVIDENCE / "scope-baseline/source-manifest.json").read_text(encoding="utf-8"))
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\cProjects\\globex-agent\\eval\\verification\\jd-teaching-20261010\\project-intersection-revision\\scope-baseline\\source-manifest.json'
+
+定位：基线证据实际位于 jd-teaching-20261010/scope-baseline，不在 project-intersection-revision 子目录。
+修正：校验脚本改为从 revision 目录的父目录读取基线；没有改动项目代码。修正后的独立静态报告保存在 content-review/；本原始失败阶段保持留档，不覆盖。

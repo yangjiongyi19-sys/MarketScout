@@ -1,0 +1,66 @@
+19:13:14 [vite] http proxy error: /commerce/models?session_id=fa0c5f04-002f-474b-8c18-56103e8e185a&buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/ag-ui/sessions?buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/shopping-forms?buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/confirmations?buyer_id=pao-coder&session_id=fa0c5f04-002f-474b-8c18-56103e8e185a
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/skills?buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/shopping-forms?session_id=fa0c5f04-002f-474b-8c18-56103e8e185a&buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/context?session_id=fa0c5f04-002f-474b-8c18-56103e8e185a&buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/favorites?buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/models?session_id=fa0c5f04-002f-474b-8c18-56103e8e185a&buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/ag-ui/sessions?buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/shopping-forms?buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/confirmations?buyer_id=pao-coder&session_id=fa0c5f04-002f-474b-8c18-56103e8e185a
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/skills?buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/shopping-forms?session_id=fa0c5f04-002f-474b-8c18-56103e8e185a&buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/context?session_id=fa0c5f04-002f-474b-8c18-56103e8e185a&buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:14 [vite] http proxy error: /commerce/favorites?buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:23 [vite] http proxy error: /commerce/orders?offset=0&limit=10&buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:23 [vite] http proxy error: /commerce/orders?offset=0&limit=10&buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:24 [vite] http proxy error: /commerce/models?session_id=fa0c5f04-002f-474b-8c18-56103e8e185a&buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:24 [vite] http proxy error: /commerce/models?session_id=fa0c5f04-002f-474b-8c18-56103e8e185a&buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:25 [vite] http proxy error: /commerce/my-skills?buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+19:13:25 [vite] http proxy error: /commerce/my-skills?buyer_id=pao-coder
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)

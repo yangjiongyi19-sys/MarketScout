@@ -1,0 +1,63 @@
+{
+  "checked_date": "2026-10-10",
+  "selection_rule": "Include a topic only when at least one supplied JD requests it and README/source confirms the project implements the relevant capability.",
+  "intersections": [
+    {
+      "topic": "Agent Runtime, prompting, business tools, Skills",
+      "jds": [2, 3, 4, 5],
+      "chapters": [2, 3, 4, 5],
+      "evidence": ["README.md", "app/application/agents/orchestrator.py", "app/application/agents/main_agent.py"]
+    },
+    {
+      "topic": "Task decomposition, Multi-Agent delegation, handoff",
+      "jds": [2, 4, 5],
+      "chapters": [6, 7, 16],
+      "evidence": ["app/application/agents/main_agent.py", "app/application/tools/task_dispatch_tool.py", "app/application/agents/search_agent.py", "app/application/agents/trade_agent.py"]
+    },
+    {
+      "topic": "Long running state, approvals, recovery, reliability",
+      "jds": [2],
+      "chapters": [8, 9, 10, 18],
+      "evidence": ["README.md", "app/application/agents/orchestrator.py", "app/application/agents/main_agent.py"]
+    },
+    {
+      "topic": "Knowledge RAG",
+      "jds": [2, 4, 5],
+      "chapters": [11],
+      "evidence": ["README.md", "app/infrastructure/rag/category_knowledge.py", "app/infrastructure/rag/knowledge_retrieval.py"]
+    },
+    {
+      "topic": "Product vector search, hybrid retrieval, reranking, hard constraint checks",
+      "jds": [1, 2, 4, 5],
+      "chapters": [12],
+      "evidence": ["README.md", "app/application/usecases/catalog_search.py"]
+    },
+    {
+      "topic": "Personal shopping preference Memory: extraction, storage, retrieval, update/delete, injection",
+      "jds": [1, 2, 5],
+      "chapters": [13, 14, 15, 16],
+      "evidence": ["app/infrastructure/semantic_memory.py", "app/application/memory/middleware.py", "app/application/memory/preference_selector.py", "app/application/tools/task_dispatch_tool.py"]
+    },
+    {
+      "topic": "Agent and Memory evaluation entry points and limits",
+      "jds": [1, 2, 3, 4, 5],
+      "chapters": [17, 18],
+      "evidence": ["README.md", "scripts/evaluate_memory.py", "scripts/eval/harness"]
+    }
+  ],
+  "excluded_jd_topics_not_taught": [
+    "SFT, RLHF, PPO, DPO, GRPO, DAPO, GSPO model training or policy optimization",
+    "Multimodal data pipelines and robot control",
+    "MCP integration",
+    "Graph Retrieval",
+    "C/C++ model acceleration",
+    "Generic event or temporal Memory, automatic consolidation/forgetting, AIOps/DevOps Memory",
+    "Novel/creative content lifecycle and label mining"
+  ],
+  "project_limits": [
+    "The project stores explicit stable shopping preferences; it is not a general event or temporal Memory system.",
+    "Hybrid retrieval is implemented but disabled by default and has no established quality gain.",
+    "Memory and Agent evaluation entry points do not establish production acceptance."
+  ]
+}
+

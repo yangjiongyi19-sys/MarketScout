@@ -1,0 +1,14 @@
+{
+  "harness_changed": true,
+  "files": [
+    "app/application/agents/main_agent.py",
+    "app/application/agents/search_agent.py",
+    "app/application/tools/product_search_tool.py"
+  ],
+  "required": [
+    "contracts",
+    "smoke"
+  ],
+  "release": "参数、策略或模型调整上线前需 release --require-benefit"
+}
+EXIT_CODE=0

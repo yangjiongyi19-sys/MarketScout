@@ -1,0 +1,439 @@
+{
+  "check": "本地Markdown链接存在性",
+  "checked_links": 86,
+  "failed_links": 0,
+  "passed": true,
+  "results": [
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../eval/verification/job-plan-20261008-193204/",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/composition.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/presentation/server.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/settings.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_domain.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_usecases.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../frontend/src/lib/commerceClient.ts",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../frontend/src/hooks/useCommerceAgent.ts",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/presentation/ag_ui.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../frontend/tests/commerceClient.test.ts",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../frontend/tests/productContract.test.ts",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/agents/orchestrator.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/agents/main_agent.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/tools/task_dispatch_tool.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_tools_and_eventbus.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_subagent_preference_inject.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/tools/product_search_tool.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/usecases/catalog_search.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/vector/qdrant_product_index.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_retrieval.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_product_identity_contract.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_pricing.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/tools/order_tools.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/usecases/confirmation_service.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/persistence/sql/trade_store.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_trade_store.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_confirmation_service.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_ag_ui_confirmations.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/presentation/ag_ui_runtime.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/ag_ui_journal.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../frontend/src/lib/recoveringFetch.ts",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_ag_ui_journal.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../frontend/tests/runRecovery.test.ts",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/agents/main_agent.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/persistence/sql/session_store.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/identity.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_session_fencing.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_identity.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/context_governance.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/agents/context_policy.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/persistence/context_evidence.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/budget.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_context_governance.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_context_v2.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_budget_settlement.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../Makefile",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../eval/harness/v1/suite.json",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../scripts/eval/harness/__main__.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_harness_evaluation.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_eval_evidence.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_eval_selection_manifest.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/semantic_memory.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/memory/middleware.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/agents/tool_confirmation.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/agents/selected_skill.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/buyer_skills.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_native_memory_confirmation.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_memory_persistence.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_selected_skill.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/agents/model_selection.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/model_registry.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/llm.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/model_counting.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/model_recovery.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_model_selection_runtime.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_model_runtime_counting.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_model_cancellation.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/harness_middleware.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/resilience.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/throttle.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_harness_guards.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_shared_throttle.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/worker.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/queue/redis_stream_queue.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/infrastructure/tracing.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../app/application/learning.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_queue_reliability.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_tracing.py",
+      "exists": true
+    },
+    {
+      "document": "docs/求职准备/项目深度掌握与15天计划.md",
+      "link": "../../tests/test_learning_pipeline.py",
+      "exists": true
+    },
+    {
+      "document": "docs/改动记录/2026-10-08/求职项目掌握计划.md",
+      "link": "../../求职准备/项目深度掌握与15天计划.md",
+      "exists": true
+    },
+    {
+      "document": "docs/改动记录/2026-10-08/求职项目掌握计划.md",
+      "link": "../../../eval/verification/job-plan-20261008-193204/",
+      "exists": true
+    },
+    {
+      "document": "docs/改动记录/2026-10-08/README.md",
+      "link": "本机项目启动.md",
+      "exists": true
+    },
+    {
+      "document": "docs/改动记录/2026-10-08/README.md",
+      "link": "求职项目掌握计划.md",
+      "exists": true
+    },
+    {
+      "document": "docs/改动记录/README.md",
+      "link": "2026-10-08/README.md",
+      "exists": true
+    },
+    {
+      "document": "docs/改动记录/README.md",
+      "link": "2026-10-08/README.md",
+      "exists": true
+    },
+    {
+      "document": "docs/改动记录/README.md",
+      "link": "2026-10-08/求职项目掌握计划.md",
+      "exists": true
+    }
+  ],
+  "tests_executed": false
+}

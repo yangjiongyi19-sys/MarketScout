@@ -1,0 +1,6 @@
+make: 
+Line |
+   2 |  try { make eval-harness HARNESS_RUN_DIR=eval/verification/skill-harne …
+     |        ~~~~
+     | The term 'make' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.

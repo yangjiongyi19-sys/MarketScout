@@ -1,0 +1,68 @@
+FF                                                                       [100%]
+================================== FAILURES ===================================
+_____ TestTwoStageRecall.test_embedding_recall_ranks_camping_light_first ______
+
+self = <tests.test_retrieval.TestTwoStageRecall object at 0x0000028087A282D0>
+indexed = (<app.infrastructure.persistence.in_memory_repositories.InMemoryProductRepository object at 0x0000028088BC3FD0>, <test... 0x0000028088BC3F50>, <app.infrastructure.vector.qdrant_product_index.QdrantProductIndex object at 0x0000028087A1DC50>)
+
+    async def test_embedding_recall_ranks_camping_light_first(self, indexed):
+        repo, embedder, index = indexed
+        usecase = CatalogSearchUseCase(repo, embedder=embedder, vector_index=index)
+        result = await usecase.execute(ProductSearchSpec(normalized_query="露营灯 抗造"))
+        assert result["recall_strategy"] == "embedding_only"
+        assert result["rerank_applied"] is False
+>       assert result["hits"][0]["product_id"] == "P1008", "露营灯应排第一"
+E       AssertionError: 露营灯应排第一
+E       assert 'P1039' == 'P1008'
+E         
+E         - P1008
+E         + P1039
+
+tests\test_retrieval.py:191: AssertionError
+------------------------------ Captured log call ------------------------------
+WARNING  app.application.usecases.catalog_search:catalog_search.py:189 rerank 不可用，按向量分排序：Reranker 未配置
+________ TestTwoStageRecall.test_tool_event_carries_hits_for_frontend _________
+
+self = <tests.test_retrieval.TestTwoStageRecall object at 0x0000028087A2BAD0>
+indexed = (<app.infrastructure.persistence.in_memory_repositories.InMemoryProductRepository object at 0x000002808B6B7F90>, <test... 0x000002808B6C3150>, <app.infrastructure.vector.qdrant_product_index.QdrantProductIndex object at 0x00000280894913D0>)
+
+    async def test_tool_event_carries_hits_for_frontend(self, indexed):
+        """tool.result 事件必须带 hits，否则前端商品卡渲染不出来（三期浏览器验证曾暴露此缺陷）。"""
+        from app.application.tools.product_search_tool import build_product_search_tool
+        from app.infrastructure.context import ShoppingContext, ShoppingContextSnapshot
+        from app.infrastructure.eventbus import TradeEventBus
+    
+        repo, embedder, index = indexed
+        bus = TradeEventBus()
+        queue = bus.subscribe("s-cards")
+        tool = build_product_search_tool(
+            CatalogSearchUseCase(repo, embedder=embedder, vector_index=index),
+            bus,
+        )
+        token = ShoppingContext.set(
+            ShoppingContextSnapshot(
+                shopping_session_id="s-cards", buyer_id="b", locale="zh-CN", currency="CNY",
+            ),
+        )
+        try:
+            response = await tool(normalized_query="露营灯", ship_to="US", target_currency="USD")
+        finally:
+            ShoppingContext.reset(token)
+    
+        queue.get_nowait()  # tool.invoke
+        result_event = queue.get_nowait()
+        assert result_event.type == "tool.result"
+        hits = result_event.payload["hits"]
+>       assert hits and hits[0]["product_id"] == "P1008"
+E       AssertionError: assert ([{'product_id': 'P1039', 'title': 'SolarLamp 太阳能营地灯', 'brand': 'SolarLamp', 'category': '户外运动', ...}, {'product_id': '...gory': '户外运动', ...}, {'product_id': 'P2395', 'title': 'Atlas 户外保温杯 395', 'brand': 'Atlas-11', 'category': '户外运动', ...}] and 'P1039' == 'P1008'
+E         
+E         - P1008
+E         + P1039)
+
+tests\test_retrieval.py:299: AssertionError
+------------------------------ Captured log call ------------------------------
+WARNING  app.application.usecases.catalog_search:catalog_search.py:189 rerank 不可用，按向量分排序：Reranker 未配置
+=========================== short test summary info ===========================
+FAILED tests/test_retrieval.py::TestTwoStageRecall::test_embedding_recall_ranks_camping_light_first
+FAILED tests/test_retrieval.py::TestTwoStageRecall::test_tool_event_carries_hits_for_frontend
+2 failed in 11.72s

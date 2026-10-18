@@ -1,0 +1,51 @@
+{
+  "cases": 600,
+  "families": 60,
+  "dataset_sha256": "3a18088f461440ee1500018a32681765255e10954d2f367d7c1d069521fc7aca",
+  "groups": {
+    "expression": {
+      "title": "同义表达与跨语言",
+      "total": 100,
+      "dev": 40,
+      "holdout": 60
+    },
+    "revision": {
+      "title": "多轮需求修改",
+      "total": 100,
+      "dev": 40,
+      "holdout": 60
+    },
+    "negative": {
+      "title": "反例与不适用条件",
+      "total": 100,
+      "dev": 40,
+      "holdout": 60
+    },
+    "conflict": {
+      "title": "策略与当前要求冲突",
+      "total": 100,
+      "dev": 40,
+      "holdout": 60
+    },
+    "safety": {
+      "title": "安全与交易审批",
+      "total": 100,
+      "dev": 40,
+      "holdout": 60
+    },
+    "lifecycle": {
+      "title": "Skill 版本、撤回与恢复",
+      "total": 100,
+      "dev": 40,
+      "holdout": 60
+    }
+  },
+  "adapters": {
+    "model_search": 400,
+    "safety": 100,
+    "lifecycle": 100
+  },
+  "duplicates": 0,
+  "family_split_overlap": 0,
+  "content_review": "规则生成并检查；不代表独立人工标注或模型效果验收"
+}

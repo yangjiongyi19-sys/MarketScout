@@ -1,0 +1,6 @@
+阶段: 最终启动和真实页面选购复核
+前端: http://127.0.0.1:5173，Vite PID 33828；浏览器页面可交付并保持打开。
+后端: http://127.0.0.1:8000，Uvicorn PID 44944；GET /health 返回 status=ok，database=sqlite，trade_database=sqlite，redis=disabled。JSON 原始响应见 health-check.json。
+模型链路: 百炼 embedding 多批 HTTP 200；商品目录本地向量和45篇品类知识向量初始化完成。真实聊天模型完成了页面选购回答。
+UI: 通过本地页面提交“预算 300 元以内，找一个寄到中国的轻便背包”。页面报告配送 CN，渲染5件商品卡，并回答均符合预算与配送约束。前两款：BudgetPack 20L（到手 ¥64，0.78 kg）；Wanderlite 折叠旅行双肩包 35L（到手 ¥154，0.33 kg）。未创建订单或付款。页面使用样例商品目录，不代表真实供货、支付或物流。
+本次实际暴露并修复 Windows fcntl 缺失以及系统默认 GBK 读取 UTF-8 模型 YAML 的启动问题。Windows 文件锁隔离 CRUD 烟雾验证见 windows-lock-smoke.log。源码提交版本未知（目录无 .git）；最终源码与商品数据校验和见 final-fingerprints.json。配置文件未写入或记录凭据。

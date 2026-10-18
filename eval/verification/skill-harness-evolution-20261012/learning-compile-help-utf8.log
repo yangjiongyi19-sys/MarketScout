@@ -1,0 +1,6 @@
+usage: learning.py compile-strategy-skill [-h] --id ID --output OUTPUT
+
+options:
+  -h, --help       show this help message and exit
+  --id ID          strategy_candidates 中的候选 ID
+  --output OUTPUT  新 Skill JSON 文件路径，不能覆盖已有文件

@@ -1,0 +1,16 @@
+时间：2026-10-08 Asia/Shanghai
+检查：根目录 .env 不存在；进程 LLM_API_KEY 未设置（仅检查存在性）。
+环境：Python 3.11.15（项目虚拟环境）、uv 0.11.7、Node.js 24.11.1、npm 11.6.2。
+后端：uv sync --frozen 安装完成；uv pip check 通过。
+前端：首次 npm ci 失败；锁文件内网源连接重置。通过公开源重试中，尚未确认安装完成。
+启动：后端实际尝试失败，ModuleNotFoundError: No module named fcntl。
+端口：8000、5173 未监听。
+数据：未覆盖商品目录；未创建或覆盖 .env；未修改业务源码或锁文件。
+验证：健康检查与真实页面选购未通过/未完成，不代表模型或生产效果可用。
+版本：目录不是 Git checkout，提交版本未知；见 baseline-fingerprints.json。
+
+复核：前端公开源重试成功，安装 257 个包；前端 5173 HTTP 200，进程 33828。后端仍受 fcntl 和模型凭据阻塞，健康检查与选购未完成。
+
+阶段复核（Windows 兼容修复）：文件偏好锁现在按 Windows 使用 msvcrt 字节锁、其他系统使用 fcntl。临时目录中的偏好写入/读取/删除烟雾验证通过，原始修复前启动失败仍保留于 backend-missing-credentials.log。修复后重新启动已越过 fcntl 导入并读取服务入口配置，但因本机根目录 .env 不存在且进程 LLM_API_KEY 未设置，按预期在配置校验阶段停止；日志 backend-missing-credentials-after-windows-fix.log。后端 8000 仍无监听，健康接口未通过。
+模型字段的代码默认值：DashScope 兼容 API 根地址、qwen3-max、text-embedding-v4、1024维；Embedding 复用聊天模型 API 地址与 API Key；未配置精排地址时精排工厂不创建远端精排器。配置或网关实际可调用性尚未在线核验。
+重启后前端 HTTP 200，package-lock.json 与 data/catalog-v1/2/3.jsonl 的校验和未变化。代码修改、修复后指纹见 post-fix-fingerprints.json；隔离目录写入的烟雾验证脚本及结果见 windows-lock-smoke.py 和 windows-lock-smoke.log。

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "task": "静态分析与15天求职学习计划",
+  "git_metadata_present": false,
+  "referenced_harness_document_present": false,
+  "source_file_count": 408,
+  "backend_test_file_count": 108,
+  "frontend_test_file_count": 15,
+  "smoke_case_count": 6,
+  "smoke_repetitions": 1,
+  "smoke_purpose": "每次 Harness 改动的真实模型冒烟，不可发布",
+  "execution": "未运行应用回归、模型调用、页面或效果评测",
+  "assumptions": "Python等基础未知；每日4至6小时是假设；15天窗口2026-10-08至2026-10-22"
+}

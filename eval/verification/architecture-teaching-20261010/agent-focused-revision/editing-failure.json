@@ -1,0 +1,9 @@
+{
+  "evidence_kind": "document_edit_tool_failure",
+  "date": "2026-10-10",
+  "attempt": "在同一补丁内删除并新增同一路径的指南文件",
+  "original_tool_output": "Script error:\napply_patch verification failed: invalid patch: multiple operations target D:\\cProjects\\globex-agent\\docs\\项目架构与实现原理教学.md",
+  "result": "补丁被校验拒绝，未修改目标文件",
+  "follow_up": "拆成依次删除和新增的两个工具调用完成修订；随后静态校验成功",
+  "not_an_application_or_model_test": true
+}

@@ -1,0 +1,56 @@
+{
+  "stage": "agent-focused-final",
+  "verified_at": "2026-10-10T18:05:02.468658+08:00",
+  "validation_kind": "static_document_validation",
+  "passed": true,
+  "documents": [
+    {
+      "document": "docs/项目架构与实现原理教学.md",
+      "sha256": "0f976c451a356b0d4a787704ba226437e6244dd9b4c20852a9978f6179df7c0e",
+      "lines": 862,
+      "characters": 19324,
+      "links": 22
+    },
+    {
+      "document": "docs/组件与源码索引.md",
+      "sha256": "d80de5b9a9b0a602b84916936b96e44639b07f94d3a4ed1bc497e293c315d718",
+      "lines": 276,
+      "characters": 27168,
+      "links": 242
+    },
+    {
+      "document": "docs/改动记录/2026-10-10/README.md",
+      "sha256": "fb4c4fd337fce8a34c4bda371a141bf6698e2cc12dbb0d1cf639e8cd165c9fb3",
+      "lines": 3,
+      "characters": 161,
+      "links": 1
+    },
+    {
+      "document": "docs/改动记录/2026-10-10/项目整体架构教学文档.md",
+      "sha256": "16de07c6aebb6b08d8c9786e6e2821700ae21e8d57bdb88c4331a082b26bf986",
+      "lines": 104,
+      "characters": 5357,
+      "links": 17
+    }
+  ],
+  "component_files_expected": 168,
+  "component_files_covered": 168,
+  "missing_components": [],
+  "root_readme_entries": true,
+  "source_unchanged_since_baseline": true,
+  "app_source_sha256": "a84385f58d3856a9e67150d445dccfb5a82677a374d85a4507ba3aca1be08c90",
+  "errors": [],
+  "not_run": [
+    "业务单测",
+    "前端构建",
+    "真实模型调用",
+    "外部链路",
+    "Harness smoke/release",
+    "生产效果验收"
+  ],
+  "limits": [
+    "检查覆盖、链接、锚点、围栏与源码指纹；不证明所有教学论述正确",
+    "未检查根 README 的既有非本次链接",
+    "Mermaid 语法和图形布局未由本脚本渲染"
+  ]
+}

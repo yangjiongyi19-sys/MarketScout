@@ -1,0 +1,335 @@
+[
+  {
+    "id": "T01",
+    "topic": "Python、异步、调试、软件工程",
+    "jds": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "chapter": 2
+  },
+  {
+    "id": "T02",
+    "topic": "C/C++、PyTorch、关系数据管理基础",
+    "jds": [
+      1,
+      2,
+      4
+    ],
+    "chapter": 2
+  },
+  {
+    "id": "T03",
+    "topic": "机器学习、深度学习、LLM 原理",
+    "jds": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "chapter": 3
+  },
+  {
+    "id": "T04",
+    "topic": "Agent Runtime、Agent Loop",
+    "jds": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "chapter": 4
+  },
+  {
+    "id": "T05",
+    "topic": "Prompt Engineering、结构化输出",
+    "jds": [
+      2,
+      4
+    ],
+    "chapter": 5
+  },
+  {
+    "id": "T06",
+    "topic": "Tool Use、工具开发",
+    "jds": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "chapter": 6
+  },
+  {
+    "id": "T07",
+    "topic": "Skill、Workflow、能力集成",
+    "jds": [
+      2
+    ],
+    "chapter": 7
+  },
+  {
+    "id": "T08",
+    "topic": "MCP",
+    "jds": [
+      2,
+      4
+    ],
+    "chapter": 8
+  },
+  {
+    "id": "T09",
+    "topic": "任务分解、Planning、规划算法",
+    "jds": [
+      2,
+      4,
+      5
+    ],
+    "chapter": 9
+  },
+  {
+    "id": "T10",
+    "topic": "Multi-Agent 架构与协作",
+    "jds": [
+      2,
+      4,
+      5
+    ],
+    "chapter": 10
+  },
+  {
+    "id": "T11",
+    "topic": "长任务编排、状态管理",
+    "jds": [
+      2
+    ],
+    "chapter": 11
+  },
+  {
+    "id": "T12",
+    "topic": "人工确认、权限控制",
+    "jds": [
+      2
+    ],
+    "chapter": 12
+  },
+  {
+    "id": "T13",
+    "topic": "异常恢复、可靠性、鲁棒性",
+    "jds": [
+      2,
+      3,
+      4
+    ],
+    "chapter": 13
+  },
+  {
+    "id": "T14",
+    "topic": "模型加速、性能优化、Caching",
+    "jds": [
+      1,
+      4,
+      5
+    ],
+    "chapter": 14
+  },
+  {
+    "id": "T15",
+    "topic": "知识库、数据处理、知识关联",
+    "jds": [
+      2,
+      4
+    ],
+    "chapter": 15
+  },
+  {
+    "id": "T16",
+    "topic": "Vector/Hybrid/Graph Retrieval、Reranking",
+    "jds": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "chapter": 16
+  },
+  {
+    "id": "T17",
+    "topic": "Agentic Search、问答效果优化、RAG",
+    "jds": [
+      2,
+      4,
+      5
+    ],
+    "chapter": 17
+  },
+  {
+    "id": "T18",
+    "topic": "Memory Representation、Extraction",
+    "jds": [
+      1,
+      2,
+      5
+    ],
+    "chapter": 18
+  },
+  {
+    "id": "T19",
+    "topic": "Memory Retrieval、Update、Personalization",
+    "jds": [
+      1,
+      2,
+      5
+    ],
+    "chapter": 19
+  },
+  {
+    "id": "T20",
+    "topic": "Consolidation、Temporal Memory、Forgetting",
+    "jds": [
+      1
+    ],
+    "chapter": 20
+  },
+  {
+    "id": "T21",
+    "topic": "Memory Storage、Indexing、Caching",
+    "jds": [
+      1
+    ],
+    "chapter": 21
+  },
+  {
+    "id": "T22",
+    "topic": "Memory × AIOps/DevOps/垂直领域",
+    "jds": [
+      1
+    ],
+    "chapter": 21
+  },
+  {
+    "id": "T23",
+    "topic": "Agent Memory Benchmark、研究实验",
+    "jds": [
+      1
+    ],
+    "chapter": 22
+  },
+  {
+    "id": "T24",
+    "topic": "运行观测、Agent 评测与 Benchmark",
+    "jds": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "chapter": 23
+  },
+  {
+    "id": "T25",
+    "topic": "幻觉、任务成功率、鲁棒性优化",
+    "jds": [
+      2,
+      3,
+      5
+    ],
+    "chapter": 23
+  },
+  {
+    "id": "T26",
+    "topic": "指令、偏好、轨迹数据构建与清洗",
+    "jds": [
+      2,
+      3,
+      4
+    ],
+    "chapter": 24
+  },
+  {
+    "id": "T27",
+    "topic": "Verifier、数据质量、噪声/偏差/标注错误",
+    "jds": [
+      2,
+      3
+    ],
+    "chapter": 24
+  },
+  {
+    "id": "T28",
+    "topic": "SFT 与训练前后效果评测",
+    "jds": [
+      2,
+      3,
+      4
+    ],
+    "chapter": 25
+  },
+  {
+    "id": "T29",
+    "topic": "RLHF、偏好优化、DPO",
+    "jds": [
+      2,
+      3
+    ],
+    "chapter": 26
+  },
+  {
+    "id": "T30",
+    "topic": "GRPO、DAPO、GSPO、Agent RL",
+    "jds": [
+      2,
+      3,
+      5
+    ],
+    "chapter": 27
+  },
+  {
+    "id": "T31",
+    "topic": "文本/语音/图像多模态数据流水线",
+    "jds": [
+      3
+    ],
+    "chapter": 28
+  },
+  {
+    "id": "T32",
+    "topic": "机器人对话、规划、决策",
+    "jds": [
+      3
+    ],
+    "chapter": 28
+  },
+  {
+    "id": "T33",
+    "topic": "内容生命周期、标签挖掘、创意 Agent",
+    "jds": [
+      4,
+      5
+    ],
+    "chapter": 29
+  },
+  {
+    "id": "T34",
+    "topic": "论文/开源阅读、复现、实验记录、开发工具",
+    "jds": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "chapter": 29
+  },
+  {
+    "id": "T35",
+    "topic": "系统设计、开放问题转可验证方案",
+    "jds": [
+      2,
+      4,
+      5
+    ],
+    "chapter": 30
+  }
+]

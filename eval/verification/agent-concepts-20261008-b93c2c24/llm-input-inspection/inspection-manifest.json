@@ -1,0 +1,63 @@
+{
+  "kind": "offline_reconstruction_not_raw_http_capture",
+  "session_id": "b93c2c24-354f-4b3c-8ffd-21fb3a54bd93",
+  "created_at": "2026-10-08T20:41:53.683922+08:00",
+  "prompt_version": "p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd",
+  "base_prompt_source": "session-bound frozen prompt registry",
+  "frozen_tool_source_matches_current": {
+    "app\\application\\agents\\main_agent.py": true,
+    "app\\application\\agents\\permissions.py": true,
+    "app\\application\\agents\\search_agent.py": true,
+    "app\\application\\agents\\tool_confirmation.py": true,
+    "app\\application\\agents\\trade_agent.py": true,
+    "app\\application\\memory\\middleware.py": true,
+    "app\\application\\memory\\preference_selector.py": true,
+    "app\\application\\tools\\__init__.py": true,
+    "app\\application\\tools\\capability_tools.py": true,
+    "app\\application\\tools\\category_insight_tool.py": true,
+    "app\\application\\tools\\conversation_fact_lookup.py": true,
+    "app\\application\\tools\\forget_preference_tool.py": true,
+    "app\\application\\tools\\order_tools.py": true,
+    "app\\application\\tools\\product_search_tool.py": true,
+    "app\\application\\tools\\remember_preference_tool.py": true,
+    "app\\application\\tools\\shopping_form_tool.py": true,
+    "app\\application\\tools\\task_dispatch_tool.py": true,
+    "app\\application\\tools\\update_preference_tool.py": true,
+    "app\\application\\tools\\web_search_tool.py": true,
+    "app\\domain\\buyer\\preference.py": true,
+    "app\\infrastructure\\buyer_skills.py": true,
+    "app\\infrastructure\\capability_registry.py": true,
+    "app\\infrastructure\\semantic_memory.py": true
+  },
+  "configuration": {
+    "context_strategy": "layered",
+    "context_prompt_layout": "legacy_system",
+    "context_state_mode": "snapshot",
+    "context_compact_result_rules": false,
+    "prompt_cache_mode": "passthrough",
+    "prompt_cache_policy": "static",
+    "skill_catalog_mode": "legacy"
+  },
+  "model_calls_executed_during_inspection": 0,
+  "business_tools_executed_during_inspection": 0,
+  "sources_sha256": {
+    "app/infrastructure/context_governance.py": "dd16b2632a9b05dd7f88650c57f1042999c339a0cf9b815e35313a3583b440d7",
+    "app/infrastructure/prompt_cache.py": "035dadc6a9b83dacc237f9688d432bee7886dbd21122db58c3e2ef99ea3d030e",
+    "app/infrastructure/llm.py": "65c36b4b4243fa75d3079005ea670835f2a9ec2169ff8b7052d22916a7fb9e81",
+    "app/infrastructure/context_usage.py": "afbcbbee22abf3e0ea56d646df762f7a0376c3477909cfaa3188b7ca2f356a61",
+    "app/application/agents/orchestrator.py": "7e578eed1eb78bb569c8118fd8816368a8faf8e7e8d8ead8606b3f827ebd21b9",
+    ".venv/Lib/site-packages/agentscope/agent/_agent.py": "d758463070c77086eaf2b2c8349a7fbd82a88632b9b59da58ff8345edb60d10f",
+    ".venv/Lib/site-packages/agentscope/formatter/_openai_formatter.py": "959163bf8aee648c2b8bdf1562a1b5c2f93d78b96b7a3aef190695e729980143"
+  },
+  "artifacts_sha256": {
+    "01-reconstructed-input.json": "85bba190406ace4f3c95e33c29fee3f784116aed48302f506941fab4f58a20cd",
+    "02-reconstructed-input.json": "8fd8fb2e841086d4dbf85859ba0980be807457d5b91319db46e77b4225046c94",
+    "03-reconstructed-input.json": "96cbd98eab08fcbde629bd6994ec4a99306b03c0439ec7a64b3b26da0ed74ba4",
+    "first-assistant-answer.txt": "470daa73d22f494e3f068695c573b0216727d613cc0f25684dd3a8a21adcc514",
+    "frozen-base-system-prompt.txt": "72fbe08f3610b3cdcbd00d0c79643e0d7ead81ac397deaf259c55cca5efd32bf",
+    "saved-tool-result.json": "ec0a993619ab3aee22247012120b1265a5452fba09d8d76de0f071384b9d85ed",
+    "working-state.json": "b3be23d0da4fa40cd125fa9b1ceded84f6b1c0b996119136e51b13f9980f65f8",
+    "实际输入核查.md": "bf97faf67aacd3e2ea660b2cee3d1e881f060804fe853002e56242a7dfae7851"
+  },
+  "script_sha256": "ba60379ebe73f8dfda904a4d5601d0e7bf5b7efcb6ff98c36aa18252b3ca7316"
+}

@@ -1,0 +1,14 @@
+{
+  "purpose": "保留宿主执行提示和非正式诊断的限制，不修改已生成的阶段证据",
+  "static_initial": {
+    "command": "python -X utf8 eval/verification/jd-teaching-20261010/verify_guide.py --stage initial",
+    "exit_code": 0,
+    "host_message": "Failed to find real location of C:\\Users\\14810\\miniconda3\\python.exe",
+    "result": "脚本正常完成，JSON与原始检查日志已独立保存；提示不代表模型、业务或外部服务失败"
+  },
+  "earlier_informal_count": {
+    "issue": "早先将数学标记放进 PowerShell 双引号内的临时诊断，被 shell 展开为空串，所得数学块数字无效",
+    "disposition": "未修改指南；不使用该数字作为证据，正式脚本直接读取文件得出24个数学块",
+    "classification": "临时静态诊断失误，不是指南校验或业务失败"
+  }
+}

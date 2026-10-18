@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "source_stable": true,
+  "model": "qwen3.7-flash",
+  "profile": "smoke",
+  "contracts": {
+    "tests": 838,
+    "failures": 6,
+    "errors": 0,
+    "skipped": 0,
+    "exit_code": 1,
+    "missing_test_modules": [],
+    "passed": false,
+    "passed_count": 832,
+    "elapsed_ms": 100983.99999999856
+  },
+  "external_model_requests": null,
+  "failure_count": 0,
+  "matrix_complete": false,
+  "model_request_count": null,
+  "usage_total": null
+}

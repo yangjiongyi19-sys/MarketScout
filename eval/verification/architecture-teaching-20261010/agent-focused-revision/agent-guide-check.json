@@ -1,0 +1,96 @@
+{
+  "validation_kind": "static_agent_guide_and_synthetic_arithmetic",
+  "passed": true,
+  "document": "docs/项目架构与实现原理教学.md",
+  "sha256": "0f976c451a356b0d4a787704ba226437e6244dd9b4c20852a9978f6179df7c0e",
+  "lines": 862,
+  "characters": 19324,
+  "equation_blocks": 22,
+  "checks": {
+    "chapters_22": true,
+    "no_source_code_or_command_examples": true,
+    "only_internal_heading_navigation": true,
+    "math_delimiters_balanced": true,
+    "math_braces_balanced": true,
+    "at_least_15_equation_blocks": true,
+    "model_message_roles_and_io": true,
+    "seven_step_dialogue_and_state": true,
+    "synthetic_examples_explicit": true,
+    "backend_out_of_learning_scope": true
+  },
+  "unbalanced_equation_indices": [],
+  "synthetic_arithmetic": {
+    "cosine_A": {
+      "actual": 0.8,
+      "expected": 0.8,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    "cosine_B": {
+      "actual": 0.6,
+      "expected": 0.6,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    "RRF_A": {
+      "actual": 0.030679156908665108,
+      "expected": 0.03068,
+      "tolerance": 5e-06,
+      "passed": true
+    },
+    "RRF_B": {
+      "actual": 0.03225806451612903,
+      "expected": 0.03226,
+      "tolerance": 5e-06,
+      "passed": true
+    },
+    "NDCG_two_items": {
+      "actual": 0.6309297535714575,
+      "expected": 0.6309,
+      "tolerance": 5e-05,
+      "passed": true
+    },
+    "input_capacity": {
+      "actual": 27648,
+      "expected": 27648,
+      "tolerance": 0,
+      "passed": true
+    },
+    "working_capacity": {
+      "actual": 24000,
+      "expected": 24000,
+      "tolerance": 0,
+      "passed": true
+    },
+    "two_items_merchandise_total": {
+      "actual": 440,
+      "expected": 440,
+      "tolerance": 0,
+      "passed": true
+    },
+    "serial_seconds": {
+      "actual": 10,
+      "expected": 10,
+      "tolerance": 0,
+      "passed": true
+    },
+    "parallel_seconds": {
+      "actual": 7,
+      "expected": 7,
+      "tolerance": 0,
+      "passed": true
+    }
+  },
+  "not_run": [
+    "真实多轮模型链路",
+    "应用回归",
+    "Harness 评测",
+    "页面与数学排版渲染",
+    "生产效果验收"
+  ],
+  "limits": [
+    "公式仅检查围栏与花括号，不等于完整 LaTeX 语法验证",
+    "算例为合成数据，不证明检索或 Agent 运行效果",
+    "技术机制由本次人工核对支持"
+  ]
+}

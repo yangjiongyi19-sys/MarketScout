@@ -1,0 +1,949 @@
+INFO:     Started server process [19060]
+INFO:     Waiting for application startup.
+2026-10-08 19:14:07,938 INFO app.composition request=- task=- session=- trace=- prompt=- 队列未启用，意图在当前进程内直接执行
+2026-10-08 19:14:07,957 INFO app.composition request=- task=- session=- trace=- prompt=- 持久化形态：sqlite
+2026-10-08 19:14:09,279 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:09,470 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 10，待完成 3690
+2026-10-08 19:14:09,837 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:10,005 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 20，待完成 3680
+2026-10-08 19:14:10,377 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:10,535 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 30，待完成 3670
+2026-10-08 19:14:10,942 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:11,107 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 40，待完成 3660
+2026-10-08 19:14:11,422 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:11,594 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 50，待完成 3650
+2026-10-08 19:14:11,903 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:12,071 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 60，待完成 3640
+2026-10-08 19:14:12,449 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:12,611 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 70，待完成 3630
+2026-10-08 19:14:12,951 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:13,106 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 80，待完成 3620
+2026-10-08 19:14:13,676 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:13,837 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 90，待完成 3610
+2026-10-08 19:14:14,184 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:14,327 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 100，待完成 3600
+2026-10-08 19:14:14,728 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:14,863 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 110，待完成 3590
+2026-10-08 19:14:15,218 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:15,363 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 120，待完成 3580
+2026-10-08 19:14:15,664 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:15,817 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 130，待完成 3570
+2026-10-08 19:14:16,176 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:16,314 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 140，待完成 3560
+2026-10-08 19:14:16,655 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:16,804 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 150，待完成 3550
+2026-10-08 19:14:17,105 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:17,253 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 160，待完成 3540
+2026-10-08 19:14:17,577 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:17,744 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 170，待完成 3530
+2026-10-08 19:14:18,139 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:18,286 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 180，待完成 3520
+2026-10-08 19:14:18,705 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:18,872 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 190，待完成 3510
+2026-10-08 19:14:19,232 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:19,382 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 200，待完成 3500
+2026-10-08 19:14:19,733 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:19,858 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 210，待完成 3490
+2026-10-08 19:14:20,853 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:21,008 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 220，待完成 3480
+2026-10-08 19:14:21,436 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:21,549 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 230，待完成 3470
+2026-10-08 19:14:21,924 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:22,071 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 240，待完成 3460
+2026-10-08 19:14:22,444 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:22,580 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 250，待完成 3450
+2026-10-08 19:14:22,876 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:23,022 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 260，待完成 3440
+2026-10-08 19:14:23,473 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:23,614 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 270，待完成 3430
+2026-10-08 19:14:23,945 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:24,081 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 280，待完成 3420
+2026-10-08 19:14:24,410 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:24,577 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 290，待完成 3410
+2026-10-08 19:14:24,879 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:25,054 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 300，待完成 3400
+2026-10-08 19:14:25,420 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:25,556 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 310，待完成 3390
+2026-10-08 19:14:26,066 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:26,243 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 320，待完成 3380
+2026-10-08 19:14:26,569 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:26,727 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 330，待完成 3370
+2026-10-08 19:14:27,058 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:27,213 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 340，待完成 3360
+2026-10-08 19:14:27,590 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:27,743 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 350，待完成 3350
+2026-10-08 19:14:28,102 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:28,266 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 360，待完成 3340
+2026-10-08 19:14:28,605 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:28,769 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 370，待完成 3330
+2026-10-08 19:14:29,106 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:29,276 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 380，待完成 3320
+2026-10-08 19:14:29,767 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:29,913 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 390，待完成 3310
+2026-10-08 19:14:30,278 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:30,449 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 400，待完成 3300
+2026-10-08 19:14:30,760 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:30,919 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 410，待完成 3290
+2026-10-08 19:14:31,216 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:31,374 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 420，待完成 3280
+2026-10-08 19:14:31,742 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:31,903 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 430，待完成 3270
+2026-10-08 19:14:32,262 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:32,403 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 440，待完成 3260
+2026-10-08 19:14:32,770 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:32,923 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 450，待完成 3250
+2026-10-08 19:14:33,249 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:33,381 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 460，待完成 3240
+2026-10-08 19:14:33,742 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:33,892 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 470，待完成 3230
+2026-10-08 19:14:34,267 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:34,407 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 480，待完成 3220
+2026-10-08 19:14:34,852 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:34,996 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 490，待完成 3210
+2026-10-08 19:14:35,340 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:35,492 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 500，待完成 3200
+2026-10-08 19:14:35,883 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:36,034 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 510，待完成 3190
+2026-10-08 19:14:36,420 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:36,577 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 520，待完成 3180
+2026-10-08 19:14:37,072 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:37,234 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 530，待完成 3170
+2026-10-08 19:14:37,659 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:37,812 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 540，待完成 3160
+2026-10-08 19:14:38,256 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:38,408 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 550，待完成 3150
+2026-10-08 19:14:39,133 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:39,298 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 560，待完成 3140
+2026-10-08 19:14:39,775 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:39,943 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 570，待完成 3130
+2026-10-08 19:14:40,363 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:40,532 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 580，待完成 3120
+2026-10-08 19:14:40,876 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:41,035 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 590，待完成 3110
+2026-10-08 19:14:41,411 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:41,577 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 600，待完成 3100
+2026-10-08 19:14:41,957 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:42,112 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 610，待完成 3090
+2026-10-08 19:14:42,409 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:42,563 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 620，待完成 3080
+2026-10-08 19:14:42,923 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:43,082 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 630，待完成 3070
+2026-10-08 19:14:43,469 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:43,639 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 640，待完成 3060
+2026-10-08 19:14:44,244 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:44,385 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 650，待完成 3050
+2026-10-08 19:14:44,753 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:44,920 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 660，待完成 3040
+2026-10-08 19:14:45,328 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:45,475 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 670，待完成 3030
+2026-10-08 19:14:45,869 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:46,013 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 680，待完成 3020
+2026-10-08 19:14:46,404 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:46,580 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 690，待完成 3010
+2026-10-08 19:14:47,375 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:47,532 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 700，待完成 3000
+2026-10-08 19:14:47,843 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:47,984 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 710，待完成 2990
+2026-10-08 19:14:48,348 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:48,503 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 720，待完成 2980
+2026-10-08 19:14:48,873 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:49,035 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 730，待完成 2970
+2026-10-08 19:14:49,902 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:50,081 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 740，待完成 2960
+2026-10-08 19:14:50,935 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:51,094 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 750，待完成 2950
+2026-10-08 19:14:51,516 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:51,670 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 760，待完成 2940
+2026-10-08 19:14:52,053 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:52,211 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 770，待完成 2930
+2026-10-08 19:14:52,526 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:52,686 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 780，待完成 2920
+2026-10-08 19:14:53,061 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:53,208 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 790，待完成 2910
+2026-10-08 19:14:53,658 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:53,826 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 800，待完成 2900
+2026-10-08 19:14:54,139 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:54,288 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 810，待完成 2890
+2026-10-08 19:14:54,675 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:54,835 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 820，待完成 2880
+2026-10-08 19:14:55,148 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:55,279 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 830，待完成 2870
+2026-10-08 19:14:55,676 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:55,829 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 840，待完成 2860
+2026-10-08 19:14:56,197 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:56,328 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 850，待完成 2850
+2026-10-08 19:14:56,645 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:56,785 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 860，待完成 2840
+2026-10-08 19:14:57,135 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:57,294 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 870，待完成 2830
+2026-10-08 19:14:57,666 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:57,805 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 880，待完成 2820
+2026-10-08 19:14:58,134 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:58,351 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 890，待完成 2810
+2026-10-08 19:14:58,638 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:58,838 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 900，待完成 2800
+2026-10-08 19:14:59,138 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:59,300 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 910，待完成 2790
+2026-10-08 19:14:59,768 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:14:59,938 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 920，待完成 2780
+2026-10-08 19:15:00,284 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:00,413 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 930，待完成 2770
+2026-10-08 19:15:00,779 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:00,943 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 940，待完成 2760
+2026-10-08 19:15:01,257 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:01,414 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 950，待完成 2750
+2026-10-08 19:15:01,808 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:01,981 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 960，待完成 2740
+2026-10-08 19:15:02,339 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:02,506 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 970，待完成 2730
+2026-10-08 19:15:02,970 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:03,135 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 980，待完成 2720
+2026-10-08 19:15:03,491 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:03,659 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 990，待完成 2710
+2026-10-08 19:15:04,077 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:04,248 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1000，待完成 2700
+2026-10-08 19:15:04,635 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:04,797 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1010，待完成 2690
+2026-10-08 19:15:05,119 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:05,277 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1020，待完成 2680
+2026-10-08 19:15:05,638 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:05,811 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1030，待完成 2670
+2026-10-08 19:15:06,097 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:06,251 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1040，待完成 2660
+2026-10-08 19:15:06,685 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:06,804 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1050，待完成 2650
+2026-10-08 19:15:07,158 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:07,298 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1060，待完成 2640
+2026-10-08 19:15:07,587 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:07,743 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1070，待完成 2630
+2026-10-08 19:15:08,423 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:08,570 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1080，待完成 2620
+2026-10-08 19:15:08,988 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:09,149 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1090，待完成 2610
+2026-10-08 19:15:09,438 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:09,602 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1100，待完成 2600
+2026-10-08 19:15:10,143 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:10,317 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1110，待完成 2590
+2026-10-08 19:15:10,667 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:10,837 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1120，待完成 2580
+2026-10-08 19:15:11,220 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:11,366 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1130，待完成 2570
+2026-10-08 19:15:11,744 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:11,902 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1140，待完成 2560
+2026-10-08 19:15:12,218 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:12,384 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1150，待完成 2550
+2026-10-08 19:15:12,841 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:13,000 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1160，待完成 2540
+2026-10-08 19:15:13,342 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:13,524 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1170，待完成 2530
+2026-10-08 19:15:13,891 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:14,050 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1180，待完成 2520
+2026-10-08 19:15:14,446 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:14,605 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1190，待完成 2510
+2026-10-08 19:15:14,981 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:15,139 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1200，待完成 2500
+2026-10-08 19:15:15,488 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:15,625 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1210，待完成 2490
+2026-10-08 19:15:16,017 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:16,170 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1220，待完成 2480
+2026-10-08 19:15:16,526 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:16,637 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1230，待完成 2470
+2026-10-08 19:15:17,105 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:17,223 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1240，待完成 2460
+2026-10-08 19:15:17,671 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:17,815 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1250，待完成 2450
+2026-10-08 19:15:18,133 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:18,276 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1260，待完成 2440
+2026-10-08 19:15:18,637 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:18,797 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1270，待完成 2430
+2026-10-08 19:15:19,174 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:19,321 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1280，待完成 2420
+2026-10-08 19:15:19,626 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:19,752 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1290，待完成 2410
+2026-10-08 19:15:20,086 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:20,242 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1300，待完成 2400
+2026-10-08 19:15:20,652 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:20,808 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1310，待完成 2390
+2026-10-08 19:15:21,134 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:21,280 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1320，待完成 2380
+2026-10-08 19:15:21,607 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:21,757 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1330，待完成 2370
+2026-10-08 19:15:22,103 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:22,243 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1340，待完成 2360
+2026-10-08 19:15:22,590 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:22,775 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1350，待完成 2350
+2026-10-08 19:15:23,106 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:23,262 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1360，待完成 2340
+2026-10-08 19:15:23,757 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:23,925 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1370，待完成 2330
+2026-10-08 19:15:24,312 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:24,436 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1380，待完成 2320
+2026-10-08 19:15:24,768 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:24,946 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1390，待完成 2310
+2026-10-08 19:15:25,230 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:25,394 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1400，待完成 2300
+2026-10-08 19:15:26,050 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:26,200 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1410，待完成 2290
+2026-10-08 19:15:26,533 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:26,685 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1420，待完成 2280
+2026-10-08 19:15:27,022 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:27,168 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1430，待完成 2270
+2026-10-08 19:15:27,659 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:27,805 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1440，待完成 2260
+2026-10-08 19:15:28,137 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:28,249 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1450，待完成 2250
+2026-10-08 19:15:28,952 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:29,115 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1460，待完成 2240
+2026-10-08 19:15:29,461 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:29,591 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1470，待完成 2230
+2026-10-08 19:15:30,211 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:30,368 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1480，待完成 2220
+2026-10-08 19:15:30,693 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:30,820 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1490，待完成 2210
+2026-10-08 19:15:31,135 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:31,254 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1500，待完成 2200
+2026-10-08 19:15:31,687 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:31,844 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1510，待完成 2190
+2026-10-08 19:15:32,138 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:32,302 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1520，待完成 2180
+2026-10-08 19:15:32,654 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:32,839 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1530，待完成 2170
+2026-10-08 19:15:33,158 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:33,324 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1540，待完成 2160
+2026-10-08 19:15:33,634 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:33,759 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1550，待完成 2150
+2026-10-08 19:15:34,113 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:34,239 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1560，待完成 2140
+2026-10-08 19:15:34,541 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:34,709 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1570，待完成 2130
+2026-10-08 19:15:35,164 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:35,337 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1580，待完成 2120
+2026-10-08 19:15:35,681 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:35,838 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1590，待完成 2110
+2026-10-08 19:15:36,237 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:36,369 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1600，待完成 2100
+2026-10-08 19:15:36,732 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:36,888 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1610，待完成 2090
+2026-10-08 19:15:37,226 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:37,394 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1620，待完成 2080
+2026-10-08 19:15:37,872 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:38,051 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1630，待完成 2070
+2026-10-08 19:15:38,401 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:38,565 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1640，待完成 2060
+2026-10-08 19:15:39,266 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:39,426 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1650，待完成 2050
+2026-10-08 19:15:40,000 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:40,167 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1660，待完成 2040
+2026-10-08 19:15:40,541 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:40,713 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1670，待完成 2030
+2026-10-08 19:15:41,096 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:41,267 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1680，待完成 2020
+2026-10-08 19:15:41,654 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:41,803 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1690，待完成 2010
+2026-10-08 19:15:42,216 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:42,366 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1700，待完成 2000
+2026-10-08 19:15:43,233 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:43,402 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1710，待完成 1990
+2026-10-08 19:15:43,771 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:43,931 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1720，待完成 1980
+2026-10-08 19:15:44,243 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:44,410 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1730，待完成 1970
+2026-10-08 19:15:44,852 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:44,998 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1740，待完成 1960
+2026-10-08 19:15:45,466 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:45,622 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1750，待完成 1950
+2026-10-08 19:15:46,010 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:46,116 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1760，待完成 1940
+2026-10-08 19:15:46,456 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:46,637 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1770，待完成 1930
+2026-10-08 19:15:47,004 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:47,158 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1780，待完成 1920
+2026-10-08 19:15:47,501 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:47,677 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1790，待完成 1910
+2026-10-08 19:15:48,031 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:48,262 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1800，待完成 1900
+2026-10-08 19:15:48,687 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:48,924 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1810，待完成 1890
+2026-10-08 19:15:49,438 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:49,577 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1820，待完成 1880
+2026-10-08 19:15:50,417 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:50,579 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1830，待完成 1870
+2026-10-08 19:15:50,935 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:51,133 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1840，待完成 1860
+2026-10-08 19:15:51,551 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:51,734 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1850，待完成 1850
+2026-10-08 19:15:52,070 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:52,232 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1860，待完成 1840
+2026-10-08 19:15:52,588 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:52,754 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1870，待完成 1830
+2026-10-08 19:15:53,404 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:53,567 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1880，待完成 1820
+2026-10-08 19:15:53,904 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:54,061 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1890，待完成 1810
+2026-10-08 19:15:54,346 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:54,511 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1900，待完成 1800
+2026-10-08 19:15:54,852 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:55,013 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1910，待完成 1790
+2026-10-08 19:15:55,305 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:55,474 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1920，待完成 1780
+2026-10-08 19:15:55,856 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:56,028 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1930，待完成 1770
+2026-10-08 19:15:56,428 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:56,560 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1940，待完成 1760
+2026-10-08 19:15:57,283 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:57,449 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1950，待完成 1750
+2026-10-08 19:15:57,859 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:58,028 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1960，待完成 1740
+2026-10-08 19:15:58,389 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:58,545 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1970，待完成 1730
+2026-10-08 19:15:58,906 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:59,053 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1980，待完成 1720
+2026-10-08 19:15:59,407 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:15:59,574 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 1990，待完成 1710
+2026-10-08 19:16:00,051 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:00,189 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2000，待完成 1700
+2026-10-08 19:16:00,525 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:00,640 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2010，待完成 1690
+2026-10-08 19:16:00,988 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:01,157 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2020，待完成 1680
+2026-10-08 19:16:01,565 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:01,719 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2030，待完成 1670
+2026-10-08 19:16:02,061 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:02,217 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2040，待完成 1660
+2026-10-08 19:16:02,539 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:02,715 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2050，待完成 1650
+2026-10-08 19:16:03,108 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:03,291 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2060，待完成 1640
+2026-10-08 19:16:03,621 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:03,789 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2070，待完成 1630
+2026-10-08 19:16:04,209 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:04,337 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2080，待完成 1620
+2026-10-08 19:16:04,674 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:04,801 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2090，待完成 1610
+2026-10-08 19:16:05,132 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:05,306 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2100，待完成 1600
+2026-10-08 19:16:05,647 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:05,798 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2110，待完成 1590
+2026-10-08 19:16:06,267 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:06,395 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2120，待完成 1580
+2026-10-08 19:16:06,795 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:06,954 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2130，待完成 1570
+2026-10-08 19:16:07,289 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:07,446 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2140，待完成 1560
+2026-10-08 19:16:07,750 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:07,922 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2150，待完成 1550
+2026-10-08 19:16:08,278 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:08,415 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2160，待完成 1540
+2026-10-08 19:16:08,790 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:08,946 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2170，待完成 1530
+2026-10-08 19:16:09,327 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:09,484 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2180，待完成 1520
+2026-10-08 19:16:09,807 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:09,961 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2190，待完成 1510
+2026-10-08 19:16:10,338 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:10,497 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2200，待完成 1500
+2026-10-08 19:16:11,040 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:11,191 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2210，待完成 1490
+2026-10-08 19:16:11,636 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:11,781 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2220，待完成 1480
+2026-10-08 19:16:12,140 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:12,250 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2230，待完成 1470
+2026-10-08 19:16:12,550 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:12,695 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2240，待完成 1460
+2026-10-08 19:16:13,000 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:13,139 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2250，待完成 1450
+2026-10-08 19:16:13,513 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:13,630 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2260，待完成 1440
+2026-10-08 19:16:14,110 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:14,253 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2270，待完成 1430
+2026-10-08 19:16:14,653 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:14,761 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2280，待完成 1420
+2026-10-08 19:16:15,061 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:15,231 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2290，待完成 1410
+2026-10-08 19:16:15,574 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:15,714 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2300，待完成 1400
+2026-10-08 19:16:16,051 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:16,196 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2310，待完成 1390
+2026-10-08 19:16:16,584 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:16,757 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2320，待完成 1380
+2026-10-08 19:16:17,107 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:17,270 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2330，待完成 1370
+2026-10-08 19:16:17,619 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:17,765 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2340，待完成 1360
+2026-10-08 19:16:18,094 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:18,246 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2350，待完成 1350
+2026-10-08 19:16:18,544 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:18,705 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2360，待完成 1340
+2026-10-08 19:16:19,159 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:19,319 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2370，待完成 1330
+2026-10-08 19:16:19,615 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:19,749 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2380，待完成 1320
+2026-10-08 19:16:20,097 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:20,258 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2390，待完成 1310
+2026-10-08 19:16:20,579 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:20,739 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2400，待完成 1300
+2026-10-08 19:16:21,462 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:21,577 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2410，待完成 1290
+2026-10-08 19:16:21,906 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:22,056 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2420，待完成 1280
+2026-10-08 19:16:22,434 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:22,597 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2430，待完成 1270
+2026-10-08 19:16:22,973 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:23,131 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2440，待完成 1260
+2026-10-08 19:16:23,491 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:23,662 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2450，待完成 1250
+2026-10-08 19:16:23,984 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:24,168 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2460，待完成 1240
+2026-10-08 19:16:24,892 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:25,024 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2470，待完成 1230
+2026-10-08 19:16:25,373 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:25,523 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2480，待完成 1220
+2026-10-08 19:16:25,915 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:26,054 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2490，待完成 1210
+2026-10-08 19:16:26,437 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:26,598 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2500，待完成 1200
+2026-10-08 19:16:26,986 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:27,145 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2510，待完成 1190
+2026-10-08 19:16:27,481 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:27,619 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2520，待完成 1180
+2026-10-08 19:16:27,944 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:28,098 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2530，待完成 1170
+2026-10-08 19:16:28,432 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:28,611 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2540，待完成 1160
+2026-10-08 19:16:28,988 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:29,158 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2550，待完成 1150
+2026-10-08 19:16:29,618 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:29,748 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2560，待完成 1140
+2026-10-08 19:16:30,089 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:30,246 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2570，待完成 1130
+2026-10-08 19:16:30,751 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:30,912 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2580，待完成 1120
+2026-10-08 19:16:31,326 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:31,480 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2590，待完成 1110
+2026-10-08 19:16:31,769 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:31,927 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2600，待完成 1100
+2026-10-08 19:16:32,266 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:32,426 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2610，待完成 1090
+2026-10-08 19:16:32,797 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:32,956 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2620，待完成 1080
+2026-10-08 19:16:33,296 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:33,433 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2630，待完成 1070
+2026-10-08 19:16:33,741 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:33,903 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2640，待完成 1060
+2026-10-08 19:16:34,301 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:34,459 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2650，待完成 1050
+2026-10-08 19:16:34,813 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:34,974 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2660，待完成 1040
+2026-10-08 19:16:35,364 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:35,514 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2670，待完成 1030
+2026-10-08 19:16:35,831 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:35,961 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2680，待完成 1020
+2026-10-08 19:16:36,391 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:36,556 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2690，待完成 1010
+2026-10-08 19:16:36,901 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:37,040 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2700，待完成 1000
+2026-10-08 19:16:37,367 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:37,517 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2710，待完成 990
+2026-10-08 19:16:37,875 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:38,029 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2720，待完成 980
+2026-10-08 19:16:38,641 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:38,810 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2730，待完成 970
+2026-10-08 19:16:39,126 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:39,293 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2740，待完成 960
+2026-10-08 19:16:39,883 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:40,042 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2750，待完成 950
+2026-10-08 19:16:40,661 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:40,829 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2760，待完成 940
+2026-10-08 19:16:41,341 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:41,519 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2770，待完成 930
+2026-10-08 19:16:42,197 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:42,334 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2780，待完成 920
+2026-10-08 19:16:42,655 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:42,801 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2790，待完成 910
+2026-10-08 19:16:43,173 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:43,348 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2800，待完成 900
+2026-10-08 19:16:43,955 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:44,111 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2810，待完成 890
+2026-10-08 19:16:44,449 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:44,585 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2820，待完成 880
+2026-10-08 19:16:44,916 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:45,074 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2830，待完成 870
+2026-10-08 19:16:45,460 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:45,620 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2840，待完成 860
+2026-10-08 19:16:46,006 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:46,175 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2850，待完成 850
+2026-10-08 19:16:46,545 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:46,683 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2860，待完成 840
+2026-10-08 19:16:47,052 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:47,193 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2870，待完成 830
+2026-10-08 19:16:47,506 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:47,666 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2880，待完成 820
+2026-10-08 19:16:47,974 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:48,123 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2890，待完成 810
+2026-10-08 19:16:48,494 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:48,639 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2900，待完成 800
+2026-10-08 19:16:48,989 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:49,144 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2910，待完成 790
+2026-10-08 19:16:49,489 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:49,651 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2920，待完成 780
+2026-10-08 19:16:49,949 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:50,104 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2930，待完成 770
+2026-10-08 19:16:50,440 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:50,578 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2940，待完成 760
+2026-10-08 19:16:50,941 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:51,080 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2950，待完成 750
+2026-10-08 19:16:51,454 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:51,612 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2960，待完成 740
+2026-10-08 19:16:52,267 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:52,424 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2970，待完成 730
+2026-10-08 19:16:52,774 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:52,928 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2980，待完成 720
+2026-10-08 19:16:53,292 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:53,457 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 2990，待完成 710
+2026-10-08 19:16:53,804 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:53,965 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3000，待完成 700
+2026-10-08 19:16:54,281 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:54,440 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3010，待完成 690
+2026-10-08 19:16:54,756 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:54,917 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3020，待完成 680
+2026-10-08 19:16:55,304 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:55,466 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3030，待完成 670
+2026-10-08 19:16:55,782 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:55,933 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3040，待完成 660
+2026-10-08 19:16:56,274 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:56,441 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3050，待完成 650
+2026-10-08 19:16:56,842 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:56,968 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3060，待完成 640
+2026-10-08 19:16:57,307 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:57,475 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3070，待完成 630
+2026-10-08 19:16:57,876 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:58,045 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3080，待完成 620
+2026-10-08 19:16:58,569 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:58,711 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3090，待完成 610
+2026-10-08 19:16:59,023 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:59,174 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3100，待完成 600
+2026-10-08 19:16:59,537 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:16:59,660 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3110，待完成 590
+2026-10-08 19:17:00,032 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:00,183 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3120，待完成 580
+2026-10-08 19:17:00,495 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:00,612 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3130，待完成 570
+2026-10-08 19:17:01,021 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:01,142 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3140，待完成 560
+2026-10-08 19:17:01,460 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:01,605 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3150，待完成 550
+2026-10-08 19:17:01,905 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:02,022 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3160，待完成 540
+2026-10-08 19:17:02,374 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:02,559 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3170，待完成 530
+2026-10-08 19:17:02,932 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:03,097 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3180，待完成 520
+2026-10-08 19:17:03,447 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:03,618 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3190，待完成 510
+2026-10-08 19:17:03,946 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:04,105 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3200，待完成 500
+2026-10-08 19:17:04,463 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:04,611 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3210，待完成 490
+2026-10-08 19:17:04,930 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:05,095 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3220，待完成 480
+2026-10-08 19:17:05,392 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:05,542 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3230，待完成 470
+2026-10-08 19:17:05,869 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:06,014 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3240，待完成 460
+2026-10-08 19:17:06,928 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:07,070 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3250，待完成 450
+2026-10-08 19:17:07,604 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:07,769 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3260，待完成 440
+2026-10-08 19:17:08,121 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:08,271 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3270，待完成 430
+2026-10-08 19:17:08,661 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:08,791 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3280，待完成 420
+2026-10-08 19:17:09,317 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:09,430 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3290，待完成 410
+2026-10-08 19:17:09,777 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:09,941 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3300，待完成 400
+2026-10-08 19:17:10,338 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:10,510 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3310，待完成 390
+2026-10-08 19:17:10,844 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:11,002 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3320，待完成 380
+2026-10-08 19:17:11,412 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:11,580 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3330，待完成 370
+2026-10-08 19:17:11,983 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:12,129 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3340，待完成 360
+2026-10-08 19:17:12,573 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:12,737 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3350，待完成 350
+2026-10-08 19:17:13,090 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:13,252 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3360，待完成 340
+2026-10-08 19:17:13,561 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:13,723 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3370，待完成 330
+2026-10-08 19:17:14,043 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:14,208 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3380，待完成 320
+2026-10-08 19:17:14,588 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:14,722 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3390，待完成 310
+2026-10-08 19:17:15,099 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:15,274 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3400，待完成 300
+2026-10-08 19:17:15,584 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:15,750 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3410，待完成 290
+2026-10-08 19:17:16,099 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:16,264 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3420，待完成 280
+2026-10-08 19:17:16,816 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:16,961 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3430，待完成 270
+2026-10-08 19:17:17,495 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:17,654 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3440，待完成 260
+2026-10-08 19:17:18,071 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:18,230 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3450，待完成 250
+2026-10-08 19:17:18,569 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:18,739 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3460，待完成 240
+2026-10-08 19:17:19,022 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:19,170 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3470，待完成 230
+2026-10-08 19:17:19,549 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:19,715 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3480，待完成 220
+2026-10-08 19:17:20,043 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:20,209 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3490，待完成 210
+2026-10-08 19:17:20,630 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:20,798 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3500，待完成 200
+2026-10-08 19:17:21,158 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:21,283 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3510，待完成 190
+2026-10-08 19:17:21,693 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:21,853 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3520，待完成 180
+2026-10-08 19:17:22,186 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:22,340 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3530，待完成 170
+2026-10-08 19:17:22,766 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:22,937 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3540，待完成 160
+2026-10-08 19:17:23,417 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:23,549 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3550，待完成 150
+2026-10-08 19:17:23,879 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:24,015 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3560，待完成 140
+2026-10-08 19:17:24,326 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:24,496 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3570，待完成 130
+2026-10-08 19:17:24,861 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:25,050 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3580，待完成 120
+2026-10-08 19:17:25,480 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:25,616 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3590，待完成 110
+2026-10-08 19:17:26,009 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:26,178 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3600，待完成 100
+2026-10-08 19:17:26,478 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:26,637 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3610，待完成 90
+2026-10-08 19:17:26,975 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:27,148 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3620，待完成 80
+2026-10-08 19:17:27,526 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:27,691 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3630，待完成 70
+2026-10-08 19:17:28,037 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:28,203 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3640，待完成 60
+2026-10-08 19:17:28,483 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:28,639 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3650，待完成 50
+2026-10-08 19:17:29,034 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:29,180 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3660，待完成 40
+2026-10-08 19:17:29,575 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:29,747 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3670，待完成 30
+2026-10-08 19:17:30,229 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:30,408 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3680，待完成 20
+2026-10-08 19:17:30,803 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:30,979 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3690，待完成 10
+2026-10-08 19:17:31,667 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:31,836 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量同步：复用 0，写入 3700，待完成 0
+2026-10-08 19:17:31,836 INFO app.infrastructure.vector.index_bootstrap request=- task=- session=- trace=- prompt=- 商品向量就绪：共 3700，复用 0，新推理 3700
+2026-10-08 19:17:31,884 | WARNING | _approx_token_chunker:__init__:109 - Passing ``chunk_size``, ``overlap`` to ApproxTokenChunker directly is deprecated, use ApproxTokenChunker.Parameters instead.
+2026-10-08 19:17:33,849 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:34,080 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:34,337 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:34,613 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:34,884 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:35,174 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:35,519 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:35,801 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:36,246 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:36,518 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:36,778 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:37,089 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:37,373 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:37,638 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:38,064 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:38,575 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:38,838 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:39,138 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:39,553 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:39,914 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:40,166 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:40,433 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:40,748 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:41,143 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:41,399 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:41,694 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:42,014 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:42,278 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:42,519 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:42,789 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:43,047 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:43,503 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:43,963 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:44,253 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:44,544 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:44,843 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:45,174 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:45,471 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:45,909 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:46,154 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:46,407 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:46,710 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:46,992 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:47,203 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:47,447 INFO httpx request=- task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:17:47,474 INFO app.infrastructure.rag.category_knowledge request=- task=- session=- trace=- prompt=- 品类知识库就绪：写入或更新 45 篇，累计 45 篇
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-10-08 19:17:49,089 INFO app.infrastructure.tracing request=b3902742e42449b99398f98ea3a3b51f task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,009 INFO app.infrastructure.tracing request=2abd3e5e5c9c4be6997ca935edd64c0a task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,026 INFO app.infrastructure.tracing request=f2d75f7cb7d545759ecfa0470b48a42a task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,054 INFO app.infrastructure.tracing request=48f603d124f8415d9dc65f727d9bea2f task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,060 INFO app.infrastructure.tracing request=fe810095f49b42f99a82db550be1e588 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,070 INFO app.infrastructure.tracing request=6506827ce5e646f599a21a9bbad899fc task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,096 INFO app.infrastructure.tracing request=cd06f0edc17d4e2aa8e055159a03e901 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,112 INFO app.infrastructure.tracing request=de98b4991d6d4295b7548019d2e2c27a task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,113 INFO app.infrastructure.tracing request=2631e237546b44c0a3e18752eae80529 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,118 INFO app.infrastructure.tracing request=baad24f463944369a3205757e6a77def task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,122 INFO app.infrastructure.tracing request=fe8ebdd21dd143cfb5453877d5dea38e task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,129 INFO app.infrastructure.tracing request=3ff7f7498eb644948bf6e16171c190cc task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,134 INFO app.infrastructure.tracing request=ec917a8e7920422890c58f65edb95b14 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,196 INFO app.infrastructure.tracing request=11fecf7f7859453ea39f3a0514217531 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,199 INFO app.infrastructure.tracing request=5517af39fa07456abc6d7959e05b4c0a task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,246 INFO app.infrastructure.tracing request=d294c251435b4ec6ab1d83b9e269f131 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:17:57,279 INFO app.infrastructure.tracing request=a3154a434b1b43b685faf3b0fbc63bb5 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:18:05,639 INFO app.infrastructure.tracing request=248301153d814b6ba315270fc553159a task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:18:07,192 INFO httpx request=3cc3ed59b1744d32a99f5c4dcb9b7a17 task=- session=sha256:65f5c2cdc9f51d7ed7bf59a0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 19:18:10,161 INFO httpx request=3cc3ed59b1744d32a99f5c4dcb9b7a17 task=- session=sha256:65f5c2cdc9f51d7ed7bf59a0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 19:18:10,241 WARNING app.application.usecases.catalog_search request=3cc3ed59b1744d32a99f5c4dcb9b7a17 task=- session=sha256:65f5c2cdc9f51d7ed7bf59a0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd rerank 不可用，按向量分排序：Reranker 未配置
+2026-10-08 19:18:11,573 INFO httpx request=3cc3ed59b1744d32a99f5c4dcb9b7a17 task=- session=sha256:65f5c2cdc9f51d7ed7bf59a0 trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 19:18:22,392 INFO app.infrastructure.tracing request=3cc3ed59b1744d32a99f5c4dcb9b7a17 task=- session=- trace=- prompt=- HTTP 请求结束 method=POST status=200
+2026-10-08 19:18:22,560 INFO app.infrastructure.tracing request=68af00bfae5c43eaab11e667de9494f7 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:18:22,569 INFO app.infrastructure.tracing request=7be2ff629576436598a956e234b666c0 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:19:00,204 INFO app.infrastructure.tracing request=fa0a45ac45a64de2a3ca79765f61c54f task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:19:30,163 INFO app.infrastructure.tracing request=50e98311429b4dcfbee2203987012c11 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:19:30,176 INFO app.infrastructure.tracing request=1690c2deb2444d23aaf9da16168c0126 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:19:31,628 INFO app.infrastructure.tracing request=8a6f69ace7eb41219df17875af5bf580 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:19:31,660 INFO app.infrastructure.tracing request=609bbfd1e5444627b312a53b5e58d3d9 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:19:32,931 INFO app.infrastructure.tracing request=5d3f8c4c4860485aab9260fb9768b135 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:19:32,941 INFO app.infrastructure.tracing request=b4c95fa3d8f44828a6cf1c2ccc7560d6 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:19:38,466 INFO app.infrastructure.tracing request=6854c5b2e4284d09acda44f244c81f83 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:19:38,499 INFO app.infrastructure.tracing request=4cf8f07e402249df98962267b6fed625 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:19:38,760 INFO app.infrastructure.tracing request=712c7cc687db4bf0a19a3362b97bb69b task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:19:38,772 INFO app.infrastructure.tracing request=238d9fc05067463f813a611fe5ae9f20 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,296 INFO app.infrastructure.tracing request=6c2e7e91c6904b64811fa99bd5b10ec8 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,326 INFO app.infrastructure.tracing request=f1a6ede7dddd4156b9033e57aff326c2 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,326 INFO app.infrastructure.tracing request=2985cb73c1e54fbda0b24241306d4c2d task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,341 INFO app.infrastructure.tracing request=87e1c8c7d64f4406ba7114e8340f6f92 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,342 INFO app.infrastructure.tracing request=3dc0eac228af4730a5700c1d3dc4a2c5 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,356 INFO app.infrastructure.tracing request=ea4c5598ab47458082e766199bbf7c3e task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,364 INFO app.infrastructure.tracing request=c54453c9a9e74fff817ec92b14f76aaa task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,365 INFO app.infrastructure.tracing request=71f7d4bdf11f479a9b4d47a8ef38dab3 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,366 INFO app.infrastructure.tracing request=0d45d1806ede4b2cb22b5eb658d6c157 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,389 INFO app.infrastructure.tracing request=74e45b824b724c63b3f36842d123975d task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,398 INFO app.infrastructure.tracing request=e6702d8011a1497899961dddab65aa62 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,404 INFO app.infrastructure.tracing request=c3183761f86b4d0aaa90567170db7c3a task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,463 INFO app.infrastructure.tracing request=da3e98976f944dbb8d3268d4b6dd3c6d task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,486 INFO app.infrastructure.tracing request=e7fa609beee64ca18e8128be991b0f40 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,530 INFO app.infrastructure.tracing request=bdb40111a10d44908586a75fe241d0fc task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,536 INFO app.infrastructure.tracing request=aa90af89f1624859926a6e4e624ee5a6 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,547 INFO app.infrastructure.tracing request=811e4fd34ed3446cbc925466c96d527f task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:38,599 INFO app.infrastructure.tracing request=56ffcf7929044044b71469c7b945accf task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:43,757 INFO app.infrastructure.tracing request=547cd3a685454db59138afa2d617182b task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:43,768 INFO app.infrastructure.tracing request=aebbc4cc8c5c49148f4f8603c20e2cfe task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:44,251 INFO app.infrastructure.tracing request=9a91cc24c4ae459e9d5d0029e97f6348 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:44,285 INFO app.infrastructure.tracing request=c378eeb5eed04a548c5857f4ba6fa032 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:44,887 INFO app.infrastructure.tracing request=0484fe4d3fe54de6ad780159407413a4 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:44,895 INFO app.infrastructure.tracing request=828d164f9f1e452f8d9da881c66275ba task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:45,198 INFO app.infrastructure.tracing request=d53adaa059fd44a0bc7ea9f770b9448e task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:45,209 INFO app.infrastructure.tracing request=ae5f0267348f4592a3ad60e3a66af28f task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:47,861 INFO app.infrastructure.tracing request=eb6ec8df726d4f4aa5be329071ae40e5 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:47,893 INFO app.infrastructure.tracing request=a83d36f604624b98a4cdf04e620a2767 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:44:47,926 INFO app.infrastructure.tracing request=19f0d46783a04f04ad19e036fbb43f16 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:14,440 INFO app.infrastructure.tracing request=353791c7fa414142b2cc4c3c2de54210 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:14,449 INFO app.infrastructure.tracing request=27299850207144c69f66e0b620956d8c task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:15,353 INFO app.infrastructure.tracing request=fad47160c68948528fb23798a3448b49 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:15,401 INFO app.infrastructure.tracing request=f5cf6f8aa1d04187899c702d77bbc630 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:16,386 INFO app.infrastructure.tracing request=5c4ff4414f6146108197d3d5adf41ec3 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:16,396 INFO app.infrastructure.tracing request=33c8765d5df747078c01927bec4172c3 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:16,728 INFO app.infrastructure.tracing request=785b0cf38f7b41168542289d6e2b717a task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:16,762 INFO app.infrastructure.tracing request=9fbbc8309d3b4e428864805f712a2387 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:18,385 INFO app.infrastructure.tracing request=b30d7819a8e848ce973ffe1ea188db00 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:18,399 INFO app.infrastructure.tracing request=4f8d5da95bfc406bba39aa23d4bc6487 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:18,726 INFO app.infrastructure.tracing request=94b0c8c61d944154b0cf28f6b68b6280 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:18,759 INFO app.infrastructure.tracing request=e7479c99b65144b8b32b551bc5921a0c task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:20,257 INFO app.infrastructure.tracing request=e1f7bc4c554c4c66a38e0f136d957b84 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:20,268 INFO app.infrastructure.tracing request=a3ec0ea6190647aba2badb524a4d20bb task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:20,610 INFO app.infrastructure.tracing request=667e23d294154b54965c6dcd5e2a8b72 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:20,645 INFO app.infrastructure.tracing request=9d0cf47d976141f7bcc57b13bfb5c81c task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:22,250 INFO app.infrastructure.tracing request=1d1f157d3376433abea7ae3f66b2a5d3 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:22,257 INFO app.infrastructure.tracing request=f22b4d9340cc4500a81cedf801fb4919 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:22,569 INFO app.infrastructure.tracing request=57fa81967c26448c86b35638a7cfa2eb task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:22,605 INFO app.infrastructure.tracing request=cd6c81cf526a4561956df03d4ca15030 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:24,284 INFO app.infrastructure.tracing request=98181e9557e5445db9fb93d5c035ea91 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:24,289 INFO app.infrastructure.tracing request=7927b92d97904699a126839a8ee9fb7b task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:24,561 INFO app.infrastructure.tracing request=efa52db695c340dd9b999e0e013215ba task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:24,594 INFO app.infrastructure.tracing request=35824148033f46c3b69389b07a522edd task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:25,451 INFO app.infrastructure.tracing request=c5eabe0a33154e6092719a4ec35a108e task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:25,476 INFO app.infrastructure.tracing request=b523fce63dc4487c887a6d1f0578b64f task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:25,528 INFO app.infrastructure.tracing request=3327d522b68b4f68bdf39a977bbe7fec task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:25,534 INFO app.infrastructure.tracing request=96f19a404dc54217b78fdf44afeff92a task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:25,553 INFO app.infrastructure.tracing request=04def69ba656485b8132e6dbd2364261 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 19:45:25,579 INFO app.infrastructure.tracing request=4539a0691f93492ea92184a0f2ffbed3 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:35,969 INFO app.infrastructure.tracing request=80128854250243f7bc2435bf3a8412c4 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:35,976 INFO app.infrastructure.tracing request=56451363c90e41f782d1d7b6568e0eda task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:35,985 INFO app.infrastructure.tracing request=ad35df7f92f640af9d9ab9d8dd9876c3 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:35,987 INFO app.infrastructure.tracing request=6c6a4f41e0fd41ebb9223d5f5a931eea task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,004 INFO app.infrastructure.tracing request=2dd2712001664ce2b0a6cb76271ba694 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,020 INFO app.infrastructure.tracing request=3e90a8626f05491a85d451f5222b2220 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,027 INFO app.infrastructure.tracing request=4913e8c1aa544cdd9ee8c8d7a9154eec task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,028 INFO app.infrastructure.tracing request=3c1612e3968f42bc89182e7b83f6b1bf task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,030 INFO app.infrastructure.tracing request=652074e12b82492fa8df676516831376 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,045 INFO app.infrastructure.tracing request=91c9b0cc0add435fabd57ea4c8594f92 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,087 INFO app.infrastructure.tracing request=a0d26cc3a1ac4b1188f7ed178ea73b1c task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,123 INFO app.infrastructure.tracing request=3a951e3ade3342d887eaceda3af55528 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,130 INFO app.infrastructure.tracing request=52922b0248804114bc870c545c491975 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,161 INFO app.infrastructure.tracing request=a2bf749bb67e4f209c8708b00cb279f3 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,172 INFO app.infrastructure.tracing request=f9c97ed2bfa947a2aa8801a90721425b task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,180 INFO app.infrastructure.tracing request=657dafafe9ce4a13ac7ad3e5dd06a7c3 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,270 INFO app.infrastructure.tracing request=7413df57c70f4b228b1f574ebc001148 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,397 INFO app.infrastructure.tracing request=367cdfbfb698450cbf02ca7bac51d211 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,404 INFO app.infrastructure.tracing request=ed1ace2ea6ac4ae8828b9264c76fddf7 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,424 INFO app.infrastructure.tracing request=077d35b292f64bbfaef5ea8c2bb71467 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,433 INFO app.infrastructure.tracing request=5b1627a668674bd1a1578d408f01e2b2 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,493 INFO app.infrastructure.tracing request=85e7cf279f1e44da88f2ea0e9bdcb56e task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,502 INFO app.infrastructure.tracing request=8e6b32284568414db4f80f6ead0312b8 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,516 INFO app.infrastructure.tracing request=f45230f35728432e9c3841cc080e652e task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:36,586 INFO app.infrastructure.tracing request=8aad754924c34683ae10aebcd354ce54 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:47,387 INFO app.infrastructure.tracing request=f3b5afc206544d3d98fcc43ecc0e19dc task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:47,411 INFO app.infrastructure.tracing request=40bd54f6b6aa4c668f6b1985952811c4 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:47,437 INFO app.infrastructure.tracing request=6f37e5b6dd4e4af2bd1eac751b631ab6 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:47,438 INFO app.infrastructure.tracing request=bad08152eef74d6093b76146ea75ac85 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:47,479 INFO app.infrastructure.tracing request=555ca42c69614e95a0fa78c324083328 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:21:47,485 INFO app.infrastructure.tracing request=7a5fb17fadf6483f816bf65987b349a9 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:22:04,482 INFO httpx request=6393555f68c04673969f49483f9952d7 task=- session=sha256:9b2bb986d60532520aa04cfe trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 20:22:07,433 INFO httpx request=6393555f68c04673969f49483f9952d7 task=- session=sha256:9b2bb986d60532520aa04cfe trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-08 20:22:07,518 WARNING app.application.usecases.catalog_search request=6393555f68c04673969f49483f9952d7 task=- session=sha256:9b2bb986d60532520aa04cfe trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd rerank 不可用，按向量分排序：Reranker 未配置
+2026-10-08 20:22:08,459 INFO httpx request=6393555f68c04673969f49483f9952d7 task=- session=sha256:9b2bb986d60532520aa04cfe trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 20:22:18,505 INFO app.infrastructure.tracing request=6393555f68c04673969f49483f9952d7 task=- session=- trace=- prompt=- HTTP 请求结束 method=POST status=200
+2026-10-08 20:22:18,626 INFO app.infrastructure.tracing request=f9be7e44bf3b4a02821fc07a7239a022 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:22:18,633 INFO app.infrastructure.tracing request=f5ed99d1e5c2452692729259583dfb9e task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:22:48,524 INFO httpx request=759f25a47faf40a49abf5443ac2f5b33 task=- session=sha256:9b2bb986d60532520aa04cfe trace=- prompt=p-2144037979a337fd0e1553d9f634da2b663b4fd12d375c62ac1c6acedf9bb4fd HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 20:23:06,419 INFO app.infrastructure.tracing request=759f25a47faf40a49abf5443ac2f5b33 task=- session=- trace=- prompt=- HTTP 请求结束 method=POST status=200
+2026-10-08 20:23:06,568 INFO app.infrastructure.tracing request=fd3e11d7c7e94699970bc5f8026220f0 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:23:06,573 INFO app.infrastructure.tracing request=7c9e74e4d12a43b6a60decf3cf2ac5c9 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:35:02,423 INFO app.infrastructure.tracing request=5248d6cf45fc4d7196a0a9f5f4d3e4d6 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:35:02,429 INFO app.infrastructure.tracing request=9972a6f4172c4a60a5b17d5e43d90211 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:35:02,842 INFO app.infrastructure.tracing request=52e9192dcb36451789fc7b508ff85ed3 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:35:02,850 INFO app.infrastructure.tracing request=5e96af01089a45e1b7e385dc7763e15a task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:35:05,264 INFO app.infrastructure.tracing request=c1a2f3e84a514f8286ff75e9b4379247 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:35:05,299 INFO app.infrastructure.tracing request=a90bbfdc43a04f8a941c871374487068 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:35:11,778 INFO app.infrastructure.tracing request=4c9cee0395be4cdd89403bd312ae24dd task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:35:11,788 INFO app.infrastructure.tracing request=ff8e3e774550401bbebbce2ca1e493cc task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:35:41,571 INFO app.infrastructure.tracing request=257881bab373454aae38fdbfde1f7777 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:35:41,581 INFO app.infrastructure.tracing request=b4ba4aed2989452ca2f737bb320956cf task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:35:42,387 INFO app.infrastructure.tracing request=70f990d823424269a64ce0edd7f08628 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:35:42,395 INFO app.infrastructure.tracing request=aec76875d3d84c528e299dec55cfdef1 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:35:47,644 INFO httpx request=ff47e730ad9643a0a693b03f3e373e3b task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 20:35:47,669 INFO app.infrastructure.tracing request=ff47e730ad9643a0a693b03f3e373e3b task=- session=- trace=- prompt=- HTTP 请求结束 method=POST status=422
+2026-10-08 20:36:03,671 INFO app.infrastructure.tracing request=e0568c5e4ba94b34a3b5e2863211849a task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:36:03,681 INFO app.infrastructure.tracing request=cb255997b02f4065980de51e97f3e5d0 task=- session=- trace=- prompt=- HTTP 请求结束 method=GET status=200
+2026-10-08 20:36:10,239 INFO httpx request=437b2000187c4880b4d90845f08c334b task=- session=- trace=- prompt=- HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 20:36:10,251 INFO app.infrastructure.tracing request=437b2000187c4880b4d90845f08c334b task=- session=- trace=- prompt=- HTTP 请求结束 method=POST status=422

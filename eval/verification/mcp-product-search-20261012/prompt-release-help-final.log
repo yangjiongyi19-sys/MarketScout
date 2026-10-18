@@ -1,0 +1,14 @@
+usage: prompt_release.py [-h] [--data-dir DATA_DIR] [--web-search-enabled]
+                         [--product-search-provider {rainforest_index,mcp}]
+                         {status,import,publish,rollback,revoke} ...
+
+Prompt ���ɱ�汾���˹�����
+
+positional arguments:
+  {status,import,publish,rollback,revoke}
+
+options:
+  -h, --help            show this help message and exit
+  --data-dir DATA_DIR
+  --web-search-enabled
+  --product-search-provider {rainforest_index,mcp}

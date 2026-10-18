@@ -1,0 +1,160 @@
+{
+  "stage": "final",
+  "checked_at": "2026-10-10T18:52:12.048429+08:00",
+  "kind": "static_document_validation",
+  "passed": true,
+  "errors": [],
+  "presentation": {
+    "chapters": 30,
+    "coverage_topics": 35,
+    "math_blocks": 24,
+    "characters": 46114,
+    "lines": 1447,
+    "exercise_markers": 35,
+    "note": "字符数包含标点和Markdown；不代表汉字数、渲染验证或学习效果"
+  },
+  "arithmetic_checks": [
+    {
+      "name": "并发查询顺序耗时",
+      "recalculated": 5,
+      "stated": 5,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "专家并发含派发汇总",
+      "recalculated": 4.0,
+      "stated": 4,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "余弦相似度",
+      "recalculated": 0.96,
+      "stated": 0.96,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "RRF A",
+      "recalculated": 0.032266458495966696,
+      "stated": 0.032266,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "name": "RRF B",
+      "recalculated": 0.03225806451612903,
+      "stated": 0.032258,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "name": "SFT 0.1概率负对数",
+      "recalculated": 2.3025850929940455,
+      "stated": 2.303,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "name": "SFT 0.5概率负对数",
+      "recalculated": 0.6931471805599453,
+      "stated": 0.693,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "name": "LoRA基础参数",
+      "recalculated": 16777216,
+      "stated": 16777216,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "LoRA低秩参数",
+      "recalculated": 65536,
+      "stated": 65536,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "LoRA比例百分数",
+      "recalculated": 0.390625,
+      "stated": 0.39,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "DPO算例损失",
+      "recalculated": 0.40546510810816444,
+      "stated": 0.405,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "name": "GRPO总体标准差",
+      "recalculated": 0.5,
+      "stated": 0.5,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "GSPO序列归一化比",
+      "recalculated": 1.0,
+      "stated": 1,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "梯度累积有效批量",
+      "recalculated": 32,
+      "stated": 32,
+      "tolerance": 1e-12,
+      "passed": true
+    }
+  ],
+  "app_source_sha256": "a84385f58d3856a9e67150d445dccfb5a82677a374d85a4507ba3aca1be08c90",
+  "source_file_count": 467,
+  "documents": [
+    {
+      "path": "docs/求职准备/岗位JD技术覆盖教学指南.md",
+      "sha256": "ea397de86cb9bf5271b97a9db8a92c0e37637fecdc2530e79bdbddfbd283bcec",
+      "characters": 46114,
+      "lines": 1447
+    },
+    {
+      "path": "docs/改动记录/2026-10-10/岗位JD技术覆盖教学指南.md",
+      "sha256": "6a8deb75954f34c1aa2ba7bcde09ab69b32303d9ea4fef3063c93d0a811a2476",
+      "characters": 3592,
+      "lines": 60
+    },
+    {
+      "path": "docs/改动记录/2026-10-10/README.md",
+      "sha256": "4170295548b8c2514a10a391accf9cca083d16310ee502f956780142330add59",
+      "characters": 304,
+      "lines": 4
+    },
+    {
+      "path": "docs/改动记录/README.md",
+      "sha256": "feabbd315834ab6e3eb225bf2cb9b4f1bb40f95105ec02d038c359c5a50b3729",
+      "characters": 854,
+      "lines": 13
+    }
+  ],
+  "jd_input_sha256": {
+    "jd-1.png": "022ee3bd32e60b55d3f3c22fe2187e8ec25fd2748c5c19a01a95ab6da092b96a",
+    "jd-2.png": "a515e814596793c9caa09c2b2889030d21b75585fbfc140388550d2f837ff08b",
+    "jd-3.png": "e54cc3549dce3d15f7a787b8f959309f784d69bca2f5e05923b987542dff70a2",
+    "jd-4.png": "0d75d8bf55a570448943496084ee7a0d89abc9d102a3b11983723151420f3055",
+    "jd-5.png": "83f3800eb204c56abcaccb7153bc98c1e15ec432c8ed703481fb86f36ed3e8ee"
+  },
+  "not_run": [
+    "业务回归",
+    "模型训练",
+    "真实模型请求",
+    "Harness评测",
+    "项目外部服务可用性",
+    "页面公式渲染",
+    "教学效果验收"
+  ]
+}

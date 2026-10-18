@@ -1,0 +1,14 @@
+usage: learning.py [-h] --db DB
+                   {ingest,import-evidence,work,list,validate-strategy,compile-strategy-skill,prepare-training,review,publish-strategy,withdraw,feedback,retry-job,export,report,status}
+                   ...
+
+����ѧϰ������ڡ�ֻ������ѡ�����ݣ�������ѵ����Ҳ���Զ�������
+
+positional arguments:
+  {ingest,import-evidence,work,list,validate-strategy,compile-strategy-skill,prepare-training,review,publish-strategy,withdraw,feedback,retry-job,export,report,status}
+    compile-strategy-skill
+                        �Ѳ��Ժ�ѡ����Ϊ���������� Skill��������˻򷢲�
+
+options:
+  -h, --help            show this help message and exit
+  --db DB

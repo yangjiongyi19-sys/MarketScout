@@ -1,0 +1,12 @@
+第二次后端启动失败：第一次后台启动的服务已持有 data/qdrant，本次重复启动不能打开同一本地 Qdrant 存储。保留原始异常核心输出：
+
+Traceback (most recent call last):
+  File "D:\\cProjects\\globex-agent\\.venv\\Lib\\site-packages\\portalocker\\portalocker.py", line 223, in lock
+    msvcrt.locking(
+PermissionError: [Errno 13] Permission denied
+
+portalocker.exceptions.AlreadyLocked: (1, '[Errno 13] Permission denied')
+
+RuntimeError: Storage folder data\\qdrant is already accessed by another instance of Qdrant client. If you require concurrent access, use Qdrant server instead.
+
+结果：第二个进程启动退出；第一个后端仍在运行并通过 /health，未清理或重置 Qdrant 数据。

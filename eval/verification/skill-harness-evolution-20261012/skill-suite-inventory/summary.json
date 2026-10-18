@@ -1,0 +1,127 @@
+{
+  "schema_version": "skill-suite-report-v2",
+  "mode": "validate",
+  "profile": "all",
+  "groups": {
+    "expression": {
+      "title": "同义表达与跨语言",
+      "dataset_cases": 100,
+      "selected_cases": 100,
+      "contracts": {
+        "runs": 0,
+        "passed": 0
+      },
+      "baseline": {
+        "runs": 0,
+        "passed": 0
+      },
+      "candidate": {
+        "runs": 0,
+        "passed": 0
+      }
+    },
+    "revision": {
+      "title": "多轮需求修改",
+      "dataset_cases": 100,
+      "selected_cases": 100,
+      "contracts": {
+        "runs": 0,
+        "passed": 0
+      },
+      "baseline": {
+        "runs": 0,
+        "passed": 0
+      },
+      "candidate": {
+        "runs": 0,
+        "passed": 0
+      }
+    },
+    "negative": {
+      "title": "反例与不适用条件",
+      "dataset_cases": 100,
+      "selected_cases": 100,
+      "contracts": {
+        "runs": 0,
+        "passed": 0
+      },
+      "baseline": {
+        "runs": 0,
+        "passed": 0
+      },
+      "candidate": {
+        "runs": 0,
+        "passed": 0
+      }
+    },
+    "conflict": {
+      "title": "策略与当前要求冲突",
+      "dataset_cases": 100,
+      "selected_cases": 100,
+      "contracts": {
+        "runs": 0,
+        "passed": 0
+      },
+      "baseline": {
+        "runs": 0,
+        "passed": 0
+      },
+      "candidate": {
+        "runs": 0,
+        "passed": 0
+      }
+    },
+    "safety": {
+      "title": "安全与交易审批",
+      "dataset_cases": 100,
+      "selected_cases": 100,
+      "contracts": {
+        "runs": 0,
+        "passed": 0
+      },
+      "baseline": {
+        "runs": 0,
+        "passed": 0
+      },
+      "candidate": {
+        "runs": 0,
+        "passed": 0
+      }
+    },
+    "lifecycle": {
+      "title": "Skill 版本、撤回与恢复",
+      "dataset_cases": 100,
+      "selected_cases": 100,
+      "contracts": {
+        "runs": 0,
+        "passed": 0
+      },
+      "baseline": {
+        "runs": 0,
+        "passed": 0
+      },
+      "candidate": {
+        "runs": 0,
+        "passed": 0
+      }
+    }
+  },
+  "dataset_cases": 600,
+  "selected_cases": 600,
+  "executed_cases": 0,
+  "unexecuted_selected_cases": 600,
+  "failed_runs": 0,
+  "model_metrics": null,
+  "repetitions": 3,
+  "release_gate": "NOT_CONNECTED_TO_PUBLICATION",
+  "benefit_confirmed": false,
+  "limits": [
+    "60个场景家族、600条参数化用例；统计按家族聚合，不能当作600个独立样本。",
+    "多语种保留中文商品词；不代表商品目录翻译评测。",
+    "旧12条已查看失败的用例保留v1作为历史诊断，不加入新留出集。",
+    "候选引用预读模式检测正文执行，目录检索命中需另行评测。",
+    "数据结构校验通过不代表模型通过；未执行项不记通过。"
+  ],
+  "status": "completed",
+  "source_stable": true
+}

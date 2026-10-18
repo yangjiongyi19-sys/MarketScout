@@ -1,0 +1,9 @@
+Attempt: invoke capture_trace.py before sending any HTTP request.
+Result: failed locally during module import; no query was submitted and no model request was made.
+
+Traceback (most recent call last):
+  File "D:\\cProjects\\globex-agent\\eval\\verification\\subagent-trace-20261010-01\\capture_trace.py", line 10, in <module>
+    from app.infrastructure.identity import IdentityPolicy
+ModuleNotFoundError: No module named 'app'
+
+Repair: add the project root to sys.path before importing the application modules.

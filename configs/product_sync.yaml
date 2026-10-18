@@ -1,0 +1,12 @@
+# Amazon.com 商品同步范围。每个查询默认只同步第一页；实际命中页数决定 Rainforest API 额度。
+amazon_domain: amazon.com
+max_pages_per_query: 1
+queries:
+  - category: 户外运动
+    search_term: camping gear
+  - category: 家居生活
+    search_term: home organization
+  - category: 旅行装备
+    search_term: travel accessories
+  - category: 数码配件
+    search_term: phone accessories

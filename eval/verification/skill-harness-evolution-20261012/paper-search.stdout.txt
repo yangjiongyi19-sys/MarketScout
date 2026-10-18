@@ -1,0 +1,125 @@
+
+per-source hits: arxiv=10, dblp=0, open_alex=0, openreview=0, semantic_scholar=0, crossref=10
+unique papers: 20 (0 cross-source duplicate records merged)
+============================================================
+  [1] (score 5) Bayesian-Agent: Posterior-Guided Skill Evolution Across LLM Agent Harnesses
+      Authors: Xiaojun Wu, Cehao Yang, Honghao Liu...
+      Year: 2026  Citations: 0  Venue: arXiv
+      Sources: arxiv  arXiv:2606.08348
+      URL: http://arxiv.org/abs/2606.08348v2
+
+  [2] (score 4) Recursive Harness Self-Improvement
+      Authors: Hyunin Lee, Jinglue Xu, Jeffrey Seely...
+      Year: 2026  Citations: 0  Venue: arXiv
+      Sources: arxiv  arXiv:2607.15524
+      URL: http://arxiv.org/abs/2607.15524v1
+
+  [3] (score 4) HABIT: A Self-Evolving AI-Agent Harness for GUI-Based CAE Software---Application to Aerospace
+      Authors: Shaoqi WU, Jingyi LI, Jiayi YAO...
+      Year: None  Citations: 0  Venue: 
+      Sources: crossref  doi:10.21203/rs.3.rs-10648340/v1
+      URL: https://doi.org/10.21203/rs.3.rs-10648340/v1
+
+  [4] (score 3) Omni-IO Skills: Harnessing Your Agent Omni-Native
+      Authors: Yanlin Li, Mingyang Hao, Shengqiong Wu...
+      Year: 2026  Citations: 0  Venue: arXiv
+      Sources: arxiv  arXiv:2609.31847
+      URL: http://arxiv.org/abs/2609.31847v1
+
+  [5] (score 3) From evolution to autonomous modeling: need-driven self-system and intelligent agent self-evolution for remote sensing detection
+      Authors: Bowen Sun, Xiaofeng Wang, Mengqi Gao...
+      Year: 2026  Citations: 0  Venue: Egyptian Informatics Journal
+      Sources: crossref  doi:10.1016/j.eij.2026.101025
+      URL: https://doi.org/10.1016/j.eij.2026.101025
+
+  [6] (score 3) ReliHarness: A Self-Learning Reliability Harness for LLM Agent Tool Execution
+      Authors: Wenzhi Chen, Penghan Song, Qichao Lu...
+      Year: 2026  Citations: 0  Venue: Electronics
+      Sources: crossref  doi:10.3390/electronics15184166
+      URL: https://doi.org/10.3390/electronics15184166
+
+  [7] (score 2) Combining Hierarchical Self-Attention and Skill Clustering to Enhance Knowledge Tracing (HiSACKT)
+      Authors: Duaa Baig, Diana Nurbakova, Baba Mbaye...
+      Year: 2025  Citations: 1  Venue: 2025 IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT)
+      Sources: crossref  doi:10.1109/wi-iat67162.2025.00075
+      URL: https://doi.org/10.1109/wi-iat67162.2025.00075
+
+  [8] (score 2) Code as Agent Harness
+      Authors: Xuying Ning, Katherine Tieu, Dongqi Fu...
+      Year: 2026  Citations: 0  Venue: arXiv
+      Sources: arxiv  arXiv:2605.18747
+      URL: http://arxiv.org/abs/2605.18747v1
+
+  [9] (score 2) Toward User Comprehension Supports for LLM Agent Skill Specifications
+      Authors: Zikai Alex Wen
+      Year: 2026  Citations: 0  Venue: arXiv
+      Sources: arxiv  arXiv:2605.19362
+      URL: http://arxiv.org/abs/2605.19362v2
+
+  [10] (score 2) AutoHarness: improving LLM agents by automatically synthesizing a code harness
+      Authors: Xinghua Lou, Miguel Lázaro-Gredilla, Antoine Dedieu...
+      Year: 2026  Citations: 0  Venue: arXiv
+      Sources: arxiv  arXiv:2603.03329
+      URL: http://arxiv.org/abs/2603.03329v1
+
+  [11] (score 2) SkCC: Portable and Secure Skill Compilation for Cross-Framework LLM Agents
+      Authors: Yipeng Ouyang, Yi Xiao, Yuhao Gu...
+      Year: 2026  Citations: 0  Venue: arXiv
+      Sources: arxiv  arXiv:2605.03353
+      URL: http://arxiv.org/abs/2605.03353v4
+
+  [12] (score 2) Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub
+      Authors: Fahd Seddik
+      Year: 2026  Citations: 0  Venue: arXiv
+      Sources: arxiv  arXiv:2610.11169
+      URL: http://arxiv.org/abs/2610.11169v1
+
+  [13] (score 2) HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety
+      Authors: Yajing Bai, Jinhao Duan, Jie Peng...
+      Year: 2026  Citations: 0  Venue: arXiv
+      Sources: arxiv  arXiv:2608.17597
+      URL: http://arxiv.org/abs/2608.17597v1
+
+  [14] (score 2) Agentic Skill Discovery
+      Authors: Xufeng Zhao, Cornelius Weber, Stefan Wermter
+      Year: 2024  Citations: 0  Venue: arXiv
+      Sources: arxiv  arXiv:2405.15019
+      URL: http://arxiv.org/abs/2405.15019v2
+
+  [15] (score 2) The Harness as Control Surface: Connecting Institutional Obligations to Deployed Agent Actions
+      Authors: Zola Valashiya
+      Year: None  Citations: 0  Venue: 
+      Sources: crossref  doi:10.2139/ssrn.7475760
+      URL: https://doi.org/10.2139/ssrn.7475760
+
+  [16] (score 2) Agent, Sub-Agent, Skill, or Tool? A Practitioner's Guide to Extending Agentic AI Systems
+      Authors: Deepak Babu Piskala
+      Year: None  Citations: 0  Venue: 
+      Sources: crossref  doi:10.36227/techrxiv.177204917.78786098/v1
+      URL: https://doi.org/10.36227/techrxiv.177204917.78786098/v1
+
+  [17] (score 2) Skill Poisoning: Attack Taxonomies and Defense Architectures for Composable Agent Skill Ecosystems in AI-Driven Cyber-Physical Systems
+      Authors: Vivek Acharya
+      Year: None  Citations: 0  Venue: 
+      Sources: crossref  doi:10.2139/ssrn.6408998
+      URL: https://doi.org/10.2139/ssrn.6408998
+
+  [18] (score 2) Herding CATs: ALARA for Agent Harness Engineering in Portable Composable Multi-Agent Teams
+      Authors: Christopher J. Agostino, Nayan D’Souza
+      Year: 2026  Citations: 0  Venue: 2026 2nd International Conference on Human-AI Interaction and Experience Design (HAXD)
+      Sources: crossref  doi:10.1109/haxd70072.2026.11621027
+      URL: https://doi.org/10.1109/haxd70072.2026.11621027
+
+  [19] (score 2) Skill Matters: Dynamic Skill Learning for Multi-Agent Cooperative Reinforcement Learning
+      Authors: Tong Li, Chenjia Bai, Kang Xu...
+      Year: None  Citations: 0  Venue: 
+      Sources: crossref  doi:10.2139/ssrn.4790564
+      URL: https://doi.org/10.2139/ssrn.4790564
+
+  [20] (score 2) AgentReins: Designing the human side of agent harness
+      Authors: Bo Pan, Minfeng Zhu, Wei Chen
+      Year: 2026  Citations: 0  Venue: Visual Informatics
+      Sources: crossref  doi:10.1016/j.visinf.2026.100350
+      URL: https://doi.org/10.1016/j.visinf.2026.100350
+
+Total: 20 unique papers (ranked; surveys sunk to the bottom).

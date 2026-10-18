@@ -1,0 +1,31 @@
+{
+  "date_asia_shanghai": "2026-10-11",
+  "git_metadata_present": false,
+  "git_commit": "unknown",
+  "app_source_sha256": "cd97ae642bc9ec910ac687a46485a637b2a508e206ada6c3878abcd4d3945209",
+  "files_sha256": {
+    ".env.example": "a0b58318c10f6c4ec9bbdb994ab47482aa69a2745fb37c8dcfe6ee4a0fed4cde",
+    "README.md": "2974417715c02e614d5037800c06faea3df8552e79dbd943981ee77b13f80d7a",
+    "docker/docker-compose.yaml": "767bb582af1ec8e0205af134651d8709720e123d71cb4807a9517ed4c4745b7c",
+    "app/application/agents/main_agent.py": "05f0e5e2bfa113c4c21c1da1afaa2adedf3782eeee3e81a1893ecc59d98ef049",
+    "app/application/agents/search_agent.py": "b42ae59ba8a30f7a69f4ff2022dd074be05ad75debcb6f91e6416eacac2cddaa",
+    "app/application/tools/order_tools.py": "aca3131da19ba2d831bb70e56d286ed96d5cf99cb747f7d3f3713e1618229dbb",
+    "app/application/tools/product_search_tool.py": "23c064ee426abfafb6553ff33f44b5c1163b93ef7d7577f4e31a58de3285d26f",
+    "app/application/usecases/local_fixture_product_search.py": "585f4b5aa01206a0cdce020a1b54f6aa905166b28b4875ae2533a441c57b614a",
+    "app/domain/catalog/ports/product_search_provider.py": "a65775ceb82cffb84921ebe2e22e7bde921839a3c4d94eb051eb0b1443021a98",
+    "app/infrastructure/amazon_creators.py": "2d0ad96fc7c21665fc78b6bbd5a9405625cc26fc6a3b69e89bdaffb5c4d42db9",
+    "app/infrastructure/buyer_favorites.py": "694fa458d47b3a5b7070b79da20903e6c0efb90d64c67e3b303ef6d7743846a1",
+    "app/infrastructure/settings.py": "a735e91798952563525db957b0587ea76092bef1cdad6368b657159d3d11e44c",
+    "app/presentation/favorites.py": "29d7e907b5695659bde10f6795c53341b96cc837cc4159efac2ffd80c1a018b4",
+    "app/presentation/server.py": "246366b4143a7af7058a40d318934ff27e8defe1258a747b4cd8aea65402daad",
+    "frontend/src/types.ts": "10af6459203381c4d805eeab76656782f40da63747d2d3ee49ec4bd561115971",
+    "frontend/src/lib/commerceClient.ts": "90838019edb2ae559e9ae509b7de9916e6b5e4d038b1a337f087fcd37ec1607b",
+    "frontend/src/components/ProductCards.tsx": "d9f90785a7617243cd3d6fd0c1ba6af1b1e3d5db8d69cdfcbbb71310af903d2a",
+    "frontend/src/components/ProductDetail.tsx": "246a4e37afca1429dd09ac0d703dc21ed7ff3e5a61f80592238841e42dd44455",
+    "frontend/src/components/ProductComparison.tsx": "a6d6bda136d24107d6ea2835eea6a2c3ed99ea8a82afc15fff05f809f8d4e22a",
+    "tests/test_amazon_creators.py": "d9d4c1e0f21a94c0f40755258febabbb935e31a689e8f23d3fe9d10b2a3b6623",
+    "docs/改动记录/README.md": "bb05e1af1ef5885ce25b681ca004b21246e7480958646f79f45ea305b5fd3029",
+    "docs/改动记录/2026-10-11/README.md": "b6a6902c1447b33739ccdd6cedbe97baeb97448a6de4378401b622a5bce67ac4",
+    "docs/改动记录/2026-10-11/Amazon实时商品检索.md": "eddb35379d278428ca399d73f68769a2b0a7b098bff393261c0cbb168cd413cf"
+  }
+}

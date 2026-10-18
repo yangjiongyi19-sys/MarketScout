@@ -1,0 +1,5 @@
+执行：uv run python -m scripts.eval.harness run --suite eval/harness/v1/suite.json --profile smoke --strategies current,candidate --output eval/verification/amazon-creators-20261011-r3（设置 PYTHONUTF8=1 与工作区 UV_CACHE_DIR）。
+
+结果：退出码 1，Harness 生成 report.html。确定性契约 832 项通过、6 项因 Windows 文件权限模式和 symlink 权限失败；因此 current/candidate 真实模型执行均为 0 次。source_stable=true。随后执行 Harness verify，退出码 1，报告运行不完整、场景缺失和安全合同未通过。
+
+此目录是 Offers TTL 修订后的新评测结果；首轮原始失败保留在 amazon-creators-20261011，不覆盖。没有跳过安全合同继续模型运行。

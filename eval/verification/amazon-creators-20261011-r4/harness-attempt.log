@@ -1,0 +1,7 @@
+本次增量复测（2026-10-11，Asia/Shanghai）
+
+定向回归：.venv/Scripts/python.exe -m pytest tests/test_amazon_creators.py tests/test_tools_and_eventbus.py tests/test_product_identity_contract.py tests/test_fixed_buyer_persistence.py -q；退出码 0，55 passed（原始输出见 targeted-pytest.log）。新增覆盖 OAuth 429 的短 Retry-After 重试及长等待提示。
+
+Harness：首次将已存在的证据目录指定为 Harness 输出，程序因禁止覆盖退出（退出码 2，原始输出见 harness-run.log）。随后在新的 harness 子目录执行 smoke（current,candidate）；确定性合同 838 项中 832 通过、6 失败，source_stable=true。失败为 Windows POSIX 文件权限位断言及符号链接权限（WinError 1314）。合同未通过后真实模型调用为 0。随后 verify 退出码 2，报告运行不完整、场景缺失和安全合同失败。完整输出、XML、报告及 manifest 保留于 harness/。
+
+评测未验证真实 Amazon 链路，也未执行真实模型冒烟；不标记 Harness 完整通过。

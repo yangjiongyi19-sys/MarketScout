@@ -1,0 +1,62 @@
+{
+  "stage": "recheck-1",
+  "checked_at": "2026-10-10T19:14:31.176292+08:00",
+  "kind": "static_project_jd_intersection_validation",
+  "passed": true,
+  "errors": [],
+  "chapters": 19,
+  "intersection_topics": 7,
+  "math_blocks": 6,
+  "characters": 17459,
+  "lines": 564,
+  "source_file_count": 467,
+  "app_source_sha256": "a84385f58d3856a9e67150d445dccfb5a82677a374d85a4507ba3aca1be08c90",
+  "documents": [
+    {
+      "path": "docs/求职准备/岗位JD技术覆盖教学指南.md",
+      "sha256": "d5ce51577770603279f20f66044b9fa9f9f0505f58601e8a95f344d5ce1a381c",
+      "characters": 17459,
+      "lines": 564
+    },
+    {
+      "path": "README.md",
+      "sha256": "ec8af900f8e963f5505b336810fb04030e4a94db1629f7a1ff0b8eb71dbd0850",
+      "characters": 21080,
+      "lines": 383
+    },
+    {
+      "path": "docs/改动记录/2026-10-10/README.md",
+      "sha256": "ac7de2862091b5fe7b601d07a5cd677b977a44dbbdbba1fe07e294328736f012",
+      "characters": 327,
+      "lines": 4
+    },
+    {
+      "path": "docs/改动记录/2026-10-10/岗位JD技术覆盖教学指南.md",
+      "sha256": "d9bf715c172f75d12eb08410e4d85b63cc19cad4f33ca6971465aad40678e0d6",
+      "characters": 6437,
+      "lines": 94
+    },
+    {
+      "path": "docs/改动记录/README.md",
+      "sha256": "b9ab645cf2885b005f28ab97cf046e6ffb0f490175418dd05126f16c3f4f4bb9",
+      "characters": 853,
+      "lines": 13
+    }
+  ],
+  "jd_input_sha256": {
+    "jd-1.png": "022ee3bd32e60b55d3f3c22fe2187e8ec25fd2748c5c19a01a95ab6da092b96a",
+    "jd-2.png": "a515e814596793c9caa09c2b2889030d21b75585fbfc140388550d2f837ff08b",
+    "jd-3.png": "e54cc3549dce3d15f7a787b8f959309f784d69bca2f5e05923b987542dff70a2",
+    "jd-4.png": "0d75d8bf55a570448943496084ee7a0d89abc9d102a3b11983723151420f3055",
+    "jd-5.png": "83f3800eb204c56abcaccb7153bc98c1e15ec432c8ed703481fb86f36ed3e8ee"
+  },
+  "not_run": [
+    "业务回归",
+    "真实模型调用",
+    "模型训练",
+    "Harness评测",
+    "外部服务效果",
+    "公式页面渲染",
+    "教学效果验收"
+  ]
+}

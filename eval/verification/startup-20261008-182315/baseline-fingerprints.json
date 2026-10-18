@@ -1,0 +1,52 @@
+[
+  {
+    "Path": "D:\\cProjects\\globex-agent\\README.md",
+    "Algorithm": "SHA256",
+    "Hash": "9868AFBEAA09B98B6AFCC5405BD07A2205DD32413A0B43122A19AF5B530FFF3C"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\pyproject.toml",
+    "Algorithm": "SHA256",
+    "Hash": "DFDD503B1176EBCA39F9C8ABE3D31192E2FAD3BCB685FA813823E4F60B8E5CDC"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\uv.lock",
+    "Algorithm": "SHA256",
+    "Hash": "C5D7B51EB8F485EA64DC2172E1A8E1E5A6DBF280DE22E2A48B84C1BD3E62D367"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\frontend\\package.json",
+    "Algorithm": "SHA256",
+    "Hash": "C2E3247413945B6D2F602883F65BC30C59672BF11A176DAF24BE9F18A4EA6D45"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\frontend\\package-lock.json",
+    "Algorithm": "SHA256",
+    "Hash": "E70E5F58D977593900C0CF56EE25E05772533C57A2A8B71005EDDF9C0754C86B"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\frontend\\vite.config.ts",
+    "Algorithm": "SHA256",
+    "Hash": "FD59F9656E47DE378DFE38C7BDA6BAE8EE881CA44B67F406A3BDA4733A57B249"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\configs\\models.yaml",
+    "Algorithm": "SHA256",
+    "Hash": "134418A3AE170C3C3A12C38E6507A94311B9B5C9BF298C3DC4D397952DB4DB2C"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\data\\catalog-v1.jsonl",
+    "Algorithm": "SHA256",
+    "Hash": "6F10C82AEA773E727AC97476C8A1155659C4047F8CFA31DFB83D6DC2187F7390"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\data\\catalog-v2.jsonl",
+    "Algorithm": "SHA256",
+    "Hash": "0CA735F3D3FDEE6667EC47AFBA85B96366C9322A2FA52F36EED218AD790048AE"
+  },
+  {
+    "Path": "D:\\cProjects\\globex-agent\\data\\catalog-v3.jsonl",
+    "Algorithm": "SHA256",
+    "Hash": "1D192E624567AF3A034512AE40B805AE5FC2909102C0E4ABB7F94956A4B1DBEB"
+  }
+]
